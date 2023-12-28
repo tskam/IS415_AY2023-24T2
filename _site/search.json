@@ -390,5 +390,89 @@
     "title": "Building Web-enabled Geospatial Analytics Application with Shiny: Beyond the basic",
     "section": "References",
     "text": "References\nShiny Layout\n\nApplication layout guide\n\nShiny Module\n\nChapter 19 Shiny modules of Mastering Shiny.\nModularizing Shiny app code, online article\nCommunication between modules. This is a relatively old article, some functions have changed.\nShiny Modules\nShiny Modules (part 1) : Why using modules?\nShiny Modules (part 2): Share reactive among multiple modules\nShiny Modules (part 3): Dynamic module call"
+  },
+  {
+    "objectID": "git.html",
+    "href": "git.html",
+    "title": "Git and Github",
+    "section": "",
+    "text": "Happy Git and GitHub for the useR. Highly recommended to beginners."
+  },
+  {
+    "objectID": "git.html#book",
+    "href": "git.html#book",
+    "title": "Git and Github",
+    "section": "",
+    "text": "Happy Git and GitHub for the useR. Highly recommended to beginners."
+  },
+  {
+    "objectID": "git.html#gitgithub",
+    "href": "git.html#gitgithub",
+    "title": "Git and Github",
+    "section": "git/github",
+    "text": "git/github\n\ngithub doc\nGitHub and RStudio"
+  },
+  {
+    "objectID": "git.html#blog-post",
+    "href": "git.html#blog-post",
+    "title": "Git and Github",
+    "section": "Blog post",
+    "text": "Blog post\n\nGetting starting with git and GitHub using RStudio\ngit\nTransform a folder as git project synchronized on Github or Gitlab\nRecovering from common Git predicaments\ngit in RStudio\nSolving git(GitHub) token issue"
+  },
+  {
+    "objectID": "Quarto.html",
+    "href": "Quarto.html",
+    "title": "All About Quarto",
+    "section": "",
+    "text": "Getting Started\nRStudio IDE\nUsing R\nHTML Basics"
+  },
+  {
+    "objectID": "Quarto.html#overview",
+    "href": "Quarto.html#overview",
+    "title": "All About Quarto",
+    "section": "",
+    "text": "Getting Started\nRStudio IDE\nUsing R\nHTML Basics"
+  },
+  {
+    "objectID": "Quarto.html#create-websites-and-blogs",
+    "href": "Quarto.html#create-websites-and-blogs",
+    "title": "All About Quarto",
+    "section": "Create websites and blogs",
+    "text": "Create websites and blogs\n\nCreating a Website\nWebsite Navigation\nDocument Listings"
+  },
+  {
+    "objectID": "Quarto.html#authoring-guide",
+    "href": "Quarto.html#authoring-guide",
+    "title": "All About Quarto",
+    "section": "Authoring Guide",
+    "text": "Authoring Guide\n\nMarkdown Basics\nFigures\nTables\nDiagrams\nCitations & Footnotes\nCross References\nArticle Layout"
+  },
+  {
+    "objectID": "Quarto.html#useful-web-resources",
+    "href": "Quarto.html#useful-web-resources",
+    "title": "All About Quarto",
+    "section": "Useful web resources",
+    "text": "Useful web resources\n\nAwesome Quarto. This github repository provides a comprehensive listing of Quarto resources. It should be the second stop (after Quarto homepage) if you need to look for revelent materials about Quarto."
+  },
+  {
+    "objectID": "R.html",
+    "href": "R.html",
+    "title": "R Resources",
+    "section": "",
+    "text": "This page provides links to a selected resources to learn modern R packages, especially those related to tidyverse framework."
+  },
+  {
+    "objectID": "R.html#getting-started-with-r",
+    "href": "R.html#getting-started-with-r",
+    "title": "R Resources",
+    "section": "Getting Started with R",
+    "text": "Getting Started with R\n\nR for Data Science by Garrett Grolemund and Hadley Wickham.\nModern R with the tidyverse by Bruno Rodrigues. Chapter 2 provides a detail discussion on R data objects.\nBrendan R. E. Ansell Introduction to R - tidyverse\nThe Comprehensive Guide to Installing R Packages from CRAN, Bioconductor, GitHub and Co.. This article provides useful tips on how to install R packages from different sources.\nR Workflow"
+  },
+  {
+    "objectID": "R.html#blog-post",
+    "href": "R.html#blog-post",
+    "title": "R Resources",
+    "section": "Blog post",
+    "text": "Blog post\n\nR Workflow from Statistical Thinking."
   }
 ]

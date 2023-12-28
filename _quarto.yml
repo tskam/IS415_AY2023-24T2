@@ -32,8 +32,14 @@ website:
         href: ShinyResources.html
        
     right:
-    - text: "All About Quarto"
-      href: quarto.html 
+    - text: "All About R"
+      menu: 
+        - text: "R Resouces"
+          href: R.html
+        - text: "Quarto"
+          href: Quarto.html
+        - text: "git and github"
+          href: git.html 
     - text: "Home"
       href: index.html
 
