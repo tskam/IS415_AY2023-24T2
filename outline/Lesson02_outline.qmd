@@ -12,11 +12,6 @@ In this lesson, R objects used to import, integrate, wrangle, process and visual
 
 ## Content
 
--   Geospatial Data Science
-    -   An overview of Geospatial Data Models
-    -   Map Projection and Georeferencing
-    -   Geocoding
-    -   Classes of Spatial Data in R: Simple features class
 -   Geospatial Visualisation
     -   Classification of maps
     -   Principles of map design
@@ -25,7 +20,6 @@ In this lesson, R objects used to import, integrate, wrangle, process and visual
 
 ## Lesson Slides
 
--   [Lesson 2: Geospatial Data Science with R](..\lesson\Lesson02\Lesson02-GDS.html) slides.
 -   [Lesson 2: GeoVisualisation and Analytical Mapping](..\lesson\Lesson02\Lesson02-GeoVis.html) slides.
 
 ## Hands-on Exercise

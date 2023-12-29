@@ -6,20 +6,27 @@ format: html
 toc: true
 ---
 
+## Overview
+
+This lesson consists of two parts.  First, it provides an overview of geospatial analytics. Second, R objects used to import, integrate, wrangle, process geospatial data will be discussed. The discussion will focus on `sf`package. Other R packages for storing (i.e. sp), transforming (i.e. rgdal), and processing (i.e. rgeos) geospatial data will be discussed briefly too.
+
 ## Content
 
 -   Introduction to Geospatial Analytics
     -   Demystifying Geospatial Analytics
-    -   Geospatial Analytics vs Mapping
-    -   Geospatial Analytics vs GIS
-    -   Geospatial Analytics vs Statistical Analysis, Data Mining & Machine Learning
--   Motivation of Geospatial Analytics
--   A Tour Through the Geospatial Analytics Zoo
--   Geospatial Analytics and Social Consciousness
+    -   Motivation of Geospatial Analytics
+    -   A Tour Through the Geospatial Analytics Zoo
+    -   Geospatial Analytics and Social Consciousness
+-   Geospatial Data Science
+    -   An overview of Geospatial Data Models
+    -   Map Projection and Georeferencing
+    -   Geocoding
+    -   Classes of Spatial Data in R: Simple features class 
 
 ## Lesson Slides
 
--   [Lesson 1](..\lesson\Lesson01\Lesson01-Introduction_to_GAA.html) slides.
+-   [Lesson 1: Introduction to Geospatial Analytics](..\lesson\Lesson01\Lesson01-Introduction_to_GAA.html) slides.
+-   [Lesson 1: Geospatial Data Science with R](..\lesson\Lesson01\Lesson01-GDS.html) slides.
 
 ## In-class Exercise:
 
