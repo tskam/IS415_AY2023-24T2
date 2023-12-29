@@ -1,5 +1,5 @@
 ---
-title: 'Lesson 3: <br/>Thematic and Analytical Mapping: <br/>tmap Methods'
+title: 'Lesson 2: <br/>Thematic and Analytical Mapping: <br/>tmap Methods'
 subtitle: ""
 author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems(Practice)"
 institute: "School of Computing and Information Systems,<br/>Singapore Management University"
