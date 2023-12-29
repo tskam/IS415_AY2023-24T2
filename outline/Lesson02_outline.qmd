@@ -25,8 +25,8 @@ In this lesson, R objects used to import, integrate, wrangle, process and visual
 
 ## Lesson Slides
 
--   [Lesson 2: Geospatial Data Science with R](..\lesson\Lesson01\Lesson01-Geospatial_Data_Science.html) slides.
--   [Lesson 2: GeoVisualisation and Analytical Mapping](..\lesson\Lesson01\Lesson01-GeoVis_and_Analytical_Mapping.html) slides.
+-   [Lesson 2: Geospatial Data Science with R](..\lesson\Lesson02\Lesson02-GDS.html) slides.
+-   [Lesson 2: GeoVisualisation and Analytical Mapping](..\lesson\Lesson02\Lesson02-GeoVis.html) slides.
 
 ## Hands-on Exercise
 
