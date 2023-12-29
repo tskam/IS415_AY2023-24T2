@@ -508,7 +508,7 @@
     "href": "outline/Lesson01_outline.html#hands-on-exercise",
     "title": "Lesson 1: Introduction to Geospatial Analytics",
     "section": "Hands-on Exercise",
-    "text": "Hands-on Exercise"
+    "text": "Hands-on Exercise\n\nHands-on Exercise 1: Geospatial Data Wrangling with R"
   },
   {
     "objectID": "outline/Lesson01_outline.html#references",
@@ -522,14 +522,14 @@
     "href": "outline/Lesson01_outline.html#r-packages-for-data-science",
     "title": "Lesson 1: Introduction to Geospatial Analytics",
     "section": "R packages for Data Science",
-    "text": "R packages for Data Science\n\ntidyverse: a family of modern R packages specially designed to meet the tasks of Data Science and Analytics.\nreadr: a fast and effective library to parse csv, txt, and tsv files as tibble data.frame in R. To get started, refer to Chapter 11 Data import of R for Data Science book.\n\ntidyr: an R package for tidying data. To get started, refer to Chapter 12 Tidy data of R for Data Science book.\n\ndplyr: a grammar of data manipulation. To get started, read articles under Getting Started and Articles tabs.\nggplot2: a grammar of graphics. To get started, read Chapter 2: Data Visualization and Chapter 13 Communication of R for Data Science (2ed) book.\npipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read Chapter 5 Workflow: pipes of R for Data Science (2ed) book."
+    "text": "R packages for Data Science\n\nsf package.\n\nSimple Features for R\nReading, Writing and Converting Simple Features\nManipulating Simple Feature Geometries\nManipulating Simple Features\n\ntidyverse: a family of modern R packages specially designed to meet the tasks of Data Science in R.\n\nreadr: a fast and effective library to parse csv, txt, and tsv files as tibble data.frame in R. To get started, refer to Chapter 11 Data import of R for Data Science book.\n\ntidyr: an R package for tidying data. To get started, refer to Chapter 5 Data tidying of R for Data Science book.\n\ndplyr: a grammar of data manipulation. To get started, read articles under Getting Started and Articles tabs.\nggplot2: a grammar of graphics. To get started, read Chapter 1: Data Visualization, Chapter 10 Exploratory Data Analysis and Chapter 11 Communication of R for Data Science (2ed) book.\npipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read Chapter 5 Workflow: pipes of R for Data Science (2ed) book."
   },
   {
     "objectID": "outline/Lesson02_outline.html",
     "href": "outline/Lesson02_outline.html",
     "title": "Lesson 2: Geospatial Data Science and Visualisation",
     "section": "",
-    "text": "In this lesson, R objects used to import, integrate, wrangle, process and visualise geospatial data will be discussed. The discussion will focus on sf and tmap packages. Other R packages for storing (i.e. sp), transforming (i.e. rgdal) and processing (i.e. rgeos) geospatial data will be discussed briefly too."
+    "text": "In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced. You will also gain hands-on experience on using tmap package to build cartographic quality thematic maps."
   },
   {
     "objectID": "outline/Lesson02_outline.html#content",
@@ -550,7 +550,7 @@
     "href": "outline/Lesson02_outline.html#hands-on-exercise",
     "title": "Lesson 2: Geospatial Data Science and Visualisation",
     "section": "Hands-on Exercise",
-    "text": "Hands-on Exercise\n\nGeospatial Data Wrangling with R\nChoropleth Mapping with R\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nProportional Symbols\nChoropleth Maps\nThe Basics of Data Classification\nChoropleth Mapping with Exploratory Data Analysis\nTennekes, M. (2018) “tmap: Thematic Maps in R”, Journal of Statistical Software, Vol 84:6, 1-39."
+    "text": "Hands-on Exercise\n\nChoropleth Mapping with R\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nProportional Symbols\nChoropleth Maps\nThe Basics of Data Classification\nChoropleth Mapping with Exploratory Data Analysis\nTennekes, M. (2018) “tmap: Thematic Maps in R”, Journal of Statistical Software, Vol 84:6, 1-39."
   },
   {
     "objectID": "outline/Lesson02_outline.html#in-class-exercise",
@@ -564,7 +564,7 @@
     "href": "outline/Lesson02_outline.html#all-about-r",
     "title": "Lesson 2: Geospatial Data Science and Visualisation",
     "section": "All About R",
-    "text": "All About R\n\nsf package.\n\nSimple Features for R\nReading, Writing and Converting Simple Features\nManipulating Simple Feature Geometries\nManipulating Simple Features\n\ntmap: thematic maps in R package especially:\n\ntmap: get started!,\ntmap: version changes, and\nChapter 8 Making maps with R of Geocomputation with R."
+    "text": "All About R\n\ntmap: thematic maps in R package especially:\n\ntmap: get started!,\ntmap: version changes, and\nChapter 8 Making maps with R of Geocomputation with R."
   },
   {
     "objectID": "outline/Lesson03_outline.html",
@@ -935,7 +935,7 @@
     "href": "outline/Lesson02_outline.html#overview",
     "title": "Lesson 2: Geospatial Data Science and Visualisation",
     "section": "",
-    "text": "In this lesson, R objects used to import, integrate, wrangle, process and visualise geospatial data will be discussed. The discussion will focus on sf and tmap packages. Other R packages for storing (i.e. sp), transforming (i.e. rgdal) and processing (i.e. rgeos) geospatial data will be discussed briefly too."
+    "text": "In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced. You will also gain hands-on experience on using tmap package to build cartographic quality thematic maps."
   },
   {
     "objectID": "outline/Lesson02_outline.html#reference",

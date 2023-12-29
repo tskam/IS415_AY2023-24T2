@@ -28,20 +28,9 @@ This lesson consists of two parts.  First, it provides an overview of geospatial
 -   [Lesson 1: Introduction to Geospatial Analytics](..\lesson\Lesson01\Lesson01-Introduction_to_GAA.html) slides.
 -   [Lesson 1: Geospatial Data Science with R](..\lesson\Lesson01\Lesson01-GDS.html) slides.
 
-## In-class Exercise:
-
--   Installing and configuring R and RStudio
--   Installing Rtools and devtools
--   Installing and configuring git
--   Creating a github account
--   Building a course website using Quarto
--   Publishing the course website on Netlify
-
-### Slides
-
--   [My First Date with Quarto](..\in-class\In-class_Ex01\In-class_Ex01.html)
-
 ## Hands-on Exercise
+
+-   Hands-on Exercise 1: [Geospatial Data Wrangling with R](https://r4gdsa.netlify.app/chap01.html)
 
 ## References
 
@@ -52,9 +41,17 @@ This lesson consists of two parts.  First, it provides an overview of geospatial
 
 ## R packages for Data Science
 
--   [tidyverse](https://www.tidyverse.org/): a family of modern R packages specially designed to meet the tasks of Data Science and Analytics.
--   [readr](https://readr.tidyverse.org/): a fast and effective library to parse csv, txt, and tsv files as [tibble data.frame](https://r4ds.had.co.nz/tibbles.html) in R. To get started, refer to Chapter 11 Data import of R for Data Science book.\
--   [tidyr](https://tidyr.tidyverse.org/): an R package for tidying data. To get started, refer to [Chapter 12 Tidy data](https://r4ds.had.co.nz/tidy-data.html) of R for Data Science book.\
--   [dplyr](https://dplyr.tidyverse.org/): a grammar of data manipulation. To get started, read articles under [Getting Started](https://dplyr.tidyverse.org/articles/dplyr.html) and Articles tabs.
--   [ggplot2](https://ggplot2.tidyverse.org/): a grammar of graphics. To get started, read [Chapter 2: Data Visualization](https://r4ds.hadley.nz/data-visualize.html) and [Chapter 13 Communication](https://r4ds.hadley.nz/communication.html) of R for Data Science (2ed) book.
--   pipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read [Chapter 5 Workflow: pipes](https://r4ds.hadley.nz/workflow-pipes.html) of R for Data Science (2ed) book.
+-   [sf](https://r-spatial.github.io/sf/) package.
+
+    -   [Simple Features for R](https://r-spatial.github.io/sf/articles/sf1.html)
+    -   [Reading, Writing and Converting Simple Features](https://r-spatial.github.io/sf/articles/sf2.html)
+    -   [Manipulating Simple Feature Geometries](https://r-spatial.github.io/sf/articles/sf3.html)
+    -   [Manipulating Simple Features](https://r-spatial.github.io/sf/articles/sf4.html)
+
+-   [tidyverse](https://www.tidyverse.org/): a family of modern R packages specially designed to meet the tasks of Data Science in R.
+
+    -   [readr](https://readr.tidyverse.org/): a fast and effective library to parse csv, txt, and tsv files as [tibble data.frame](https://r4ds.had.co.nz/tibbles.html) in R. To get started, refer to Chapter 11 Data import of R for Data Science book.\
+    -   [tidyr](https://tidyr.tidyverse.org/): an R package for tidying data. To get started, refer to [Chapter 5 Data tidying](https://r4ds.hadley.nz/data-tidy) of R for Data Science book.\
+    -   [dplyr](https://dplyr.tidyverse.org/): a grammar of data manipulation. To get started, read articles under [Getting Started](https://dplyr.tidyverse.org/articles/dplyr.html) and Articles tabs.
+    -   [ggplot2](https://ggplot2.tidyverse.org/): a grammar of graphics. To get started, read [Chapter 1: Data Visualization](https://r4ds.hadley.nz/data-visualize), [Chapter 10 Exploratory Data Analysis](https://r4ds.hadley.nz/eda) and [Chapter 11 Communication](https://r4ds.hadley.nz/communication) of R for Data Science (2ed) book.
+    -   pipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read [Chapter 5 Workflow: pipes](https://r4ds.had.co.nz/pipes.html) of R for Data Science (2ed) book.

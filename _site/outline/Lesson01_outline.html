@@ -180,10 +180,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
   <li><a href="#lesson-slides" id="toc-lesson-slides" class="nav-link" data-scroll-target="#lesson-slides">Lesson Slides</a></li>
-  <li><a href="#in-class-exercise" id="toc-in-class-exercise" class="nav-link" data-scroll-target="#in-class-exercise">In-class Exercise:</a>
-  <ul class="collapse">
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  </ul></li>
   <li><a href="#hands-on-exercise" id="toc-hands-on-exercise" class="nav-link" data-scroll-target="#hands-on-exercise">Hands-on Exercise</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#r-packages-for-data-science" id="toc-r-packages-for-data-science" class="nav-link" data-scroll-target="#r-packages-for-data-science">R packages for Data Science</a></li>
@@ -252,25 +248,11 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="..\lesson\Lesson01\Lesson01-GDS.html">Lesson 1: Geospatial Data Science with R</a> slides.</li>
 </ul>
 </section>
-<section id="in-class-exercise" class="level2">
-<h2 class="anchored" data-anchor-id="in-class-exercise">In-class Exercise:</h2>
-<ul>
-<li>Installing and configuring R and RStudio</li>
-<li>Installing Rtools and devtools</li>
-<li>Installing and configuring git</li>
-<li>Creating a github account</li>
-<li>Building a course website using Quarto</li>
-<li>Publishing the course website on Netlify</li>
-</ul>
-<section id="slides" class="level3">
-<h3 class="anchored" data-anchor-id="slides">Slides</h3>
-<ul>
-<li><a href="..\in-class\In-class_Ex01\In-class_Ex01.html">My First Date with Quarto</a></li>
-</ul>
-</section>
-</section>
 <section id="hands-on-exercise" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-exercise">Hands-on Exercise</h2>
+<ul>
+<li>Hands-on Exercise 1: <a href="https://r4gdsa.netlify.app/chap01.html">Geospatial Data Wrangling with R</a></li>
+</ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
@@ -284,14 +266,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="r-packages-for-data-science" class="level2">
 <h2 class="anchored" data-anchor-id="r-packages-for-data-science">R packages for Data Science</h2>
 <ul>
-<li><a href="https://www.tidyverse.org/">tidyverse</a>: a family of modern R packages specially designed to meet the tasks of Data Science and Analytics.</li>
+<li><p><a href="https://r-spatial.github.io/sf/">sf</a> package.</p>
+<ul>
+<li><a href="https://r-spatial.github.io/sf/articles/sf1.html">Simple Features for R</a></li>
+<li><a href="https://r-spatial.github.io/sf/articles/sf2.html">Reading, Writing and Converting Simple Features</a></li>
+<li><a href="https://r-spatial.github.io/sf/articles/sf3.html">Manipulating Simple Feature Geometries</a></li>
+<li><a href="https://r-spatial.github.io/sf/articles/sf4.html">Manipulating Simple Features</a></li>
+</ul></li>
+<li><p><a href="https://www.tidyverse.org/">tidyverse</a>: a family of modern R packages specially designed to meet the tasks of Data Science in R.</p>
+<ul>
 <li><a href="https://readr.tidyverse.org/">readr</a>: a fast and effective library to parse csv, txt, and tsv files as <a href="https://r4ds.had.co.nz/tibbles.html">tibble data.frame</a> in R. To get started, refer to Chapter 11 Data import of R for Data Science book.<br>
 </li>
-<li><a href="https://tidyr.tidyverse.org/">tidyr</a>: an R package for tidying data. To get started, refer to <a href="https://r4ds.had.co.nz/tidy-data.html">Chapter 12 Tidy data</a> of R for Data Science book.<br>
+<li><a href="https://tidyr.tidyverse.org/">tidyr</a>: an R package for tidying data. To get started, refer to <a href="https://r4ds.hadley.nz/data-tidy">Chapter 5 Data tidying</a> of R for Data Science book.<br>
 </li>
 <li><a href="https://dplyr.tidyverse.org/">dplyr</a>: a grammar of data manipulation. To get started, read articles under <a href="https://dplyr.tidyverse.org/articles/dplyr.html">Getting Started</a> and Articles tabs.</li>
-<li><a href="https://ggplot2.tidyverse.org/">ggplot2</a>: a grammar of graphics. To get started, read <a href="https://r4ds.hadley.nz/data-visualize.html">Chapter 2: Data Visualization</a> and <a href="https://r4ds.hadley.nz/communication.html">Chapter 13 Communication</a> of R for Data Science (2ed) book.</li>
-<li>pipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read <a href="https://r4ds.hadley.nz/workflow-pipes.html">Chapter 5 Workflow: pipes</a> of R for Data Science (2ed) book.</li>
+<li><a href="https://ggplot2.tidyverse.org/">ggplot2</a>: a grammar of graphics. To get started, read <a href="https://r4ds.hadley.nz/data-visualize">Chapter 1: Data Visualization</a>, <a href="https://r4ds.hadley.nz/eda">Chapter 10 Exploratory Data Analysis</a> and <a href="https://r4ds.hadley.nz/communication">Chapter 11 Communication</a> of R for Data Science (2ed) book.</li>
+<li>pipes: a powerful tool for clearly expressing a sequence of multiple operations. To get started, read <a href="https://r4ds.had.co.nz/pipes.html">Chapter 5 Workflow: pipes</a> of R for Data Science (2ed) book.</li>
+</ul></li>
 </ul>
 
 
