@@ -606,14 +606,14 @@
     "href": "outline/Lesson04_outline.html",
     "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
     "section": "",
-    "text": "In this lesson, you will learn the basic concepts of Local Colocation Quotients CLQs (in short Local CLQ)."
+    "text": "In this lesson, you will learn the basic concepts of Network Constrained KDE and Temporal Network Kernel Density Estimate. Using real-world use cases, you will also gain hands-on experience on using spNetwork to analyse spatial point patterns and temporal spatial along networks"
   },
   {
     "objectID": "outline/Lesson04_outline.html#content",
     "href": "outline/Lesson04_outline.html#content",
     "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
     "section": "Content",
-    "text": "Content\n\nLocal Co-Location Quotient\n\nBasic oncept of co-location\nApplications of Co-location Quotient\nThe formula\n\n\n\nLesson Slides and Hands-on Notes\n\nLesson 4 slides\nHands-on Exercise 4: Local Co-Location Quotient."
+    "text": "Content\n\nNetwork Constrained Kernel Density Estimation (NCKDE)\n\nBasic concepts of network constrained spatial point patterns\nNetwork Constrained KDE methods\nThe Three versions of Network Constrained KDE\n\nTemporal Network Kernel Density Estimation (TNKED)\n\nTempotal dimension\nSpatial dimension\nSpatio-temporal poit patterns\nThe Temporal Network Kernel Density Estimation method\n\n\n\nLesson Slides and Hands-on Notes\n\nLesson 4 slides\nHands-on Exercise 4: Network Constrained Spatial Point Patterns Analysis."
   },
   {
     "objectID": "outline/Lesson04_outline.html#lesson-slides",
@@ -634,14 +634,14 @@
     "href": "outline/Lesson04_outline.html#references",
     "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
     "section": "References",
-    "text": "References\n\nTimothy F. Leslie, & Barry J. Kronenfeld (2011). “The Colocation Quotient: A New Measure of Spatial Association Between Categorical Subsets of Points.” Geographical Analysis, Vol. 43 (3), 306-326. doi: 10.1111/j.1538-4632.2011.00821.x\nCromley, R.B., Hanink, D.M. & Bently, G.C. (2014) “Geographically Weighted Colocation Quotients: Specification and Application”, Professional Geographer, Vol 66, No. 1. pp. 138-148. SMU e-library.\nYue, H. et. al (2017) “The Local Colocation Patterns of Crime and Land-Use Features in Wuhan, China”, International Journal of Geo-Information.\nFahui Wang, Yujie Hu, Shuai Wang & Xiaojuan Li (2017). “Local Indicator of Colocation Quotient with a Statistical Significance Test: Examining Spatial Association of Crime and Facilities.” The Professional Geographer Vol. 69 (1), 22-31. doi: 10.1080/00330124.2016.1157498. SMU e-Library."
+    "text": "References\n\nATSUYUKI OKABE, TOSHIAKI SATOH & KOKICHI SUGIHARA (2009) “A kernel density estimation method for networks, its computational method and a GIS-based tool”, International Journal of Geographical Information Science, Vol. 23, No. 1, January 2009, pp. 7–32.\nIkuho Yamada & Jean-Claude Thill (2007) “Local Indicators of Network-Constrained Clusters in Spatial Point Patterns”, Geographical Analysis, Vol. 39, pp 268–292.\nJérémy Gelb & Philippe Apparicio (2023) “Temporal Network Kernel Density Estimation”, Geographical Analysis. (Online open access version)"
   },
   {
     "objectID": "outline/Lesson04_outline.html#all-about-r",
     "href": "outline/Lesson04_outline.html#all-about-r",
     "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
     "section": "All About R",
-    "text": "All About R\n\nspdep package.\n\nColocation Quotients CLQs"
+    "text": "All About R\n\nspNetwork: An R package to perform spatial analysis on networks.\n\nDetails about NKDE\nNetwork k Functions\nNetwork Kernel Density Estimate\nTemporal Network Kernel Density Estimate"
   },
   {
     "objectID": "outline/Lesson05_outline.html",
