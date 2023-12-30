@@ -34,7 +34,7 @@ These spatial statistics are well suited for:
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 6](../lesson/Lesson07/Lesson07-GLSA.html) slides.
+-   [Lesson 6](../lesson/Lesson06/Lesson06-GLSA.html) slides.
 
 -   [Hands-on Exercise 6: Chapter 9:Global Measures of Spatial Autocorrelation](https://r4gdsa.netlify.app/chap09.html).
 
