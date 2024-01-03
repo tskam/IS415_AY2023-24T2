@@ -4,14 +4,14 @@ editor: visual
 ---
 
 | Week | Date      | Topic                                                                                       | Remark |
-|-----------------|-----------------|--------------------|--------------------|
+|------|-----------|---------------------------------------------------------------------------------------------|--------|
 | 1    | 8/1/2024  | [Lesson 1: Introduction to Geospatial Analytics](outline/lesson01_outline.html)             |        |
-| 2    | 15/1/2024 | [Lesson 2: Geospatial Data Science](outline/lesson02_outline.html)                          |        |
+| 2    | 15/1/2024 | [Lesson 2: GeoVisualisation and Analytical Mapping](outline/lesson02_outline.html)          |        |
 | 3    | 22/1/2024 | [Lesson 3: Spatial Point Patterns Analysis](outline/lesson03_outline.html)                  |        |
 | 4    | 29/1/2024 | [Lesson 4: Advanced Spatial Point Patterns Analysis](outline/lesson04_outline.html)         |        |
 | 5    | 5/2/2024  | [Lesson 5: Spatial Weights and Applications](outline/lesson05_outline.html)                 |        |
 | 6    | 14/2/2024 | [Lesson 6: Measures of Global and Local Spatial Association](outline/lesson06_outline.html) |        |
-| 7    | 19/2/2024 | [Lesson 7: Geographically Weighted Multivariate Analysis]()                                 |        |
+| 7    | 19/2/2024 | [Lesson 7: Geographic Segmentation](outline/lesson07_outline.html)                          |        |
 | 8    | 26/2/2024 | Mid-term break                                                                              |        |
 | 9    | 4/3/2024  | [Lesson 8: Geographically Weighted Regression](outline/lesson08_outline.html)               |        |
 | 10   | 11/3/2024 | [Lesson 9: Geographically Weighted Random Forest](outline/lesson09_outline.html)            |        |

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-12-31">
+
+<title>IS415 AY2022-23T2 - Geospatial Analytics Project</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">IS415 AY2022-23T2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lesson.html" rel="" target="">
+ <span class="menu-text">Lesson Plan</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Take-home Exercise</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="./th_ex1.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./th_ex2.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./th_ex3.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./GAproject.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Geospatial Analytics Project</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-shiny-workshop" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Shiny Workshop</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-shiny-workshop">    
+        <li>
+    <a class="dropdown-item" href="./ShinyWorkshop/Shiny1/Shiny1.html" rel="" target="">
+ <span class="dropdown-text">R Shiny basic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ShinyWorkshop/Shiny2/Shiny2.html" rel="" target="">
+ <span class="dropdown-text">Beyond the basic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ShinyWorkshop/Shiny3/Shiny3.html" rel="" target="">
+ <span class="dropdown-text">Customising Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ShinyResources.html" rel="" target="">
+ <span class="dropdown-text">Shiny Resources</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-all-about-r" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">All About R</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-all-about-r">    
+        <li>
+    <a class="dropdown-item" href="./R.html" rel="" target="">
+ <span class="dropdown-text">R Resouces</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Quarto.html" rel="" target="">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./git.html" rel="" target="">
+ <span class="dropdown-text">git and github</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#project-theme" id="toc-project-theme" class="nav-link" data-scroll-target="#project-theme">Project Theme</a></li>
+  <li><a href="#project-milestone" id="toc-project-milestone" class="nav-link" data-scroll-target="#project-milestone">Project Milestone</a></li>
+  <li><a href="#project-deliverables" id="toc-project-deliverables" class="nav-link" data-scroll-target="#project-deliverables">Project Deliverables</a>
+  <ul class="collapse">
+  <li><a href="#project-website" id="toc-project-website" class="nav-link" data-scroll-target="#project-website">Project Website</a></li>
+  <li><a href="#poster" id="toc-poster" class="nav-link" data-scroll-target="#poster">Poster</a></li>
+  <li><a href="#geospatial-analytics-application-practice-research-paper" id="toc-geospatial-analytics-application-practice-research-paper" class="nav-link" data-scroll-target="#geospatial-analytics-application-practice-research-paper">Geospatial Analytics Application Practice Research Paper</a></li>
+  <li><a href="#final-deliverables" id="toc-final-deliverables" class="nav-link" data-scroll-target="#final-deliverables">Final Deliverables</a></li>
+  </ul></li>
+  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a>
+  <ul class="collapse">
+  <li><a href="#grading-criteria-for-poster" id="toc-grading-criteria-for-poster" class="nav-link" data-scroll-target="#grading-criteria-for-poster">Grading criteria for poster</a></li>
+  </ul></li>
+  <li><a href="#learning-from-past-project" id="toc-learning-from-past-project" class="nav-link" data-scroll-target="#learning-from-past-project">Learning from past project</a></li>
+  <li><a href="#project-links" id="toc-project-links" class="nav-link" data-scroll-target="#project-links">Project Links</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Geospatial Analytics Project</h1>
+<p class="subtitle lead">Democratising Geospatial Data and Analytics with Shiny App</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 31, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">December 31, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The purpose of the geospatial analytics project is to provide students first hand experience on building web-based geospatial analytics tool by integrating open source web mapping API(s), data visualisation API(s) and geospatial analysis libraries. You will also learn how to collecting, processing and analysing spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.</p>
+<p>The project is team work. Students are required to form a project team of <strong>2-3</strong> members by the first week of the academic term. Each project teams must start thinking about their project ideas after the first lesson. They are expected to discuss their project topic and scope of works with the instructor before the end of <strong>Week 8</strong>. A project proposal in the form website edited using <a href="https://quarto.org/docs/websites/">Quarto</a> and publish on <a href="https://www.netlify.com/">Netlify</a> will be prepared and the link must be provided on eLearn by the end of <strong>Week 8</strong>.</p>
+<p>The project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.</p>
+<p>Students are required to update their project websites with all the details including the final application, user guide, poster, practice research paper by <strong>the end of week 14</strong>.</p>
+</section>
+<section id="project-theme" class="level2">
+<h2 class="anchored" data-anchor-id="project-theme">Project Theme</h2>
+<p>Students are required to choose one of the following theme to develop the GeoSpaital Analytics Project:</p>
+<ul>
+<li>Spatial Point Patterns Analysis</li>
+<li>Exploratory Spatial Data Analysis</li>
+<li>Analytical Regionalisation and Geographical Segmentation</li>
+<li>Geographically Weighted Regression Models</li>
+<li>Flow and Movement Data Analytics</li>
+<li>Geographical Accessibility and Spatial Interaction Models</li>
+</ul>
+<p>Please feel free to approach me for more details.</p>
+</section>
+<section id="project-milestone" class="level2">
+<h2 class="anchored" data-anchor-id="project-milestone">Project Milestone</h2>
+<ul>
+<li>Brainstorming project ideas and consulting with course instructor between <strong>Week 2 to Week 7</strong>.</li>
+<li>Editing and publishing project proposal by the end of <strong>Week 8</strong>.</li>
+<li>Submission of project poster: <strong>4th April 2024 by 11:59pm (mid-night)</strong></li>
+<li>Townhall presentation: <strong>8th April 2024 (Tuesday)</strong>, at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.</li>
+<li>Submission of final application, user guide, project poster, practice research paper and artifacts: <strong>14th April 2024 by 11:59pm (mid-night)</strong></li>
+</ul>
+</section>
+<section id="project-deliverables" class="level2">
+<h2 class="anchored" data-anchor-id="project-deliverables">Project Deliverables</h2>
+<section id="project-website" class="level3">
+<h3 class="anchored" data-anchor-id="project-website">Project Website</h3>
+<section id="project-github" class="level4">
+<h4 class="anchored" data-anchor-id="project-github">Project Github</h4>
+<p>At the beginning of the project, project teams are required to create a project <a href="https://github.com/">Github</a>. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.</p>
+</section>
+<section id="project-website-1" class="level4">
+<h4 class="anchored" data-anchor-id="project-website-1">Project Website</h4>
+<p>Each project team are required to create the project website by using <a href="https://quarto.org/docs/websites/">Quatro</a>. It will be disseminated by using <a href="https://www.netlify.com/">Netfity</a> web service.</p>
+<p>As a first step, you should create a project summary at the course wiki that includes:</p>
+<ul>
+<li>The title of your project,</li>
+<li>A short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and</li>
+<li>The project proposal. This should in a webblog page (remember to provide a link at eLearn).</li>
+</ul>
+</section>
+</section>
+<section id="poster" class="level3">
+<h3 class="anchored" data-anchor-id="poster">Poster</h3>
+<p>The project poster should provide an overview of your project. It should include, but not limited to the following information:</p>
+<ul>
+<li><p>Issues and problems - A clear statement of the issues or/and problems your project addresses.</p></li>
+<li><p>Motivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.</p></li>
+<li><p>Approach - A description of the techniques or algorithms you used to solve the problem.</p></li>
+<li><p>Results - Screenshots and a working demo of the system you built.</p></li>
+<li><p>Future Work - An explanation of how the work could be extended.</p></li>
+</ul>
+<p>The dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).</p>
+<ul>
+<li>Size = ISO A1 (594 × 841mm or 23.39 × 33.11inci)</li>
+<li>Resolution = 300dpi or above</li>
+<li>File format = jpeg</li>
+</ul>
+<p>Please ensure that the poster is in high resolution.</p>
+<p>The poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.</p>
+<p>Note: The course instructor will be responsible for printing your poster. You are required to upload your poster onto the project Dropbox of eLearn according to the submission deadline provided on the project milesotne sub-section.</p>
+</section>
+<section id="geospatial-analytics-application-practice-research-paper" class="level3">
+<h3 class="anchored" data-anchor-id="geospatial-analytics-application-practice-research-paper">Geospatial Analytics Application Practice Research Paper</h3>
+<p>The research paper should be in the form of Geospatial Analytics Application practice and research. In particular it should contain the followings:</p>
+<ul>
+<li>Motivation of the application</li>
+<li>Review and critic on past works</li>
+<li>Design framework - A detail description of the design principles used and data visualisation elements built (Refer to Section IV: Interface of this <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2760&amp;context=sis_research">paper</a>.</li>
+<li>Demonstration - Use case</li>
+<li>Discussion - What has the audience learned from your work? What new insights or practices has your system enabled? A full blown user study is not expected, but informal observations of use that help evaluate your system are encouraged.</li>
+<li>Future Work - A description of how your system could be extended or refined.</li>
+</ul>
+<p>The research paper should include an abstract of <strong>not more than 300 words</strong>. The actual research paper itself should <strong>not more than 6 pages</strong> excluding figures, tables, formula and references. The practice research paper must be edited by using <strong>ACM: Association for Computing Machinery</strong> template of <a href="https://quarto.org/docs/journals/formats.html">Quarto Journal/Article</a> template should be used.</p>
+<section id="sample-practice-research-papers" class="level4">
+<h4 class="anchored" data-anchor-id="sample-practice-research-papers">Sample practice research papers</h4>
+<ul>
+<li><a href="https://ink.library.smu.edu.sg/sis_research/1761/">DIVAD: A Dynamic and Interactive Visual Analytical Dashboard for Exploring and Analyzing Transport Data</a></li>
+<li><a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3494-x">MEPHAS: an interactive graphical user interface for medical and pharmaceutical statistical analysis with R and Shiny</a></li>
+<li><a href="https://cran.rstudio.com/web/packages/SpatialEpiApp/vignettes/manual.pdf">SpatialEpiApp: A Shiny Web Application for the Analysis of Spatial and Spatio-Temporal Disease Data</a></li>
+<li><a href="https://iopscience.iop.org/article/10.1088/1755-1315/20/1/012014">Developing web-based data analysis tools for precision farming using R and Shiny</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/27013597">EHDViz: clinical dashboard development using open-source technologies</a></li>
+<li><a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-016-0229-9">Health Equity Assessment Toolkit</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4394611/">Interactive Pharmacometric Applications Using R and the Shiny Package</a></li>
+</ul>
+</section>
+</section>
+<section id="final-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="final-deliverables">Final Deliverables</h3>
+<p>The final deliverable will include:</p>
+<ul>
+<li>artifact including the ShinyApp, data and all r modules.</li>
+<li>User Guide - Step-by-step guide on how to use the data visualisation functions designed.</li>
+<li>project poster</li>
+<li>a practice research paper</li>
+</ul>
+</section>
+</section>
+<section id="grading" class="level2">
+<h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<p>The geospatial analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:</p>
+<ul>
+<li>Project website 20%</li>
+<li>Poster 10%</li>
+<li>Practice Research Paper 25%</li>
+<li>ShinyApp 45%</li>
+</ul>
+<p>The course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.</p>
+<p>In small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!</p>
+<section id="grading-criteria-for-poster" class="level3">
+<h3 class="anchored" data-anchor-id="grading-criteria-for-poster">Grading criteria for poster</h3>
+<p>The poster will be graded based on the following criteria:</p>
+<ul>
+<li>Clear communication of key aspects of solution</li>
+<li>Clear communication of design approaches</li>
+<li>Clear communication of arguments for proposed solution</li>
+<li>Craft quality of the solution</li>
+</ul>
+</section>
+</section>
+<section id="learning-from-past-project" class="level2">
+<h2 class="anchored" data-anchor-id="learning-from-past-project">Learning from past project</h2>
+<ul>
+<li><p>AY2018-19 Term 2</p>
+<ul>
+<li><a href="https://wiki.smu.edu.sg/1819t2is415/Signal_Proposal">Signal</a> and the <a href="https://is415-ay1819-signal.shinyapps.io/Signal/">Shiny application</a>.</li>
+</ul></li>
+<li><p>AY2020-2021 Term 1</p>
+<ul>
+<li><a href="https://is415-t14-project-proposal.netlify.app/">J-Town</a> and the <a href="https://erika-aldisa-gunawan.shinyapps.io/IS415_T14_EastKalimantan_New_JTown/">Shiny Application</a></li>
+</ul></li>
+<li><p>AY2021-2022 Term 1</p>
+<ul>
+<li>Group 1: <a href="https://flosg-is415.netlify.app/">Spatial Interaction Model</a></li>
+<li>Group 3: <a href="https://is412-g3-proposal.netlify.app/posts/welcome/">Regionalisation in Reach</a></li>
+<li>Group 5: <a href="https://g5-is415-proj.netlify.app/">Geographically Weighted Regression</a></li>
+<li>Group 7: <a href="https://geoxplorer.netlify.app/">GeoeXplorer</a>, a web-enabled geospatial analytics toolkit for detecting and visualising global spatial autocorrelation and local clusters and outliers from univariate geographically referenced data.</li>
+<li>Group 8: <a href="https://spatial-pointers.netlify.app/project-proposal">Spatial Pointers</a>, a web-enabled Spatial Point Patterns Analysis toolkit for visualising and analysing both spatial and network constrained point patterns.</li>
+</ul></li>
+<li><p>AY2022-2023 Term 1</p></li>
+<li><p>Group 1: <a href="https://is415-fire-incidents-explorer.netlify.app/">This is FINE: Fire INcidents Explorer</a></p></li>
+<li><p>Group 2: <a href="https://spatialbros.netlify.app/">Spatial Bros</a></p></li>
+<li><p>Group 3: <a href="https://is415-geospatial-project-g1t3.netlify.app/">Analysis of Resale HDB Prices</a></p></li>
+<li><p>Group 4: <a href="https://is415-gaa-valencia-derek-yashica.netlify.app/">GeoNinjas</a></p></li>
+<li><p>Group 5: <a href="https://is415-group-5.netlify.app/">Transit-Ability</a></p></li>
+<li><p>Group 6: <a href="https://is415gg-gally.netlify.app/">CrimeIndia</a></p></li>
+<li><p>Group 7: <a href="https://is415-g1t7-project.netlify.app/">The Right Space</a></p></li>
+<li><p>Group 8: <a href="https://is415-group8.netlify.app/">CarSpot: Geospatial Parking Analysis!!</a></p></li>
+<li><p>Group 9: <a href="https://is415-group9.netlify.app/">Dr Go Where</a></p></li>
+<li><p>Group 10: <a href="https://is415-project-g10.netlify.app/project_outline">Spatial Point Pattern Analysis on Seoul’s healthcare accessibility</a></p></li>
+<li><p>Group 11: <a href="https://is415-team15-proj.netlify.app/">Regress Rangers</a></p></li>
+<li><p>Group 12: <a href="https://is415-grp12.netlify.app/">Spatial Point Pattern Analysis of Airbnb listings in Beijing</a></p></li>
+</ul>
+</section>
+<section id="project-links" class="level2">
+<h2 class="anchored" data-anchor-id="project-links">Project Links</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,5 +1,5 @@
 ---
-title: "Lesson 2: Geospatial Data Science and Visualisation"
+title: "Lesson 2: GeoVisualisation and Analytical Mapping"
 date: "February 21, 2023"
 date-modified: "last-modified"
 format: html
@@ -8,7 +8,7 @@ toc: true
 
 ## Overview
 
-In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced.  You will also gain hands-on experience on using [**tmap**](https://r-tmap.github.io/tmap/) package to build cartographic quality thematic maps. 
+In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced. You will also gain hands-on experience on using [**tmap**](https://r-tmap.github.io/tmap/) package to build cartographic quality thematic maps.
 
 ## Content
 

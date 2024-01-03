@@ -81,7 +81,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: Geospatial Data Science\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Advanced Spatial Point Patterns Analysis\n\n\n\n5\n5/2/2024\nLesson 5: Spatial Weights and Applications\n\n\n\n6\n14/2/2024\nLesson 6: Measures of Global and Local Spatial Association\n\n\n\n7\n19/2/2024\nLesson 7: Geographically Weighted Multivariate Analysis\n\n\n\n8\n26/2/2024\nMid-term break\n\n\n\n9\n4/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n10\n11/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n11\n18/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n12\n25/3/2024\nLesson 11: Spatial Interaction Models\n\n\n\n13\n1/4/2024\nLesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
+    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: GeoVisualisation and Analytical Mapping\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Advanced Spatial Point Patterns Analysis\n\n\n\n5\n5/2/2024\nLesson 5: Spatial Weights and Applications\n\n\n\n6\n14/2/2024\nLesson 6: Measures of Global and Local Spatial Association\n\n\n\n7\n19/2/2024\nLesson 7: Geographic Segmentation\n\n\n\n8\n26/2/2024\nMid-term break\n\n\n\n9\n4/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n10\n11/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n11\n18/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n12\n25/3/2024\nLesson 11: Spatial Interaction Models\n\n\n\n13\n1/4/2024\nLesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
   },
   {
     "objectID": "ShinyWorkshop/Shiny1/Shiny1.html#content",
@@ -527,28 +527,28 @@
   {
     "objectID": "outline/Lesson02_outline.html",
     "href": "outline/Lesson02_outline.html",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "",
     "text": "In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced. You will also gain hands-on experience on using tmap package to build cartographic quality thematic maps."
   },
   {
     "objectID": "outline/Lesson02_outline.html#content",
     "href": "outline/Lesson02_outline.html#content",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "Content",
     "text": "Content\n\nGeospatial Visualisation\n\nClassification of maps\nPrinciples of map design\nThematic mapping techniques\nAnalytical mapping techniques"
   },
   {
     "objectID": "outline/Lesson02_outline.html#lesson-slides",
     "href": "outline/Lesson02_outline.html#lesson-slides",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "Lesson Slides",
     "text": "Lesson Slides\n\nLesson 2: GeoVisualisation and Analytical Mapping slides."
   },
   {
     "objectID": "outline/Lesson02_outline.html#hands-on-exercise",
     "href": "outline/Lesson02_outline.html#hands-on-exercise",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "Hands-on Exercise",
     "text": "Hands-on Exercise\n\nChoropleth Mapping with R\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nProportional Symbols\nChoropleth Maps\nThe Basics of Data Classification\nChoropleth Mapping with Exploratory Data Analysis\nTennekes, M. (2018) “tmap: Thematic Maps in R”, Journal of Statistical Software, Vol 84:6, 1-39."
   },
@@ -562,7 +562,7 @@
   {
     "objectID": "outline/Lesson02_outline.html#all-about-r",
     "href": "outline/Lesson02_outline.html#all-about-r",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "All About R",
     "text": "All About R\n\ntmap: thematic maps in R package especially:\n\ntmap: get started!,\ntmap: version changes, and\nChapter 8 Making maps with R of Geocomputation with R."
   },
@@ -716,9 +716,9 @@
   {
     "objectID": "outline/Lesson07_outline.html#content",
     "href": "outline/Lesson07_outline.html#content",
-    "title": "Lesson 7: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
     "section": "Content",
-    "text": "Content\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nCase Studies"
+    "text": "Content\n\nBasic concepts of geographic segmentation\nConventional cluster analysis techniques\nApproaches for clustering geographically referenced data\n\nHierarchical clustering with spatial constraints\nMinimum spanning trees"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
@@ -933,14 +933,14 @@
   {
     "objectID": "outline/Lesson02_outline.html#overview",
     "href": "outline/Lesson02_outline.html#overview",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "",
     "text": "In this lesson, the basic principles and concepts of thematic mapping and geovisualisation will be introduced. You will also gain hands-on experience on using tmap package to build cartographic quality thematic maps."
   },
   {
     "objectID": "outline/Lesson02_outline.html#reference",
     "href": "outline/Lesson02_outline.html#reference",
-    "title": "Lesson 2: Geospatial Data Science and Visualisation",
+    "title": "Lesson 2: GeoVisualisation and Analytical Mapping",
     "section": "Reference",
     "text": "Reference\n\nThe Concept of Map Symbols\nChoropleth map\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps"
   },
@@ -1713,5 +1713,488 @@
     "title": "Lesson 6: Global and Local Measures of Spatial Association",
     "section": "References",
     "text": "References\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127. - Moran’s I\nGeary’s c - Getis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#content",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#content",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "Content",
+    "text": "Content\n\nIntroducing Regression Modelling\n\nSimple Linear Regression\nMultiple Linear Regression\n\nWhat is Spatial Non-stationary\nIntroducing Geographically Weighted Regression\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\n\nInterpreting and Visualising"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#the-why-questions",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#the-why-questions",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "The WHY Questions",
+    "text": "The WHY Questions\n\nWhy some condominium units were transacted at relatively higher prices than others?"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#the-why-questions-1",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#the-why-questions-1",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "The WHY Questions",
+    "text": "The WHY Questions\nWhy condominium units located at the central part of Singapore were transacted at relatively higher prices than others?"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#what-is-regression-analysis",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#what-is-regression-analysis",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "What is regression analysis?",
+    "text": "What is regression analysis?\n\nA set of statistical processes for explaining the relationships among variables.\nThe focus is on the relationship between a dependent variable (y) and one or more independent variables (x)\n\nDoes X affect Y? If so, how?\nWhat is the change in Y given a one unit change in X?\n\nEstimate outcomes based on the relationships modelled."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#assumptions-of-linear-regression-models",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#assumptions-of-linear-regression-models",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "Assumptions of linear regression models",
+    "text": "Assumptions of linear regression models\n\nLinearity assumption. The relationship between the dependent variable and independent variables is (approximately) linear.\nNormality assumption. The residual errors are assumed to be normally distributed.\nHomogeneity of residuals variance. The residuals are assumed to have a constant variance (homoscedasticity).\nThe residuals are uncorrelated with each other.\n\nserial correlation, as with time series\n\n(Optional) The errors (residuals) are normally distributed and have a 0 population mean.]"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#spatial-non-stationary",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#spatial-non-stationary",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "Spatial Non-stationary",
+    "text": "Spatial Non-stationary\n\nWhen applied to spatial data, as can be seen, it assumes a stationary spatial process.\n\nThe same stimulus provokes the same response in all parts of the study region.\nHighly untenable for spatial process."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#geographically-weighted-regression-gwr",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#geographically-weighted-regression-gwr",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "Geographically Weighted Regression (GWR)",
+    "text": "Geographically Weighted Regression (GWR)\n\nLocal statistical technique to analyze spatial variations in relationships.\nSpatial non-stationarity is assumed and will be tested.\nBased on the “First Law of Geography”: everything is related with everything else, but closer things are more related."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson08-gwr.html#references",
+    "href": "lesson/Lesson08/Lesson08-gwr.html#references",
+    "title": "Lesson 8: Geographically Weighted Regression",
+    "section": "References",
+    "text": "References\nBrunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) “Geographically weighted regression: A method for exploring spatial nonstationarity”. Geographical Analysis, 28: 281-289.\nBrunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) [“Some Notes on Parametric Significance Tests for Geographically Weighted Regression”](https://onlinelibrary-wiley-com.libproxy.smu.edu.sg/doi/abs/10.1111/0022-4146.00146. Journal of Regional Science, 39(3), 497-524.\nMennis, Jeremy (2006) “Mapping the Results of Geographically Weighted Regression”, The Cartographic Journal, Vol.43 (2), p.171-179.\nStephen A. Matthews ; Tse-Chuan Yang (2012) “Mapping the results of local statistics: Using geographically weighted regression”, Demographic Research, Vol.26, p.151-166."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#content",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#content",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "Content",
+    "text": "Content\n\nWhat is Predictive Modelling?\nWhat is Geospatial Predictive Modelling\nIntroducing Recursive Partitioning\nAdvanced Recursive Partitioning: Random Forest\nIntroducing Geographically Weighted Random Forest"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#what-is-predictive-modelling",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#what-is-predictive-modelling",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "What is Predictive Modelling?",
+    "text": "What is Predictive Modelling?\n\n\n\nPredictive modelling uses statistical learning or machine learning techniques to predict outcomes.\n\nBy and large, the event one wants to predict is in the future. However, a set of known outcome and predictors (also known as variables) will be used to calibrate the predictive models."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#what-is-geospatial-predictive-modelling",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#what-is-geospatial-predictive-modelling",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "What is Geospatial Predictive Modelling",
+    "text": "What is Geospatial Predictive Modelling\n\nGeospatial predictive modelling is conceptually rooted in the principle that the occurrences of events being modeled are limited in distribution.\n\nWhen geographically referenced data are used, occurrences of events are neither uniform nor random in distribution over space. There are geospatial factors (infrastructure, sociocultural, topographic, etc.) that constrain and influence where the locations of events occur.\nGeospatial predictive modeling attempts to describe those constraints and influences by spatially correlating occurrences of historical geospatial locations with environmental factors that represent those constraints and influences."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#predictive-modelling-process",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#predictive-modelling-process",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "Predictive Modelling Process",
+    "text": "Predictive Modelling Process"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#introducing-recursive-partitioning",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#introducing-recursive-partitioning",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "Introducing recursive partitioning",
+    "text": "Introducing recursive partitioning\n\nA predictive methodology involving a dependent variable y and one and more predictors.\nThe dependent variable can be either a continuous or categorical scales.\nRules partition data into mutually exclusive groups.\nNo need to worry about transformations such as logs.\nNo prior distribution requirement."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#advanced-recursive-partitioning-random-forest",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#advanced-recursive-partitioning-random-forest",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "Advanced Recursive Partitioning: Random Forest",
+    "text": "Advanced Recursive Partitioning: Random Forest\nRandom forest, like its name implies, consists of a large number of individual decision trees that operate as an ensemble. - Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction as shown the figure."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GWRF.html#introducing-geographically-weighted-random-forest-gwrf",
+    "href": "lesson/Lesson09/Lesson09-GWRF.html#introducing-geographically-weighted-random-forest-gwrf",
+    "title": "Lesson 9: Geographically Weighted Random Forest",
+    "section": "Introducing Geographically Weighted Random Forest (gwRF)",
+    "text": "Introducing Geographically Weighted Random Forest (gwRF)\n\nGeographically Weighted Random Forest (GRF) is a spatial analysis method using a local version of the famous Machine Learning algorithm.\n\nThis technique adopts the idea of the Geographically Weighted Regression.\nThe main difference between a tradition (linear) GWR and GRF is that we can model non-stationarity coupled with a flexible non-linear model which is very hard to overfit due to its bootstrapping nature, thus relaxing the assumptions of traditional Gaussian statistics."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#content",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#content",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Content",
+    "text": "Content\n\nWhat is Geographic Segmentation?\nIntroducing Cluster Analysis\nHierarchical Class Analysis\nCluster Analysis Process\nSpatially Constrained Clustering Techniques"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#what-is-geographical-segmentation",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#what-is-geographical-segmentation",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "What is Geographical Segmentation?",
+    "text": "What is Geographical Segmentation?\n\n\n\nGeographic segmentation divides a target market by location so marketers can better serve customers in a particular area.\nThis type of market segmentation is based on the geographic units themselves (countries, states, cities, etc.), but also on various geographic factors, such as climate, cultural preferences, populations, and more.\nFor business applications of geographic segmentation, refer to this blog post"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#cluster-analysis",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#cluster-analysis",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Cluster Analysis",
+    "text": "Cluster Analysis\n\n\n\nCluster analysis or Clustering is the task of grouping a set of an object in such a way object in the same group(called cluster) are more similar( in some sense or another to each other than to those in another group (clusters).\nIn modern machine learning age, it is belong to the family of exploratory data mining.\nIt has been used in many fields including Machine Learning, Pattern Recognition, Image Analysis, Information Retrieval, Bioinformatics, Data Compression, and Computer Graphics."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#hierarchical-clustering",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#hierarchical-clustering",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Hierarchical Clustering",
+    "text": "Hierarchical Clustering\n\nProduces a set of nested clusters organized as a hierarchical tree."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#bivariate-eda",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#bivariate-eda",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Bivariate EDA",
+    "text": "Bivariate EDA\nChecking if the input variables are highly correlated (i.e. correlation coefficient &gt;=0.85)."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-methods",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-methods",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Spatially Constrained Clustering Methods",
+    "text": "Spatially Constrained Clustering Methods\n\nGrouping contiguous objects that are similar into new aggregate areal units\n\ntension between attribute similarity.\n\nGrouping of similar observations\n\nlocational similarity: group spatially contiguous observations only."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#introducing-skater-method",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#introducing-skater-method",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Introducing SKATER method",
+    "text": "Introducing SKATER method\n\n\n\nSpatial Kluster Analysis by Tree Edge Removal Assuncao (2006) algorithm.\nConstruct minimum spanning tree from adjacency graph.\nPrune the tree (cut edges) to achieve maximum internal homogeneity.\n\nReference: AssunÇão, R. M ; Neves, M. C ; Câmara, G ; Da Costa Freitas, C (2006) “Efficient regionalization techniques for socio-economic geographical units using minimum spanning trees”, International Journal of Geographical Information Science, Vol.20 (7), p.797-811 ."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-using-skater",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-using-skater",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Spatially Constrained Clustering using SKATER",
+    "text": "Spatially Constrained Clustering using SKATER"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#content",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#content",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "Content",
+    "text": "Content\n\nBasic Concepts of Geography of Accessibility\nAccessibility Models\n\nStewart Potential model\nReilly model\nHuff model"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#what-is-geography-of-accessibility",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#what-is-geography-of-accessibility",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "What is Geography of Accessibility?",
+    "text": "What is Geography of Accessibility?\n\n\n\nAccessibility is the measure of the capacity of a location to be reached from, or to be reached by, different locations. Therefore, the capacity and the arrangement of transport infrastructure are key elements in the determination of accessibility."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#measuring-distances",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#measuring-distances",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "Measuring Distances",
+    "text": "Measuring Distances\n\nDifferent spatial and distance conceptualizations that are commonly employed when measuring and modelling accessibility."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#the-geographical-unit",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#the-geographical-unit",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "The Geographical Unit",
+    "text": "The Geographical Unit\n\nThis issue of irregularly shaped polygons created arbitrarily (such as county boundaries or block groups that have been created from a political process)."
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#the-potential-model",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#the-potential-model",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "The Potential Model",
+    "text": "The Potential Model\nThe classic model"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#two-step-floating-catchment-area-method-2sfca",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#two-step-floating-catchment-area-method-2sfca",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "Two-step floating catchment area method (2SFCA)",
+    "text": "Two-step floating catchment area method (2SFCA)\n\n\n\nA special case of a potential model for measuring spatial accessibility to primary social services and public facilities.\nIt was inspired by the spatial decomposition idea first proposed by Radke and Mu (2000).\n\n\nReference: Luo, W.; Wang, F. (2003b). “Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region”. Environment and Planning B: Planning and Design. 30 (6): 865–884.\n\n\nAn earlier version of 2SFCA"
+  },
+  {
+    "objectID": "lesson/Lesson10/Lesson10-GeoAcc.html#spatial-accessibility-measure-sam",
+    "href": "lesson/Lesson10/Lesson10-GeoAcc.html#spatial-accessibility-measure-sam",
+    "title": "Lesson 10: Modelling Geographic of Accessibility",
+    "section": "Spatial Accessibility Measure (SAM)",
+    "text": "Spatial Accessibility Measure (SAM)\nThe formula:\n\nwhere\n\nAai is the accessibility in ED i,\nnj is the capacity of the target facility j.\npi is the demand of this ED, and\ndij is the network distance between the EDi and each facility j.\n\n\nReference: Stamatis Kalogirou & Ronan Foley (2006) “Health, place and Hanly: Modelling accessibility to hospitals in Ireland”, Irish Geography, Volume 39(1), 2006, 52-68."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#content",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#content",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Content",
+    "text": "Content\n\nCharacteristics of Spatial Interaction Data\nSpatial Interaction Models\n\nUnconstrained\nOrigin constrined\nDestination constrained\nDoubly constrained"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-spatial-interaction-models-are",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-spatial-interaction-models-are",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What Spatial Interaction Models are?",
+    "text": "What Spatial Interaction Models are?\n\n\nSpatial interaction or “gravity models” estimate the flow of people, material, or information between locations in geographical space.\n\n\n\n\n\n\n\n\nNote\n\n\nSpatial interaction models seek to explain existing spatial flows. As such it is possible to measure flows and predict the consequences of changes in the conditions generating them. When such attributes are known, it is possible to better allocate transport resources such as conveyances, infrastructure, and terminals."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#constructing-an-od-matrix",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#constructing-an-od-matrix",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Constructing an O/D Matrix",
+    "text": "Constructing an O/D Matrix\n\nThe construction of an origin / destination matrix requires directional flow information between a series of locations.\nFigure below represents movements (O/D pairs) between five locations (A, B, C, D and E). From this graph, an O/D matrix can be built where each O/D pair becomes a cell. A value of 0 is assigned for each O/D pair that does not have an observed flow."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#three-basic-types-of-interaction-models",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#three-basic-types-of-interaction-models",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Three Basic Types of Interaction Models",
+    "text": "Three Basic Types of Interaction Models\n\nThe general formulation of the spatial interaction model is stated as Tij, which is the interaction between location i (origin) and location j (destination). Vi are the attributes of the location of origin i, Wj are the attributes of the location of destination j, and Sij are the attributes of separation between the location of origin i and the location of destination j.\nFrom this general formulation, three basic types of interaction models can be derived:"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#gravity-models",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#gravity-models",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Gravity Models",
+    "text": "Gravity Models\n\n\n\nThe general formula (also known as unconstrained):\n\n\nTij is the transition/trip or flow, 𝑇, between origin 𝑖 (always the rows in a matrix) and destination 𝑗 (always the columns in a matrix). If you are not overly familiar with matrix notation, the 𝑖 and 𝑗 are just generic indexes to allow us to refer to any cell in the matrix.\n𝑉 is a vector (a 1 dimensional matrix – or, if you like, a single line of numbers) of origin attributes which relate to the emissivity of all origins in the dataset, 𝑖 – this could be any of the origin-related variables.\n\n\n\n𝑊 is a vector of destination attributes relating to the attractiveness of all destinations in the dataset, 𝑗 – similarly, this could be any of the destination related variables.\n𝑑 is a matrix of costs (frequently distances – hence, d) relating to the flows between 𝑖 and 𝑗.\n𝑘, 𝜇, 𝛼 and 𝛽 are all model parameters to be estimated. 𝛽 is assumed to be negative, as with an increase in cost/distance we would expect interaction to decrease."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-models",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-models",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Econometric Interaction Models",
+    "text": "Spatial Econometric Interaction Models\n\nWhat is Spatial Econometrics?\nWhat is Spatial Econometric Interaction Models?\nIntroducing spflow package\nSpatial Econometric Modelling of O-D Flows: spflow application"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-econometrics",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-econometrics",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Econometrics",
+    "text": "What is Econometrics\n\nEconometrics is an application of statistical methods to economic data in order to give empirical content to economic relationships. More precisely, it is “the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\nA basic tool for econometrics is the multiple linear regression model.\nEconometric theory uses statistical theory and mathematical statistics to evaluate and develop econometric methods.\nEconometricians try to find estimators that have desirable statistical properties including unbiasedness, efficiency, and consistency.\nApplied econometrics uses theoretical econometrics and real-world data for assessing economic theories, developing econometric models, analysing economic history, and forecasting."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Spatial Econometrics?",
+    "text": "What is Spatial Econometrics?\n\nA branch of economics that deals with the study of economic phenomena that exhibit spatial dependence.\nThis branch of economics has its roots in classical economics, which focused on the study of how economic activity was related to the location of factors of production.\nClassical economists developed theories of how businesses locate themselves in relation to their markets and to each other. These theories formed the basis for the development of modern spatial economics."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Spatial Econometrics?",
+    "text": "What is Spatial Econometrics?\n\nIn a broader sense it is inclusive of the models and theoretical instruments of spatial statistics and spatial data analysis to analyze various economic effects such as externalities, interactions, spatial concentration and many others.\nDiscrete spatial data can take the form of points, lines and polygons. Point data refer to the position of the single economic agent observed at an individual level. Lines in space take the form of interactions between two spatial locations such as flows of goods, individuals and information. Finally data observed within polygons can take the form of predefined irregular portions of space, usually administrative partitions such as countries, regions or counties within one country."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-are-the-examples-of-applications-using-spatial-econometrics",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-are-the-examples-of-applications-using-spatial-econometrics",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What Are The Examples of Applications Using Spatial Econometrics ?",
+    "text": "What Are The Examples of Applications Using Spatial Econometrics ?\nThere are many applications for spatial econometrics . Here are a few examples :\n\nEvaluating the impact of a new road or railway on property values.\nEstimating the effect of environmental regulations on firm location decisions.\nAnalyzing the determinants of crime rates across neighborhoods\nStudying the relationship between house prices and income levels in different regions.\nInvestigating the spread of infectious diseases through a population.\nModeling the relationship between land values and location-specific services.\nAnalyzing the relationship between proximity to facilities and job opportunities ."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Limitation of Spatial Interaction Models",
+    "text": "Limitation of Spatial Interaction Models\n\nThe gravity model assumes independence among observations, and this assumption seems heroic for many fundamentally spatial problems."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Limitation of Spatial Interaction Models",
+    "text": "Limitation of Spatial Interaction Models\nThere are two technical limitations of SIM:\n\nMaximum-likelihood estimates require that the dependent variable vector follow a normal distribution or that it can be suitably transformed to achieve normality.\nMaximum-likelihood method is not appropriate when there are a large number of zero flows exist."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-model",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-model",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Econometric Interaction Model",
+    "text": "Spatial Econometric Interaction Model\nThe general formula of Spatial Econometric Interaction Model is defined as follow:\n\nwhere by 𝐖𝓭, 𝐖𝒐 and 𝐖𝓌 are spatial weights of destination, origin and origin-destination."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-2",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-2",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#hands-on-exercise",
+    "href": "outline/Lesson07_outline.html#hands-on-exercise",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Hands-on Exercise",
+    "text": "Hands-on Exercise\n\n5 Geographical Segmentation with Spatially Constrained Clustering Techniques"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#in-class-exercise-notes",
+    "href": "outline/Lesson07_outline.html#in-class-exercise-notes",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "In-class Exercise Notes",
+    "text": "In-class Exercise Notes\n\nRegionalisation with Spatially Constrained Cluster Analysis\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nAssuncao, R. M., Neves, M.C., Camara, G. and Costa Freitas, C.D. 2006. “Efficient Regionalization Techniques for Socio-Economic Geographical Units Using Minimum Spanning Trees”. International Journal of Geographical Information Science 20: 797-811. (Available in SMU digital library)\nChavent, M., Kuentz-Simonet, V., Labenne,A. and Saracco, J. 2018. “ClustGeo: an R package for hierarchical clustering with spatial constraints” Computational Statistics, 33: 1799-1822. (Available in SMU digital library)\n\n\n\nReferences\n\nRovan, J. and Sambt, J. (2003) “Socio-economic Differences Among Slovenian Municipalities: A Cluster Analysis Approach”, Developments in Applied Statistics, pp. 265-278.\n\nDemeter, T. and Bratucu, G. (2013) “Statistical Analysis Of The EU Countries from A Touristic Point of View”, Bulletin of the Transilvania University of Braşov, 6(55): 121-130.\nBrown, N.S. & Watson, P. (2012) “What can a comprehensive plan really tell us about a region?: A cluster analysis of county comprehensive plans in Idaho”, Western Economics Forum. Pp.22-37.\nJaya, I.G.M., Ruchjana, B.N., Andriyana, Y. & Agata, R (2019) “Clustering with spatial constraints: The case of diarrhea in Bandung city, Indonesia”\nde Souza, D. C. & Taconeli, C. A. (2022) “Spatial and non-spatial clustering algorithm in the analysis of Brazilian educational data”, Communications in Statistics: Case Studies, Data Analysis, and Applications. Vol. 8, No. 4, 588-606. (Available in SMU digital library)\n\n\n\nAll About R\n\nHierarchical Cluster Analysis.\nskater: A function from spdep package that implements a SKATER procedure for spatial clustering analysis.\nClustGeo: Hierarchical Clustering with Spatial Constraints\n\nIntroduction to Clustgeo"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "",
+    "text": "What is Geographic Segmentation?\nIntroducing Cluster Analysis\nHierarchical Class Analysis\nCluster Analysis Process\nSpatially Constrained Clustering Techniques"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#content",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#content",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "",
+    "text": "What is Geographic Segmentation?\nIntroducing Cluster Analysis\nHierarchical Class Analysis\nCluster Analysis Process\nSpatially Constrained Clustering Techniques"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#what-is-geographical-segmentation",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#what-is-geographical-segmentation",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "What is Geographical Segmentation?",
+    "text": "What is Geographical Segmentation?\n\n\n\nGeographic segmentation divides a target market by location so marketers can better serve customers in a particular area.\nThis type of market segmentation is based on the geographic units themselves (countries, states, cities, etc.), but also on various geographic factors, such as climate, cultural preferences, populations, and more.\nFor business applications of geographic segmentation, refer to this blog post\n\n\n\n\n\n\n\nAdvantages of Geographic Segmentation\n\nIt’s an effective approach for companies with large national or international markets because different consumers in different regions have different needs, wants, and cultural characteristics that can be specifically targeted.\nIt can also be an effective approach for small businesses with limited budgets. They can focus on their defined area and not expend needless marketing dollars on approaches ill-suited for their target geographic segment.\nIt works well in different areas of population density. Consumers in an urban environment often have different needs and wants than people in suburban and rural environments. There are even cultural differences between these three areas."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#cluster-analysis",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#cluster-analysis",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Cluster Analysis",
+    "text": "Cluster Analysis\n\n\n\nCluster analysis or Clustering is the task of grouping a set of an object in such a way object in the same group(called cluster) are more similar( in some sense or another to each other than to those in another group (clusters).\nIn modern machine learning age, it is belong to the family of exploratory data mining.\nIt has been used in many fields including Machine Learning, Pattern Recognition, Image Analysis, Information Retrieval, Bioinformatics, Data Compression, and Computer Graphics.\n\n\n\n\n\n\n\nTypology of Cluster Analysis Techniques\n\n\n\nHierarchical clustering\n\nA set of nested clusters organized as a hierarchical tree.\n\n\n\n\nPartitioning clustering (also known as k-means)\n\nA division data objects into non-overlapping subsets (clusters) such that each data object is in exactly one subset."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#hierarchical-clustering",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#hierarchical-clustering",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Hierarchical Clustering",
+    "text": "Hierarchical Clustering\n\nProduces a set of nested clusters organized as a hierarchical tree.\n\n\n\n\nHierarchical Methods\n\n\n\n\nAgglomerative clustering: It’s also known as AGNES (Agglomerative Nesting). It works in a bottom-up manner. That is, each object is initially considered as a single-element cluster (leaf). At each step of the algorithm, the two clusters that are the most similar are combined into a new bigger cluster (nodes). This procedure is iterated until all points are member of just one single big cluster (root). The result is a tree which can be plotted as a dendrogram.\nDivisive hierarchical clustering: It’s also known as DIANA (Divise Analysis) and it works in a top-down manner. The algorithm is an inverse order of AGNES. It begins with the root, in which all objects are included in a single cluster. At each step of iteration, the most heterogeneous cluster is divided into two. The process is iterated until all objects are in their own cluster.\n\n\n\n\n\n\n\n\n\nBasic Agglomerative Hierarchical Clustering Algorithm\n\n\n\n\n\n\n\n\nWhat is Proximity Matrix?\n\nMeasures of Similarity or Dissimilarity.\n\n\n\n\n\nThree commonly used methods to calculate proximity matrix\n\n\n\n\nProximity matrix: Euclidean distance\n\n\n\n\nProximity matrix: City-block distance\n\n\n\n\nProximity matrix: Chebychev distance\n\n\n\n\nAgglomerative Hierarchical Clustering Algorithms\n\nThe most common types methods are:\n\nMaximum or complete linkage clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the largest value (i.e., maximum value) of these dissimilarities as the distance between the two clusters. It tends to produce more compact clusters.\nMinimum or single linkage clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the smallest of these dissimilarities as a linkage criterion. It tends to produce long, “loose” clusters.\nMean or average linkage clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the average of these dissimilarities as the distance between the two clusters.\nCentroid linkage clustering: It computes the dissimilarity between the centroid for cluster 1 (a mean vector of length p variables) and the centroid for cluster 2.\nWard’s minimum variance method: It minimizes the total within-cluster variance. At each step the pair of clusters with minimum between-cluster distance are merged.\n\n\n\n\n\nAgglomerative Hierarchical Clustering Algorithms - Dendrograms\n\n\n\n\nCluster Analysis Process\n\n\n\n\nData Preparation\n\n\nTo perform a cluster analysis in R, generally, the data should be prepared as follows:\n\nRows are observations (individuals) and columns are variables.\nInput variables must be inline with the segmentation task.\nIdeally, the input variables must be in continuous data type.\nAny missing value in the data must be removed or estimated.\n\n\n\n\n\n\n\n\nUnivariate EDA\n\nChecking the distribution of the cluster variables, if their data ranges differences are very large then data standardisation is required.\n\n\n\n\n\nVariable standardisation techniques"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#bivariate-eda",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#bivariate-eda",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Bivariate EDA",
+    "text": "Bivariate EDA\nChecking if the input variables are highly correlated (i.e. correlation coefficient &gt;=0.85).\n\n\n\nVisual interpretation of hierarchical clusters: Dendrogram\n\n\n\n\nVisual interpretation of hierarchical clusters: Dendrogram with heatmap\n\n\n\n\n\n\n\n\nLimitation of non-spatial clustering algorithm\n\nSpatially fragmented regions."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#spatially-constrained-clustering-methods",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#spatially-constrained-clustering-methods",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Spatially Constrained Clustering Methods",
+    "text": "Spatially Constrained Clustering Methods\n\nGrouping contiguous objects that are similar into new aggregate areal units\n\ntension between attribute similarity.\n\nGrouping of similar observations\n\nlocational similarity: group spatially contiguous observations only."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#introducing-skater-method",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#introducing-skater-method",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Introducing SKATER method",
+    "text": "Introducing SKATER method\n\n\n\nSpatial Kluster Analysis by Tree Edge Removal Assuncao (2006) algorithm.\nConstruct minimum spanning tree from adjacency graph.\nPrune the tree (cut edges) to achieve maximum internal homogeneity.\n\nReference: AssunÇão, R. M ; Neves, M. C ; Câmara, G ; Da Costa Freitas, C (2006) “Efficient regionalization techniques for socio-economic geographical units using minimum spanning trees”, International Journal of Geographical Information Science, Vol.20 (7), p.797-811 .\n\n\n\n\nContiguity as a Graph\n\n\n\nNetwork connectivity based on adjacency between nodes (locations).\nEdge value reflects dissimilarity between nodes.\n\n\n\nObjective is to minimize within-group dissimilarity (maximize between-group).\n\n\n\n\n\n\n\n\nMinimum Spanning Tree Algorithm (Assuncao et al 2006)\n\n\n\nConnectivity graph G = (V, L), V vertices (nodes), L edges path\n\na sequence of nodes connected by edges v1 to vk: (v1,v2), …, (vk-1,vk).\n\nSpanning tree\n\ntree with n nodes of G unique path connecting any two nodes n-1 edges.\n\nMinimum spanning tree\n\nspanning tree that minimizes a cost function minimize sum of dissimilarities over all nodes.\n\n\n\n\n\n\n\n\n\nSKATER - A heuristic for fast tree partitioning"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson09-GeoKDD.html#spatially-constrained-clustering-using-skater",
+    "href": "lesson/Lesson09/Lesson09-GeoKDD.html#spatially-constrained-clustering-using-skater",
+    "title": "Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Spatially Constrained Clustering using SKATER",
+    "text": "Spatially Constrained Clustering using SKATER"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#lesson-slides",
+    "href": "outline/Lesson07_outline.html#lesson-slides",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Lesson slides",
+    "text": "Lesson slides\n\nLesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis slides."
+  },
+  {
+    "objectID": "GAproject.html",
+    "href": "GAproject.html",
+    "title": "Geospatial Analytics Project",
+    "section": "",
+    "text": "The purpose of the geospatial analytics project is to provide students first hand experience on building web-based geospatial analytics tool by integrating open source web mapping API(s), data visualisation API(s) and geospatial analysis libraries. You will also learn how to collecting, processing and analysing spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term. Each project teams must start thinking about their project ideas after the first lesson. They are expected to discuss their project topic and scope of works with the instructor before the end of Week 8. A project proposal in the form website edited using Quarto and publish on Netlify will be prepared and the link must be provided on eLearn by the end of Week 8.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide, poster, practice research paper by the end of week 14."
+  },
+  {
+    "objectID": "GAproject.html#overview",
+    "href": "GAproject.html#overview",
+    "title": "Geospatial Analytics Project",
+    "section": "",
+    "text": "The purpose of the geospatial analytics project is to provide students first hand experience on building web-based geospatial analytics tool by integrating open source web mapping API(s), data visualisation API(s) and geospatial analysis libraries. You will also learn how to collecting, processing and analysing spatially related issues using real world data. Students are encouraged to focus on research topics that are relevant to their field of study.\nThe project is team work. Students are required to form a project team of 2-3 members by the first week of the academic term. Each project teams must start thinking about their project ideas after the first lesson. They are expected to discuss their project topic and scope of works with the instructor before the end of Week 8. A project proposal in the form website edited using Quarto and publish on Netlify will be prepared and the link must be provided on eLearn by the end of Week 8.\nThe project proposal should describe the motivation of the project, problems or issues that the project will address, the relevant related work, the approach the team plans to take to solve the problem, and early prototypes or storyboards. The project teams should take advantage of this proposal as a chance to get feedback on the direction of the project from their peers.\nStudents are required to update their project websites with all the details including the final application, user guide, poster, practice research paper by the end of week 14."
+  },
+  {
+    "objectID": "GAproject.html#project-theme",
+    "href": "GAproject.html#project-theme",
+    "title": "Geospatial Analytics Project",
+    "section": "Project Theme",
+    "text": "Project Theme\nStudents are required to choose one of the following theme to develop the GeoSpaital Analytics Project:\n\nSpatial Point Patterns Analysis\nExploratory Spatial Data Analysis\nAnalytical Regionalisation and Geographical Segmentation\nGeographically Weighted Regression Models\nFlow and Movement Data Analytics\nGeographical Accessibility and Spatial Interaction Models\n\nPlease feel free to approach me for more details."
+  },
+  {
+    "objectID": "GAproject.html#project-milestone",
+    "href": "GAproject.html#project-milestone",
+    "title": "Geospatial Analytics Project",
+    "section": "Project Milestone",
+    "text": "Project Milestone\n\nBrainstorming project ideas and consulting with course instructor between Week 2 to Week 7.\nEditing and publishing project proposal by the end of Week 8.\nSubmission of project poster: 4th April 2024 by 11:59pm (mid-night)\nTownhall presentation: 8th April 2024 (Tuesday), at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.\nSubmission of final application, user guide, project poster, practice research paper and artifacts: 14th April 2024 by 11:59pm (mid-night)"
+  },
+  {
+    "objectID": "GAproject.html#project-deliverables",
+    "href": "GAproject.html#project-deliverables",
+    "title": "Geospatial Analytics Project",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nProject Website\n\nProject Github\nAt the beginning of the project, project teams are required to create a project Github. The project Github should include all the materials used to develop the project and the written materials such as proposal, poster and practice research paper. It must be used to maintain a complete project versioning including the application and project documents. The Github link must be included in the project proposal. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.\n\n\nProject Website\nEach project team are required to create the project website by using Quatro. It will be disseminated by using Netfity web service.\nAs a first step, you should create a project summary at the course wiki that includes:\n\nThe title of your project,\nA short description of not more than 350 word summarising the motivation, objectives, main features of the application your team are going to build, and\nThe project proposal. This should in a webblog page (remember to provide a link at eLearn).\n\n\n\n\nPoster\nThe project poster should provide an overview of your project. It should include, but not limited to the following information:\n\nIssues and problems - A clear statement of the issues or/and problems your project addresses.\nMotivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.\nApproach - A description of the techniques or algorithms you used to solve the problem.\nResults - Screenshots and a working demo of the system you built.\nFuture Work - An explanation of how the work could be extended.\n\nThe dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).\n\nSize = ISO A1 (594 × 841mm or 23.39 × 33.11inci)\nResolution = 300dpi or above\nFile format = jpeg\n\nPlease ensure that the poster is in high resolution.\nThe poster will be considered as a final deliverable. So don’t forget to apply good visual design principles to both your poster and project report.\nNote: The course instructor will be responsible for printing your poster. You are required to upload your poster onto the project Dropbox of eLearn according to the submission deadline provided on the project milesotne sub-section.\n\n\nGeospatial Analytics Application Practice Research Paper\nThe research paper should be in the form of Geospatial Analytics Application practice and research. In particular it should contain the followings:\n\nMotivation of the application\nReview and critic on past works\nDesign framework - A detail description of the design principles used and data visualisation elements built (Refer to Section IV: Interface of this paper.\nDemonstration - Use case\nDiscussion - What has the audience learned from your work? What new insights or practices has your system enabled? A full blown user study is not expected, but informal observations of use that help evaluate your system are encouraged.\nFuture Work - A description of how your system could be extended or refined.\n\nThe research paper should include an abstract of not more than 300 words. The actual research paper itself should not more than 6 pages excluding figures, tables, formula and references. The practice research paper must be edited by using ACM: Association for Computing Machinery template of Quarto Journal/Article template should be used.\n\nSample practice research papers\n\nDIVAD: A Dynamic and Interactive Visual Analytical Dashboard for Exploring and Analyzing Transport Data\nMEPHAS: an interactive graphical user interface for medical and pharmaceutical statistical analysis with R and Shiny\nSpatialEpiApp: A Shiny Web Application for the Analysis of Spatial and Spatio-Temporal Disease Data\nDeveloping web-based data analysis tools for precision farming using R and Shiny\nEHDViz: clinical dashboard development using open-source technologies\nHealth Equity Assessment Toolkit\nInteractive Pharmacometric Applications Using R and the Shiny Package\n\n\n\n\nFinal Deliverables\nThe final deliverable will include:\n\nartifact including the ShinyApp, data and all r modules.\nUser Guide - Step-by-step guide on how to use the data visualisation functions designed.\nproject poster\na practice research paper"
+  },
+  {
+    "objectID": "GAproject.html#grading",
+    "href": "GAproject.html#grading",
+    "title": "Geospatial Analytics Project",
+    "section": "Grading",
+    "text": "Grading\nThe geospatial analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:\n\nProject website 20%\nPoster 10%\nPractice Research Paper 25%\nShinyApp 45%\n\nThe course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.\nIn small group projects, each person will be graded individually. A good group project is a system consisting of a collection of well defined subsystems. Each subsystem should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!\n\nGrading criteria for poster\nThe poster will be graded based on the following criteria:\n\nClear communication of key aspects of solution\nClear communication of design approaches\nClear communication of arguments for proposed solution\nCraft quality of the solution"
+  },
+  {
+    "objectID": "GAproject.html#learning-from-past-project",
+    "href": "GAproject.html#learning-from-past-project",
+    "title": "Geospatial Analytics Project",
+    "section": "Learning from past project",
+    "text": "Learning from past project\n\nAY2018-19 Term 2\n\nSignal and the Shiny application.\n\nAY2020-2021 Term 1\n\nJ-Town and the Shiny Application\n\nAY2021-2022 Term 1\n\nGroup 1: Spatial Interaction Model\nGroup 3: Regionalisation in Reach\nGroup 5: Geographically Weighted Regression\nGroup 7: GeoeXplorer, a web-enabled geospatial analytics toolkit for detecting and visualising global spatial autocorrelation and local clusters and outliers from univariate geographically referenced data.\nGroup 8: Spatial Pointers, a web-enabled Spatial Point Patterns Analysis toolkit for visualising and analysing both spatial and network constrained point patterns.\n\nAY2022-2023 Term 1\nGroup 1: This is FINE: Fire INcidents Explorer\nGroup 2: Spatial Bros\nGroup 3: Analysis of Resale HDB Prices\nGroup 4: GeoNinjas\nGroup 5: Transit-Ability\nGroup 6: CrimeIndia\nGroup 7: The Right Space\nGroup 8: CarSpot: Geospatial Parking Analysis!!\nGroup 9: Dr Go Where\nGroup 10: Spatial Point Pattern Analysis on Seoul’s healthcare accessibility\nGroup 11: Regress Rangers\nGroup 12: Spatial Point Pattern Analysis of Airbnb listings in Beijing"
+  },
+  {
+    "objectID": "GAproject.html#project-links",
+    "href": "GAproject.html#project-links",
+    "title": "Geospatial Analytics Project",
+    "section": "Project Links",
+    "text": "Project Links"
+  },
+  {
+    "objectID": "ShinyResources.html",
+    "href": "ShinyResources.html",
+    "title": "Shiny Resources",
+    "section": "",
+    "text": "Hadley Wickham (2020) Mastering Shiny. Everything you need to know about Shiny can be found here. It is not an easy to read book but worth investing time and effort to read.\nShiny from R Studio\nLearn Shiny\nFunction reference\nThe Shiny Cheat sheet\nColin Fay, Sébastien Rochette, Vincent Guyader, Cervan Girard (2020) Engineering Production-Grade Shiny Apps\nDavid Granjon (2020) Outstanding User Interfaces with Shiny\nHow to Build a Shiny Application from Scratch\nShiny 入門\n\n\n\n\n\nGallery\nShiny Contest Winners 2019 - Full List\nFifteen New Zealand government Shiny web apps\nIntroducing the New Zealand Trade Intelligence Dashboard"
+  },
+  {
+    "objectID": "ShinyResources.html#shiny-web-based-visual-analytics-development-tool-in-r",
+    "href": "ShinyResources.html#shiny-web-based-visual-analytics-development-tool-in-r",
+    "title": "Shiny Resources",
+    "section": "",
+    "text": "Hadley Wickham (2020) Mastering Shiny. Everything you need to know about Shiny can be found here. It is not an easy to read book but worth investing time and effort to read.\nShiny from R Studio\nLearn Shiny\nFunction reference\nThe Shiny Cheat sheet\nColin Fay, Sébastien Rochette, Vincent Guyader, Cervan Girard (2020) Engineering Production-Grade Shiny Apps\nDavid Granjon (2020) Outstanding User Interfaces with Shiny\nHow to Build a Shiny Application from Scratch\nShiny 入門\n\n\n\n\n\nGallery\nShiny Contest Winners 2019 - Full List\nFifteen New Zealand government Shiny web apps\nIntroducing the New Zealand Trade Intelligence Dashboard"
+  },
+  {
+    "objectID": "ShinyResources.html#others",
+    "href": "ShinyResources.html#others",
+    "title": "Shiny Resources",
+    "section": "Others",
+    "text": "Others\n\nAwesome Shiny Extensions"
   }
 ]

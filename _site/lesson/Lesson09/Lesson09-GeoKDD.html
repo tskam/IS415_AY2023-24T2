@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems(Practice)">
+<meta name="dcterms.date" content="2023-12-31">
+
+<title>IS415 AY2022-23T2 - Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">IS415 AY2022-23T2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lesson.html" rel="" target="">
+ <span class="menu-text">Lesson Plan</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-take-home-exercise" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Take-home Exercise</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-take-home-exercise">    
+        <li>
+    <a class="dropdown-item" href="../../th_ex1.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../th_ex2.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 2</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../th_ex3.html" rel="" target="">
+ <span class="dropdown-text">Take-home Exercise 3</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../GAproject.html" rel="" target="">
+ <span class="menu-text">Geospatial Analytics Project</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-shiny-workshop" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Shiny Workshop</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-shiny-workshop">    
+        <li>
+    <a class="dropdown-item" href="../../ShinyWorkshop/Shiny1/Shiny1.html" rel="" target="">
+ <span class="dropdown-text">R Shiny basic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../ShinyWorkshop/Shiny2/Shiny2.html" rel="" target="">
+ <span class="dropdown-text">Beyond the basic</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../ShinyWorkshop/Shiny3/Shiny3.html" rel="" target="">
+ <span class="dropdown-text">Customising Shiny</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../ShinyResources.html" rel="" target="">
+ <span class="dropdown-text">Shiny Resources</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-all-about-r" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">All About R</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-all-about-r">    
+        <li>
+    <a class="dropdown-item" href="../../R.html" rel="" target="">
+ <span class="dropdown-text">R Resouces</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../Quarto.html" rel="" target="">
+ <span class="dropdown-text">Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../git.html" rel="" target="">
+ <span class="dropdown-text">git and github</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
+  <li><a href="#what-is-geographical-segmentation" id="toc-what-is-geographical-segmentation" class="nav-link" data-scroll-target="#what-is-geographical-segmentation">What is Geographical Segmentation?</a>
+  <ul class="collapse">
+  <li><a href="#advantages-of-geographic-segmentation" id="toc-advantages-of-geographic-segmentation" class="nav-link" data-scroll-target="#advantages-of-geographic-segmentation">Advantages of Geographic Segmentation</a></li>
+  </ul></li>
+  <li><a href="#cluster-analysis" id="toc-cluster-analysis" class="nav-link" data-scroll-target="#cluster-analysis">Cluster Analysis</a>
+  <ul class="collapse">
+  <li><a href="#typology-of-cluster-analysis-techniques" id="toc-typology-of-cluster-analysis-techniques" class="nav-link" data-scroll-target="#typology-of-cluster-analysis-techniques">Typology of Cluster Analysis Techniques</a></li>
+  </ul></li>
+  <li><a href="#hierarchical-clustering" id="toc-hierarchical-clustering" class="nav-link" data-scroll-target="#hierarchical-clustering">Hierarchical Clustering</a>
+  <ul class="collapse">
+  <li><a href="#hierarchical-methods" id="toc-hierarchical-methods" class="nav-link" data-scroll-target="#hierarchical-methods">Hierarchical Methods</a></li>
+  <li><a href="#basic-agglomerative-hierarchical-clustering-algorithm" id="toc-basic-agglomerative-hierarchical-clustering-algorithm" class="nav-link" data-scroll-target="#basic-agglomerative-hierarchical-clustering-algorithm">Basic Agglomerative Hierarchical Clustering Algorithm</a></li>
+  <li><a href="#what-is-proximity-matrix" id="toc-what-is-proximity-matrix" class="nav-link" data-scroll-target="#what-is-proximity-matrix">What is Proximity Matrix?</a></li>
+  <li><a href="#three-commonly-used-methods-to-calculate-proximity-matrix" id="toc-three-commonly-used-methods-to-calculate-proximity-matrix" class="nav-link" data-scroll-target="#three-commonly-used-methods-to-calculate-proximity-matrix">Three commonly used methods to calculate proximity matrix</a></li>
+  <li><a href="#proximity-matrix-euclidean-distance" id="toc-proximity-matrix-euclidean-distance" class="nav-link" data-scroll-target="#proximity-matrix-euclidean-distance">Proximity matrix: Euclidean distance</a></li>
+  <li><a href="#proximity-matrix-city-block-distance" id="toc-proximity-matrix-city-block-distance" class="nav-link" data-scroll-target="#proximity-matrix-city-block-distance">Proximity matrix: City-block distance</a></li>
+  <li><a href="#proximity-matrix-chebychev-distance" id="toc-proximity-matrix-chebychev-distance" class="nav-link" data-scroll-target="#proximity-matrix-chebychev-distance">Proximity matrix: Chebychev distance</a></li>
+  <li><a href="#agglomerative-hierarchical-clustering-algorithms" id="toc-agglomerative-hierarchical-clustering-algorithms" class="nav-link" data-scroll-target="#agglomerative-hierarchical-clustering-algorithms">Agglomerative Hierarchical Clustering Algorithms</a></li>
+  <li><a href="#agglomerative-hierarchical-clustering-algorithms---dendrograms" id="toc-agglomerative-hierarchical-clustering-algorithms---dendrograms" class="nav-link" data-scroll-target="#agglomerative-hierarchical-clustering-algorithms---dendrograms">Agglomerative Hierarchical Clustering Algorithms - Dendrograms</a></li>
+  <li><a href="#cluster-analysis-process" id="toc-cluster-analysis-process" class="nav-link" data-scroll-target="#cluster-analysis-process">Cluster Analysis Process</a></li>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link" data-scroll-target="#data-preparation">Data Preparation</a></li>
+  <li><a href="#univariate-eda" id="toc-univariate-eda" class="nav-link" data-scroll-target="#univariate-eda">Univariate EDA</a></li>
+  <li><a href="#variable-standardisation-techniques" id="toc-variable-standardisation-techniques" class="nav-link" data-scroll-target="#variable-standardisation-techniques">Variable standardisation techniques</a></li>
+  </ul></li>
+  <li><a href="#bivariate-eda" id="toc-bivariate-eda" class="nav-link" data-scroll-target="#bivariate-eda">Bivariate EDA</a>
+  <ul class="collapse">
+  <li><a href="#visual-interpretation-of-hierarchical-clusters-dendrogram" id="toc-visual-interpretation-of-hierarchical-clusters-dendrogram" class="nav-link" data-scroll-target="#visual-interpretation-of-hierarchical-clusters-dendrogram">Visual interpretation of hierarchical clusters: Dendrogram</a></li>
+  <li><a href="#visual-interpretation-of-hierarchical-clusters-dendrogram-with-heatmap" id="toc-visual-interpretation-of-hierarchical-clusters-dendrogram-with-heatmap" class="nav-link" data-scroll-target="#visual-interpretation-of-hierarchical-clusters-dendrogram-with-heatmap">Visual interpretation of hierarchical clusters: Dendrogram with heatmap</a></li>
+  <li><a href="#limitation-of-non-spatial-clustering-algorithm" id="toc-limitation-of-non-spatial-clustering-algorithm" class="nav-link" data-scroll-target="#limitation-of-non-spatial-clustering-algorithm">Limitation of non-spatial clustering algorithm</a></li>
+  </ul></li>
+  <li><a href="#spatially-constrained-clustering-methods" id="toc-spatially-constrained-clustering-methods" class="nav-link" data-scroll-target="#spatially-constrained-clustering-methods">Spatially Constrained Clustering Methods</a></li>
+  <li><a href="#introducing-skater-method" id="toc-introducing-skater-method" class="nav-link" data-scroll-target="#introducing-skater-method">Introducing SKATER method</a>
+  <ul class="collapse">
+  <li><a href="#contiguity-as-a-graph" id="toc-contiguity-as-a-graph" class="nav-link" data-scroll-target="#contiguity-as-a-graph">Contiguity as a Graph</a></li>
+  <li><a href="#minimum-spanning-tree-algorithm-assuncao-et-al-2006" id="toc-minimum-spanning-tree-algorithm-assuncao-et-al-2006" class="nav-link" data-scroll-target="#minimum-spanning-tree-algorithm-assuncao-et-al-2006">Minimum Spanning Tree Algorithm (Assuncao et al 2006)</a></li>
+  <li><a href="#skater---a-heuristic-for-fast-tree-partitioning" id="toc-skater---a-heuristic-for-fast-tree-partitioning" class="nav-link" data-scroll-target="#skater---a-heuristic-for-fast-tree-partitioning">SKATER - A heuristic for fast tree partitioning</a></li>
+  </ul></li>
+  <li><a href="#spatially-constrained-clustering-using-skater" id="toc-spatially-constrained-clustering-using-skater" class="nav-link" data-scroll-target="#spatially-constrained-clustering-using-skater">Spatially Constrained Clustering using SKATER</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Lesson09-GeoKDD.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lesson 9: Geographic Segmentation with Spatially Constrained Cluster Analysis</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems(Practice) </p>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            School of Computing and Information Systems,<br>Singapore Management University
+          </p>
+      </div>
+    </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">31 Dec 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
+<ul>
+<li><p>What is Geographic Segmentation?</p></li>
+<li><p>Introducing Cluster Analysis</p></li>
+<li><p>Hierarchical Class Analysis</p></li>
+<li><p>Cluster Analysis Process</p></li>
+<li><p>Spatially Constrained Clustering Techniques</p></li>
+</ul>
+</section>
+<section id="what-is-geographical-segmentation" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-geographical-segmentation">What is Geographical Segmentation?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Geographic segmentation divides a target market by location so marketers can better serve customers in a particular area.</p></li>
+<li><p>This type of market segmentation is based on the geographic units themselves (countries, states, cities, etc.), but also on various geographic factors, such as climate, cultural preferences, populations, and more.</p></li>
+<li><p>For business applications of geographic segmentation, refer to this <a href="https://manychat.com/blog/geographic-segmentation/">blog post</a></p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-1.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+<section id="advantages-of-geographic-segmentation" class="level3">
+<h3 class="anchored" data-anchor-id="advantages-of-geographic-segmentation">Advantages of Geographic Segmentation</h3>
+<ul>
+<li><p>It’s an effective approach for companies with large national or international markets because different consumers in different regions have different needs, wants, and cultural characteristics that can be specifically targeted.</p></li>
+<li><p>It can also be an effective approach for small businesses with limited budgets. They can focus on their defined area and not expend needless marketing dollars on approaches ill-suited for their target geographic segment.</p></li>
+<li><p>It works well in different areas of population density. Consumers in an urban environment often have different needs and wants than people in suburban and rural environments. There are even cultural differences between these three areas.</p></li>
+</ul>
+</section>
+</section>
+<section id="cluster-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="cluster-analysis">Cluster Analysis</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><strong>Cluster analysis</strong> or <strong>Clustering</strong> is the task of grouping a set of an object in such a way object in the same group(called cluster) are more similar( in some sense or another to each other than to those in another group (clusters).</p></li>
+<li><p>In modern machine learning age, it is belong to the family of exploratory data mining.</p></li>
+<li><p>It has been used in many fields including Machine Learning, Pattern Recognition, Image Analysis, Information Retrieval, Bioinformatics, Data Compression, and Computer Graphics.</p></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-2.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+<section id="typology-of-cluster-analysis-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="typology-of-cluster-analysis-techniques">Typology of Cluster Analysis Techniques</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Hierarchical clustering
+<ul>
+<li>A set of nested clusters organized as a hierarchical tree.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Partitioning clustering (also known as k-means)
+<ul>
+<li>A division data objects into non-overlapping subsets (clusters) such that each data object is in exactly one subset.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/image8-3.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="hierarchical-clustering" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-clustering">Hierarchical Clustering</h2>
+<ul>
+<li>Produces a set of nested clusters organized as a hierarchical tree.</li>
+</ul>
+<p><img src="img/image8-4.jpg" class="img-fluid"></p>
+<hr>
+<section id="hierarchical-methods" class="level3">
+<h3 class="anchored" data-anchor-id="hierarchical-methods">Hierarchical Methods</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div style="font-size: 0.85em">
+<ul>
+<li>Agglomerative clustering: It’s also known as <strong>AGNES (Agglomerative Nesting)</strong>. It works in a bottom-up manner. That is, each object is initially considered as a single-element cluster (leaf). At each step of the algorithm, the two clusters that are the most similar are combined into a new bigger cluster (nodes). This procedure is iterated until all points are member of just one single big cluster (root). The result is a tree which can be plotted as a dendrogram.</li>
+<li>Divisive hierarchical clustering: It’s also known as <strong>DIANA (Divise Analysis)</strong> and it works in a top-down manner. The algorithm is an inverse order of AGNES. It begins with the root, in which all objects are included in a single cluster. At each step of iteration, the most heterogeneous cluster is divided into two. The process is iterated until all objects are in their own cluster.</li>
+</ul>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-5.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="basic-agglomerative-hierarchical-clustering-algorithm" class="level3">
+<h3 class="anchored" data-anchor-id="basic-agglomerative-hierarchical-clustering-algorithm">Basic Agglomerative Hierarchical Clustering Algorithm</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="img/image8-6.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="what-is-proximity-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-proximity-matrix">What is Proximity Matrix?</h3>
+<ul>
+<li>Measures of Similarity or Dissimilarity.</li>
+</ul>
+<p><img src="img/image8-9.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="three-commonly-used-methods-to-calculate-proximity-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="three-commonly-used-methods-to-calculate-proximity-matrix">Three commonly used methods to calculate proximity matrix</h3>
+<p><img src="img/image8-8.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="proximity-matrix-euclidean-distance" class="level3">
+<h3 class="anchored" data-anchor-id="proximity-matrix-euclidean-distance">Proximity matrix: Euclidean distance</h3>
+<p><img src="img/image8-10.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="proximity-matrix-city-block-distance" class="level3">
+<h3 class="anchored" data-anchor-id="proximity-matrix-city-block-distance">Proximity matrix: City-block distance</h3>
+<p><img src="img/image8-11.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="proximity-matrix-chebychev-distance" class="level3">
+<h3 class="anchored" data-anchor-id="proximity-matrix-chebychev-distance">Proximity matrix: Chebychev distance</h3>
+<p><img src="img/image8-12.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="agglomerative-hierarchical-clustering-algorithms" class="level3">
+<h3 class="anchored" data-anchor-id="agglomerative-hierarchical-clustering-algorithms">Agglomerative Hierarchical Clustering Algorithms</h3>
+<div style="font-size: 0.85em">
+<p>The most common types methods are:</p>
+<ul>
+<li><p><strong>Maximum</strong> or <strong>complete linkage</strong> clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the largest value (i.e., maximum value) of these dissimilarities as the distance between the two clusters. It tends to produce more compact clusters.</p></li>
+<li><p><strong>Minimum</strong> or <strong>single linkage</strong> clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the smallest of these dissimilarities as a linkage criterion. It tends to produce long, “loose” clusters.</p></li>
+<li><p><strong>Mean</strong> or <strong>average linkage</strong> clustering: It computes all pairwise dissimilarities between the elements in cluster 1 and the elements in cluster 2, and considers the average of these dissimilarities as the distance between the two clusters.</p></li>
+<li><p><strong>Centroid</strong> linkage clustering: It computes the dissimilarity between the centroid for cluster 1 (a mean vector of length p variables) and the centroid for cluster 2.</p></li>
+<li><p><strong>Ward’s minimum variance</strong> method: It minimizes the total within-cluster variance. At each step the pair of clusters with minimum between-cluster distance are merged.</p></li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="agglomerative-hierarchical-clustering-algorithms---dendrograms" class="level3">
+<h3 class="anchored" data-anchor-id="agglomerative-hierarchical-clustering-algorithms---dendrograms">Agglomerative Hierarchical Clustering Algorithms - Dendrograms</h3>
+<p><img src="img/image8-13.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="cluster-analysis-process" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-analysis-process">Cluster Analysis Process</h3>
+<p><img src="img/image8-14.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="data-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>To perform a cluster analysis in R, generally, the data should be prepared as follows:</p>
+<ul>
+<li>Rows are observations (individuals) and columns are variables.</li>
+<li>Input variables must be inline with the segmentation task.</li>
+<li>Ideally, the input variables must be in continuous data type.</li>
+<li>Any missing value in the data must be removed or estimated.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-15.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="univariate-eda" class="level3">
+<h3 class="anchored" data-anchor-id="univariate-eda">Univariate EDA</h3>
+<ul>
+<li>Checking the distribution of the cluster variables, if their data ranges differences are very large then data standardisation is required.</li>
+</ul>
+<p><img src="img/image8-16.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="variable-standardisation-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="variable-standardisation-techniques">Variable standardisation techniques</h3>
+<p><img src="img/image8-17.jpg" class="img-fluid"></p>
+<hr>
+</section>
+</section>
+<section id="bivariate-eda" class="level2">
+<h2 class="anchored" data-anchor-id="bivariate-eda">Bivariate EDA</h2>
+<p>Checking if the input variables are highly correlated (i.e.&nbsp;correlation coefficient &gt;=0.85).</p>
+<p><img src="img/image8-18.jpg" class="img-fluid"></p>
+<hr>
+<section id="visual-interpretation-of-hierarchical-clusters-dendrogram" class="level3">
+<h3 class="anchored" data-anchor-id="visual-interpretation-of-hierarchical-clusters-dendrogram">Visual interpretation of hierarchical clusters: Dendrogram</h3>
+<p><img src="img/image8-19.jpg" class="img-fluid"></p>
+<hr>
+</section>
+<section id="visual-interpretation-of-hierarchical-clusters-dendrogram-with-heatmap" class="level3">
+<h3 class="anchored" data-anchor-id="visual-interpretation-of-hierarchical-clusters-dendrogram-with-heatmap">Visual interpretation of hierarchical clusters: Dendrogram with heatmap</h3>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="img/image8-28.jpg" class="img-fluid figure-img" width="941"></p>
+</figure>
+</div>
+<hr>
+</section>
+<section id="limitation-of-non-spatial-clustering-algorithm" class="level3">
+<h3 class="anchored" data-anchor-id="limitation-of-non-spatial-clustering-algorithm">Limitation of non-spatial clustering algorithm</h3>
+<ul>
+<li>Spatially fragmented regions.</li>
+</ul>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="img/image8-20.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="spatially-constrained-clustering-methods" class="level2">
+<h2 class="anchored" data-anchor-id="spatially-constrained-clustering-methods">Spatially Constrained Clustering Methods</h2>
+<ul>
+<li>Grouping contiguous objects that are similar into new aggregate areal units
+<ul>
+<li>tension between attribute similarity.</li>
+</ul></li>
+<li>Grouping of similar observations
+<ul>
+<li>locational similarity: group spatially contiguous observations only.</li>
+</ul></li>
+</ul>
+</section>
+<section id="introducing-skater-method" class="level2">
+<h2 class="anchored" data-anchor-id="introducing-skater-method">Introducing SKATER method</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p><strong>S</strong>patial <strong>K</strong>luster <strong>A</strong>nalysis by <strong>T</strong>ree <strong>E</strong>dge <strong>R</strong>emoval <strong>A</strong>ssuncao (2006) algorithm.</p></li>
+<li><p>Construct minimum spanning tree from adjacency graph.</p></li>
+<li><p>Prune the tree (cut edges) to achieve maximum internal homogeneity.</p></li>
+</ul>
+<p>Reference: AssunÇão, R. M ; Neves, M. C ; Câmara, G ; Da Costa Freitas, C (2006) “<a href="https://web-a-ebscohost-com.libproxy.smu.edu.sg/ehost/detail/detail?vid=0&amp;sid=60b437ef-2130-43e1-808f-e1933ac625a8%40sdc-v-sessmgr03&amp;bdata=JnNpdGU9ZWhvc3QtbGl2ZSZzY29wZT1zaXRl#db=asn&amp;AN=21895448">Efficient regionalization techniques for socio-economic geographical units using minimum spanning trees</a>”, <em>International Journal of Geographical Information Science</em>, Vol.20 (7), p.797-811 .</p>
+</div>
+</div>
+<hr>
+<section id="contiguity-as-a-graph" class="level3">
+<h3 class="anchored" data-anchor-id="contiguity-as-a-graph">Contiguity as a Graph</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><p>Network connectivity based on adjacency between nodes (locations).</p></li>
+<li><p>Edge value reflects dissimilarity between nodes.</p></li>
+</ul>
+<p><img src="img/image8-21.jpg" class="img-fluid"></p>
+<ul>
+<li>Objective is to minimize within-group dissimilarity (maximize between-group).</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-22.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="minimum-spanning-tree-algorithm-assuncao-et-al-2006" class="level3">
+<h3 class="anchored" data-anchor-id="minimum-spanning-tree-algorithm-assuncao-et-al-2006">Minimum Spanning Tree Algorithm (Assuncao et al 2006)</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Connectivity graph G = (V, L), V vertices (nodes), L edges path
+<ul>
+<li>a sequence of nodes connected by edges v1 to vk: (v1,v2), …, (vk-1,vk).</li>
+</ul></li>
+<li>Spanning tree
+<ul>
+<li>tree with n nodes of G unique path connecting any two nodes n-1 edges.</li>
+</ul></li>
+<li>Minimum spanning tree
+<ul>
+<li>spanning tree that minimizes a cost function minimize sum of dissimilarities over all nodes.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-23.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="skater---a-heuristic-for-fast-tree-partitioning" class="level3">
+<h3 class="anchored" data-anchor-id="skater---a-heuristic-for-fast-tree-partitioning">SKATER - A heuristic for fast tree partitioning</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="img/image8-24.jpg" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-25.jpg" class="img-fluid"></p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="spatially-constrained-clustering-using-skater" class="level2">
+<h2 class="anchored" data-anchor-id="spatially-constrained-clustering-using-skater">Spatially Constrained Clustering using SKATER</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="img/image8-26.jpg" class="img-fluid" width="752"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="img/image8-27.jpg" class="img-fluid" width="534"></p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
