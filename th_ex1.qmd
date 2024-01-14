@@ -59,9 +59,9 @@ This exercise will be graded by using the following criteria:
 
 -   **Geovisualisation and geocommunication (20 marks):** In this section, you will be assessed on your ability to communicate Exploratory Spatial Data Analysis results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.
 
--   **Reproducibility (20 marks):** This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Quarto. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.
+-   **Reproducibility (15 marks):** This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Quarto. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.
 
--   **Bonus (10 marks):** Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data.
+-   **Bonus (15 marks):** Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data.
 
 ## Submission Instructions
 
