@@ -1,0 +1,101 @@
+---
+title: "Take-home Exercise 1: Application of Spatial Point Patterns Analysis to discover the geographical distribution of Grab hailing services in Singapore"
+date: "January 8, 2023"
+date-modified: "last-modified"
+format: html
+toc: true
+execute: 
+  eval: true
+  echo: true
+  warning: false
+editor: visual
+---
+
+::: callout-important
+This handout provides the context, the task, the expectation and the grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise.
+:::
+
+## Setting the Scene
+
+Human mobility, the movement of human beings in space and time, reflects the spatial-temporal characteristics of human behavior. With the advancement Information and Communication Technologies (ICT) especially smart phone, a large volume of data related to human mobility have been collected. By using appropriate GIS analysis methods, these data are potentially useful in supporting smart city planning and management.
+
+In Singapore, one of the important source of data related to human mobility is from [Land Transport Authority (LTA) DataMall](https://datamall.lta.gov.sg/content/datamall/en.html). Two data sets related to human mobility are provided by the portal, they are: Passenger Volume by Origin Destination Train Stations and Passenger Volume by Origin Destination Bus Stops. One of the limitation of these data sets is that their location are biased to either bus stops or MRT/LRT stations. In 2020, another very interesting human mobility data set called [Grab Posisi](https://engineering.grab.com/grab-posisi) was released by GRAB, one of the largest shared taxi operator in South-east Asia. There are two data sets been released and one of them is for Singapore.
+
+## Objectives
+
+Geospatial analytics hold tremendous potential to address complex problems facing society. In this study, you are tasked to apply appropriate spatial point patterns analysis methods to discover the geographical and spatio-temporal distribution of Grab hailing services locations in Singapore.
+
+## The Task
+
+The specific tasks of this take-home exercise are as follows:
+
+-   Using appropriate function of **sf** and **tidyverse**, preparing the following geospatial data layer in sf tibble data.frames:
+    -   Grab taxi location points either by origins or destinations.
+    -   Road layer within Singapore excluding outer islands.
+    -   Singapore boundary layer excluding outer islands
+-   Using the extracted data, derive traditional Kernel Density Estimation layers.
+-   Using the extracted data, derive either Network Kernel Density Estimation (NKDE) or Temporal Network Kernel Density Estimation (TNKDE)
+-   Using appropriate **tmap** functions, display the kernel density layers on openstreetmap of Singapore.
+-   Describe the spatial patterns revealed by the kernel density maps.
+
+## The Data
+
+### Apstial data
+
+For the purpose of this assignment, [Grab-Posisi](https://engineering.grab.com/grab-posisi) of Singapore will be used.
+
+### Geospatial data
+
+-   Road data set from OpenStreetMap of [Geofabrik download server](https://download.geofabrik.de/). The Malaysia, Singapore, and Brunei coverage should be downloaded.\
+-   Master Plan 2019 Subzone Boundary (No Sea) from Data.gov.sg.
+
+## Grading Criteria
+
+This exercise will be graded by using the following criteria:
+
+-   **Geospatial Data Wrangling (20 marks):** This is an important aspect of geospatial analytics. You will be assessed on your ability to employ appropriate R functions from various R packages specifically designed for modern data science such as readxl, tidyverse (tidyr, dplyr, ggplot2), sf just to mention a few of them, to perform the entire geospatial data wrangling processes, including. This is not limited to data import, data extraction, data cleaning and data transformation. Besides assessing your ability to use the R functions, this criterion also includes your ability to clean and derive appropriate variables to meet the analysis need. (Warning: All data are like vast grassland full of land mines. Your job is to clear those mines and not to step on them).
+
+-   **Geospatial Analysis (30 marks):** In this exercise, you are expected to use the appropriate thematic and analytics mapping techniques and R functions introduced in class to analysis the geospatial data prepared. You will be assessed on your ability to derive analytical maps by using appropriate kernel estimation techniques.
+
+-   **Geovisualisation and geocommunication (20 marks):** In this section, you will be assessed on your ability to communicate Exploratory Spatial Data Analysis results in business friendly visual representations. This course is geospatial centric, hence, it is important for you to demonstrate your competency in using appropriate geovisualisation techniques to reveal and communicate the findings of your analysis.
+
+-   **Reproducibility (20 marks):** This is an important learning outcome of this exercise. You will be assessed on your ability to provide a comprehensive documentation of the analysis procedures in the form of code chunks of Quarto. It is important to note that it is not enough by merely providing the code chunk without any explanation on the purpose and R function(s) used.
+
+-   **Bonus (10 marks):** Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data.
+
+## Submission Instructions
+
+-   The write-up of the take-home exercise must be in **Quarto html document** format. You are required to publish the write-up on [**Netlify**](https://www.netlify.com/).
+-   Zip the take-home exercise folder and upload it onto eLearn. If the size of the zip file is beyond the capacity of eLearn, you can upload it on SMU OneDrive and provide the download link on eLearn..
+
+## Due Date
+
+28th January 2024 (Sunday), 11.59pm (midnight).
+
+## Learning from senior
+
+You are advised to review these sample submissions prepared by your seniors.
+
+-   [Take-home Exercise 1: Geographic Analysis of the Supply and Demand of Childcare Services in Singapore](https://rpubs.com/xiaorongw/IS415_Take-home_Ex01) by Xiao Rong Wong.
+
+-   [Take-Home Exercise 2: Spatial Point Patterns Analysis of Airbnb Listings in Singapore](https://is415-msty.netlify.app/posts/2021-09-19-take-home-exercise-2/) by MEGAN SIM TZE YEN.
+
+-   [Interactive Plotting of Second-order Spatial Point Patterns Analysis: Childcare Centres in Singapore](https://rpubs.com/deniseadele/secondorder_pointpattern) by Denise Adele Chua.
+
+### AY2022-23 Term 2
+
+-   [JENNIFER POERNOMO](https://jenpoer-is415-gaa-exercises.netlify.app/take-home-exercises/exe-01/the1)
+
+-   [MICHELLE LEONG HWEE-LING](https://is415-shelle-mim.netlify.app/take-home_exercise/th1/th_ex1)
+
+-   [TEO REN JIE](https://renjieteo-is415.netlify.app/exercises/thex01.html)
+
+## Q & A
+
+Please submit your questions or queries related to this take-home exercise on Piazza.
+
+## Peer Learning
+
+## Reference
+
+[Grab-Posisi: An Extensive Real-Life GPS Trajectory Dataset in Southeast Asia](https://engineering.grab.com/files/Grab-Posisi_An_Extensive_Real-Life_GPS_Trajectory_Dataset_in_Southeast_Asia.pdf)
