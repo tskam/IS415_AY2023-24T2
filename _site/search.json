@@ -1236,7 +1236,7 @@
     "href": "lesson/Lesson03/Lesson03-SPPA.html#content",
     "title": "Lesson 3: Spatial Point Patterns Analysis",
     "section": "Content",
-    "text": "Content\n\n\n\nIntroducing Spatial Point Patterns\n\nThe basic concepts of spatial point patterns\n1st Order versus 2nd Order\nSpatial Point Patterns in real world\n\n1st Order Spatial Point Patterns Analysis\n\nQuadrat analysis\nKernel density estimation\n\n\n\n\n2nd Order Spatial Point Patterns Analysis\n\nNearest Neighbour Index\nG-function\nF-function\nK-function\nL-function\n\n\n\n\n\nWelcome to Lesson 4: Spatial Point Pattern Analysis, a family of spatial statistics specially developed to model and to test distribution of spatial point events.\nThe lesson proceeding is divided into three main section. First, I will share with you what are real world spatial point events. This is followed by explaining the concepts and methods of 1st-order and 2nd-order spatial point patterns analysis."
+    "text": "Content\n\n\n\nIntroducing Spatial Point Patterns\n\nThe basic concepts of spatial point patterns\n1st Order versus 2nd Order\nSpatial Point Patterns in real world\n\n1st Order Spatial Point Patterns Analysis\n\nKernel Density Estimation (KDE)\nNetwork Constrained Kernel Density Estimation (NKDE)\nTemporal Network Kernel Density Estimation (TNKDE)\n\n\n\n\n2nd Order Spatial Point Patterns Analysis\n\nNearest Neighbour Index\nG-function\nF-function\nK-function\nL-function\n\n\n\n\n\nWelcome to Lesson 4: Spatial Point Pattern Analysis, a family of spatial statistics specially developed to model and to test distribution of spatial point events.\nThe lesson proceeding is divided into three main section. First, I will share with you what are real world spatial point events. This is followed by explaining the concepts and methods of 1st-order and 2nd-order spatial point patterns analysis."
   },
   {
     "objectID": "lesson/Lesson03/Lesson03-SPPA.html#what-is-spatial-point-patterns",
@@ -1327,7 +1327,7 @@
     "href": "lesson/Lesson03/Lesson03-SPPA.html#references",
     "title": "Lesson 3: Spatial Point Patterns Analysis",
     "section": "References",
-    "text": "References\n\nChapter 11 Point Pattern Analysis of Intro to GIS and Spatial Analysis. Section 11.2, 11.3, 11.3.1 and 11.4\nGIS&T Body of Knowledge AM-07-Point Pattern Analysis\nGIS&T Body of Knowledge AM-08-Kernels and Density Estimation\nAnalyzing Patterns in Business Point Data, Directions Magazine March 17, 2005.\nO’Sullivan, D., and Unwin, D. (2010) Geographic Information Analysis, Second Edition. John Wiley & Sons Inc., New Jersey, Canada. Chapter 5-6.\nBaddeley A., Rubak E. and Turner R. (2015) Spatial Point Patterns: Methodology and Applications with R, Chapman and Hall/CRC."
+    "text": "References\n\nChapter 11 Point Pattern Analysis of Intro to GIS and Spatial Analysis. Section 11.2, 11.3, 11.3.1 and 11.4\nGIS&T Body of Knowledge AM-07-Point Pattern Analysis\nGIS&T Body of Knowledge AM-08-Kernels and Density Estimation\nAnalyzing Patterns in Business Point Data, Directions Magazine March 17, 2005.\nOkabe, Atsuyuki, and Kokichi Sugihara. 2012. “Spatial Analysis Along Networks: Statistical and Computational Methods”. John Wiley & Sons.\nSugihara, Kokichi, Toshiaki Satoh, and Atsuyuki Okabe. 2010. “Simple and Unbiased Kernel Function for Network Analysis.” In 2010 10th International Symposium on Communications and Information Technologies, 827–32. IEEE.\nXie, Zhixiao, and Jun Yan. 2008. “Kernel Density Estimation of Traffic Accidents in a Network Space.” Computers, Environment and Urban Systems 32 (5): 396–406. Contents"
   },
   {
     "objectID": "lesson/Lesson02/Lesson02-GDS.html#content",
@@ -2553,5 +2553,19 @@
     "title": "Lesson 5: Global and Local Measures of Spatial Association",
     "section": "References",
     "text": "References\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127. - Moran’s I\nGeary’s c - Getis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA.html#network-constrained-kernel-density-estimation-nkde",
+    "href": "lesson/Lesson03/Lesson03-SPPA.html#network-constrained-kernel-density-estimation-nkde",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Network Constrained Kernel Density Estimation (NKDE)",
+    "text": "Network Constrained Kernel Density Estimation (NKDE)\nMany real world point event are not randomly distributed. Their distribution, on the other hand, are constrained by network such as roads, rivers, and fault lines just to name a few of them."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA.html#temporal-network-kernel-density-estimate",
+    "href": "lesson/Lesson03/Lesson03-SPPA.html#temporal-network-kernel-density-estimate",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Temporal Network Kernel Density Estimate",
+    "text": "Temporal Network Kernel Density Estimate\n\n\nEvents recorded on a network often have a temporal dimension. In that context, one could estimate the density of events in both time and network spaces.\nThe spatio-temporal kernel is calculated as the product of the network kernel density and the time kernel density.\n\nFor a sample point at location l and time t, the Temporal Network Kernel Density Estimate (TNKDE) is calculated as follows:"
   }
 ]

@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.3.361">
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems(Practice)">
-  <meta name="dcterms.date" content="2023-12-29">
+  <meta name="dcterms.date" content="2024-01-21">
   <title>IS415 AY2022-23T2 - Lesson 3: Spatial Point Patterns Analysis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -339,7 +339,7 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems(Practice)
     </div>
 </div>
 
-  <p class="date">29 Dec 2023</p>
+  <p class="date">21 Jan 2024</p>
 </section>
 <section id="content" class="slide level2">
 <h2>Content</h2>
@@ -354,8 +354,9 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems(Practice)
 </ul></li>
 <li>1st Order Spatial Point Patterns Analysis
 <ul>
-<li>Quadrat analysis</li>
-<li>Kernel density estimation</li>
+<li>Kernel Density Estimation (KDE)</li>
+<li>Network Constrained Kernel Density Estimation (NKDE)</li>
+<li>Temporal Network Kernel Density Estimation (TNKDE)</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
@@ -610,6 +611,94 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems(Practice)
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img data-src="img/image4-23.jpg"></p>
+</div>
+</div>
+</section>
+<section id="network-constrained-kernel-density-estimation-nkde" class="slide level2">
+<h2>Network Constrained Kernel Density Estimation (NKDE)</h2>
+<p>Many real world point event are not randomly distributed. Their distribution, on the other hand, are constrained by network such as roads, rivers, and fault lines just to name a few of them.</p>
+
+<img data-src="img/image4-47.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="network-constrained-kernel-density-estimation-nkde-method">Network Constrained Kernel Density Estimation (NKDE) method</h3>
+<p>To calculate a Network Kernel Density Estimate (NKDE), it is possible to:</p>
+<ul>
+<li><p>use lixels instead of pixels. A lixel is a linear equivalent of a pixel on a network. The lines of the network are split into lixels according to a chosen resolution. The centres of the lixels are sampling points for which the density will be estimated.</p></li>
+<li><p>calculate network distances between objects instead of Euclidean distances.</p></li>
+<li><p>adjust the kernel function to deal with the anisotropic space</p></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="nkde-method">NKDE Method</h3>
+<ul>
+<li>To perform a NKDE, the events must be snapped on the network. The snapped events are shown here in green.</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image4-48a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image4-48b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="nkde-method-1">NKDE Method</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The mass of each event can be seen as a third dimension and is evaluated by a selected kernel function (K) within a specified bandwidth. The kernel function must satisfy the following conditions:</p>
+<p><img data-src="img/image4-49.jpg" width="480" height="185"></p>
+<p>The total mass of an event is 1, and is spread according to the function <em>K</em> within the bandwidth.</p>
+</div><div class="column" style="width:50%;">
+<p>In the figure below, we can see that the “influence” of each point is limited within the bandwidth and decreases when we move away from the event.</p>
+<p><img data-src="img/image4-49b.jpg"></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="nkde-method-2">NKDE Method</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>With this method, one can evaluate the density of the studied phenomenon at each location on the network. In the figure below, 3 sampling points (s1, s2 and s3) are added in blue.</p>
+<p><img data-src="img/image4-50a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p>Where S1, S2, and S3 are calculated by using the formulas below:</p>
+<p><img data-src="img/image4-50b.jpg" width="640"></p>
+<p>and the general formular will be defined as:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/image4-50c.jpg" width="450"></p>
+</figure>
+</div>
+<p>with 𝒅<sub>𝑠𝑖</sub> the density estimated at the sample point 𝑠𝒊, 𝒃𝑤 the bandwidth and 𝑒𝑗 an event.</p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="nkde-method-3">NKDE Method</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>The proposed kernel functions in the spNetwork package are:</p>
+<p><img data-src="img/image4-51a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image4-51b.jpg"></p>
+</div>
+</div>
+</section>
+<section id="temporal-network-kernel-density-estimate" class="slide level2">
+<h2>Temporal Network Kernel Density Estimate</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Events recorded on a network often have a temporal dimension. In that context, one could estimate the density of events in both time and network spaces.</p>
+<p>The spatio-temporal kernel is calculated as the product of the network kernel density and the time kernel density.</p>
+</div><div class="column" style="width:50%;">
+<p>For a sample point at location l and time t, the Temporal Network Kernel Density Estimate (TNKDE) is calculated as follows:</p>
+<p><img data-src="img/image4-52a.jpg"></p>
+<p><img data-src="img/image4-52b.jpg"></p>
 </div>
 </div>
 </section>
@@ -988,12 +1077,13 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems(Practice)
 <section id="references" class="slide level2">
 <h2>References</h2>
 <ul>
-<li><p><a href="https://mgimond.github.io/Spatial/point-pattern-analysis.html">Chapter 11 Point Pattern Analysis</a> of <strong>Intro to GIS and Spatial Analysis</strong>. Section 11.2, 11.3, 11.3.1 and 11.4</p></li>
-<li><p>GIS&amp;T Body of Knowledge <a href="https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge">AM-07-Point Pattern Analysis</a></p></li>
-<li><p>GIS&amp;T Body of Knowledge <a href="https://gistbok.ucgis.org/bok-topics/kernels-and-density-estimation">AM-08-Kernels and Density Estimation</a></p></li>
-<li><p><a href="https://www.directionsmag.com/article/3289">Analyzing Patterns in Business Point Data</a>, Directions Magazine March 17, 2005.</p></li>
-<li><p>O’Sullivan, D., and Unwin, D. (2010) <strong>Geographic Information Analysis</strong>, Second Edition. John Wiley &amp; Sons Inc., New Jersey, Canada. Chapter 5-6.</p></li>
-<li><p>Baddeley A., Rubak E. and Turner R. (2015) <strong>Spatial Point Patterns: Methodology and Applications with R</strong>, Chapman and Hall/CRC.</p></li>
+<li><a href="https://mgimond.github.io/Spatial/point-pattern-analysis.html">Chapter 11 Point Pattern Analysis</a> of <strong>Intro to GIS and Spatial Analysis</strong>. Section 11.2, 11.3, 11.3.1 and 11.4</li>
+<li>GIS&amp;T Body of Knowledge <a href="https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge">AM-07-Point Pattern Analysis</a></li>
+<li>GIS&amp;T Body of Knowledge <a href="https://gistbok.ucgis.org/bok-topics/kernels-and-density-estimation">AM-08-Kernels and Density Estimation</a></li>
+<li><a href="https://www.directionsmag.com/article/3289">Analyzing Patterns in Business Point Data</a>, Directions Magazine March 17, 2005.</li>
+<li>Okabe, Atsuyuki, and Kokichi Sugihara. 2012. “Spatial Analysis Along Networks: Statistical and Computational Methods”. John Wiley &amp; Sons.</li>
+<li>Sugihara, Kokichi, Toshiaki Satoh, and Atsuyuki Okabe. 2010. “Simple and Unbiased Kernel Function for Network Analysis.” In <em>2010 10th International Symposium on Communications and Information Technologies</em>, 827–32. IEEE.</li>
+<li>Xie, Zhixiao, and Jun Yan. 2008. “Kernel Density Estimation of Traffic Accidents in a Network Space.” <em>Computers, Environment and Urban Systems</em> 32 (5): 396–406. Contents</li>
 </ul>
 
 <div class="footer footer-default">
