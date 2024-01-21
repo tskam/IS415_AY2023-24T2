@@ -81,7 +81,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: GeoVisualisation and Analytical Mapping\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Advanced Spatial Point Patterns Analysis\n\n\n\n5\n5/2/2024\nLesson 5: Spatial Weights and Applications\n\n\n\n6\n14/2/2024\nLesson 6: Measures of Global and Local Spatial Association\nReplacement lesson. Venue will be provided after week 1\n\n\n7\n19/2/2024\nLesson 7: Geographic Segmentation\n\n\n\n8\n26/2/2024\nMid-term break\n\n\n\n9\n4/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n10\n11/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n11\n18/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n12\n25/3/2024\nLesson 11: Spatial Interaction Models\n\n\n\n13\n1/4/2024\nLesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
+    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: GeoVisualisation and Analytical Mapping\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Spatial Weights and Applications\n\n\n\n5\n5/2/2024\nLesson 5: Measures of Global and Local Spatial Association\n\n\n\n6\n14/2/2024\nLesson 6: Shiny for Building Web-enabled Geospatial Analytics Application\nReplacement lesson. Venue: SOE/SCIS2 Seminar Room 3-3, Time: 7:00-10:00pm\n\n\n7\n19/2/2024\nLesson 7: Geographic Segmentation\n\n\n\n8\n26/2/2024\nMid-term break\n\n\n\n9\n4/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n10\n11/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n11\n18/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n12\n25/3/2024\nLesson 11: Spatial Interaction Models\n\n\n\n13\n1/4/2024\nLesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
   },
   {
     "objectID": "ShinyWorkshop/Shiny1/Shiny1.html#content",
@@ -604,16 +604,16 @@
   {
     "objectID": "outline/Lesson04_outline.html",
     "href": "outline/Lesson04_outline.html",
-    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "title": "Lesson 4: Spatial Weights and Applications",
     "section": "",
-    "text": "In this lesson, you will learn the basic concepts of Network Constrained KDE and Temporal Network Kernel Density Estimate. Using real-world use cases, you will also gain hands-on experience on using spNetwork to analyse spatial point patterns and temporal spatial along networks"
+    "text": "Computing spatial weight is an essential step toward measuring the strength of the spatial relationships between objects. In this lesson, the basic concept of spatial weight will be introduced. This is followed by a discussion of methods to compute spatial weights."
   },
   {
     "objectID": "outline/Lesson04_outline.html#content",
     "href": "outline/Lesson04_outline.html#content",
-    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "title": "Lesson 4: Spatial Weights and Applications",
     "section": "Content",
-    "text": "Content\n\nNetwork Constrained Kernel Density Estimation (NCKDE)\n\nBasic concepts of network constrained spatial point patterns\nNetwork Constrained KDE methods\nThe Three versions of Network Constrained KDE\n\nTemporal Network Kernel Density Estimation (TNKED)\n\nTempotal dimension\nSpatial dimension\nSpatio-temporal poit patterns\nThe Temporal Network Kernel Density Estimation method\n\n\n\nLesson Slides and Hands-on Notes\n\nLesson 4 slides\nHands-on Exercise 4: Network Constrained Spatial Point Patterns Analysis."
+    "text": "Content\n\nTobler’s First law of Geography\nPrinciples of Spatial Autocorrelation\nConcepts of Spatial Proximity and Spatial Weights\n\nContiguity-Based Spatial Weights: Rook’s & Queen’s\nDistance-Band Spatial Weights: fixed and adaptive\n\nApplications of Spatial Weights\n\nGlobal measures of spatial autocorrelation\nCorrelogram"
   },
   {
     "objectID": "outline/Lesson04_outline.html#lesson-slides",
@@ -632,37 +632,37 @@
   {
     "objectID": "outline/Lesson04_outline.html#references",
     "href": "outline/Lesson04_outline.html#references",
-    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "title": "Lesson 4: Spatial Weights and Applications",
     "section": "References",
-    "text": "References\n\nATSUYUKI OKABE, TOSHIAKI SATOH & KOKICHI SUGIHARA (2009) “A kernel density estimation method for networks, its computational method and a GIS-based tool”, International Journal of Geographical Information Science, Vol. 23, No. 1, January 2009, pp. 7–32.\nIkuho Yamada & Jean-Claude Thill (2007) “Local Indicators of Network-Constrained Clusters in Spatial Point Patterns”, Geographical Analysis, Vol. 39, pp 268–292.\nJérémy Gelb & Philippe Apparicio (2023) “Temporal Network Kernel Density Estimation”, Geographical Analysis. (Online open access version)"
+    "text": "References\n\nFrançois Bavaud (2010) “Models for Spatial Weights: A Systematic Look” Geographical Analysis, Vol. 30, No.2, pp 153-171.\nTony H. Grubesic and Andrea L. Rosso (2014) “The Use of Spatially Lagged Explanatory Variables for Modeling Neighborhood Amenities and Mobility in Older Adults”, Cityscape, Vol. 16, No. 2, pp. 205-214."
   },
   {
     "objectID": "outline/Lesson04_outline.html#all-about-r",
     "href": "outline/Lesson04_outline.html#all-about-r",
-    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "title": "Lesson 4: Spatial Weights and Applications",
     "section": "All About R",
-    "text": "All About R\n\nspNetwork: An R package to perform spatial analysis on networks.\n\nDetails about NKDE\nNetwork k Functions\nNetwork Kernel Density Estimate\nTemporal Network Kernel Density Estimate"
+    "text": "All About R\n\nspdep package\n\ndnearneigh()\nknearneigh()"
   },
   {
     "objectID": "outline/Lesson05_outline.html",
     "href": "outline/Lesson05_outline.html",
-    "title": "Lesson 5: Spatial Weights and Applications",
+    "title": "Lesson 5: Global and Local Measures of Spatial Autocorrelation",
     "section": "",
-    "text": "Computing spatial weight is an essential step toward measuring the strength of the spatial relationships between objects. In this lesson, the basic concept of spatial weight will be introduced. This is followed by a discussion of methods to compute spatial weights."
+    "text": "In this lesson, you will learn a collection of geospatial statistical methods specially designed for measuring global and local spatial association.\nThese spatial statistics are well suited for:"
   },
   {
     "objectID": "outline/Lesson05_outline.html#content",
     "href": "outline/Lesson05_outline.html#content",
-    "title": "Lesson 5: Spatial Weights and Applications",
+    "title": "Lesson 5: Global and Local Measures of Spatial Autocorrelation",
     "section": "Content",
-    "text": "Content\n\nTobler’s First law of Geography\nPrinciples of Spatial Autocorrelation\nConcepts of Spatial Proximity and Spatial Weights\n\nContiguity-Based Spatial Weights: Rook’s & Queen’s\nDistance-Band Spatial Weights: fixed and adaptive\n\nApplications of Spatial Weights\n\nGlobal measures of spatial autocorrelation\nCorrelogram"
+    "text": "Content\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nCase Studies"
   },
   {
     "objectID": "outline/Lesson05_outline.html#references",
     "href": "outline/Lesson05_outline.html#references",
-    "title": "Lesson 5: Spatial Weights and Applications",
+    "title": "Lesson 5: Global and Local Measures of Spatial Autocorrelation",
     "section": "References",
-    "text": "References\n\nFrançois Bavaud (2010) “Models for Spatial Weights: A Systematic Look” Geographical Analysis, Vol. 30, No.2, pp 153-171.\nTony H. Grubesic and Andrea L. Rosso (2014) “The Use of Spatially Lagged Explanatory Variables for Modeling Neighborhood Amenities and Mobility in Older Adults”, Cityscape, Vol. 16, No. 2, pp. 205-214."
+    "text": "References\n\nD. A. Griffith (2009) “Spatial autocorrelation”.\nGetis, A., 2010 “B.3 Spatial Autocorrelation” in Fischer, M.M., and Getis, A. 2010 Handbook of Applied Spatial Analysis: Software Tools, Methods and Applications, Springer.\nAnselin, L. (1996) “The Moran scatterplot as an ESDA tool to assess local instability in spatial association”\nGriffith, Daniel (2009) “Modeling spatial autocorrelation in spatial interaction data: empirical evidence from 2002 Germany journey-to-work flows”. Journal of Geographical Systems, Vol.11(2), pp.117-140.\nCelebioglu, F., and Dall’erba, S. (2010) “Spatial disparities across the regions of Turkey: An exploratory spatial data analysis”. The Annals of Regional Science, 45:379–400.\nMack, Z.W.V. and Kam T.S. (2018) “Is There Space for Violence?: A Data-driven Approach to the Exploration of Spatial-Temporal Dimensions of Conflict” Proceedings of 2nd ACM SIGSPATIAL Workshop on Geospatial Humanities (ACM SIGSPATIAL’18). Seattle, Washington, USA, 10 pages.\nTAN, Yong Ying and KAM, Tin Seong (2019). “Exploring and Visualizing Household Electricity Consumption Patterns in Singapore: A Geospatial Analytics Approach”, Information in Contemporary Society: 14th International Conference, iConference 2019, Washington, DC, USA, March 31–April 3, 2019, Proceedings. Pp 785-796.\nSingh A., Pathak P.K., Chauhan R.K., and Pan, W. (2011) “Infant and Child Mortality in India in the Last Two Decades: A Geospatial Analysis”. PLoS ONE 6(11), 1:19."
   },
   {
     "objectID": "outline/Lesson05_outline.html#all-about-r",
@@ -961,9 +961,9 @@
   {
     "objectID": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson05_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 5: Spatial Weights and Applications",
+    "title": "Lesson 5: Global and Local Measures of Spatial Autocorrelation",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5 slides.\nHands-on Exercise 5\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5 slides.\nHands-on Exercise 5: Chapter 9:Global Measures of Spatial Autocorrelation.\nHands-on Exercise 6: Local Measures of Spatial Autocorrelation"
   },
   {
     "objectID": "outline/Lesson06_outline.html#self-reading-before-meet-up",
@@ -2280,5 +2280,278 @@
     "title": "Take-home Exercise 1: Application of Spatial Point Patterns Analysis to discover the geographical distribution of Grab hailing services in Singapore",
     "section": "Reference",
     "text": "Reference\nGrab-Posisi: An Extensive Real-Life GPS Trajectory Dataset in Southeast Asia"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "",
+    "text": "Introducing Spatial Point Patterns\n\nThe basic concepts of spatial point patterns\n1st Order versus 2nd Order\nSpatial Point Patterns in real world\n\n1st Order Spatial Point Patterns Analysis\n\nQuadrat analysis\nKernel density estimation\n\n\n\n\n2nd Order Spatial Point Patterns Analysis\n\nNearest Neighbour Index\nG-function\nF-function\nK-function\nL-function\n\n\n\n\n\nWelcome to Lesson 4: Spatial Point Pattern Analysis, a family of spatial statistics specially developed to model and to test distribution of spatial point events.\nThe lesson proceeding is divided into three main section. First, I will share with you what are real world spatial point events. This is followed by explaining the concepts and methods of 1st-order and 2nd-order spatial point patterns analysis."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#content",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#content",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "",
+    "text": "Introducing Spatial Point Patterns\n\nThe basic concepts of spatial point patterns\n1st Order versus 2nd Order\nSpatial Point Patterns in real world\n\n1st Order Spatial Point Patterns Analysis\n\nQuadrat analysis\nKernel density estimation\n\n\n\n\n2nd Order Spatial Point Patterns Analysis\n\nNearest Neighbour Index\nG-function\nF-function\nK-function\nL-function\n\n\n\n\n\nWelcome to Lesson 4: Spatial Point Pattern Analysis, a family of spatial statistics specially developed to model and to test distribution of spatial point events.\nThe lesson proceeding is divided into three main section. First, I will share with you what are real world spatial point events. This is followed by explaining the concepts and methods of 1st-order and 2nd-order spatial point patterns analysis."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#what-is-spatial-point-patterns",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#what-is-spatial-point-patterns",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "What is Spatial Point Patterns",
+    "text": "What is Spatial Point Patterns\n\nPoints as Events\nMapped pattern\n\nNot a sample\nSelection bias\n\nEvents are mapped, but non-events are not\n\n\n\nSpatial Point Patterns in Real World\n\nDistribution of dieses such as dengue fever.\n\n\n\n\n\nSpatial Point Patterns in Real World\n\nDistribution of car collisions.\n\n\n\n\n\n\n\n\n\nSpatial Point Patterns in Real World\n\nDistribution of crime incidents.\n\n\n\n\n\n\n\n\n\nSpatial Point Patterns in Real World\n\nDistribution of public services such as education institutions.\n\n\n\n\n\nSpatial Point Patterns in Real World\n\nLocations of the different channel stores.\n\n\n\n\n\n\n\n\n\nSpatial Point Patterns in Real World\n\nDistribution of social media data such as tweets."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#real-world-question",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#real-world-question",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Real World Question",
+    "text": "Real World Question\n\nLocation only\n\nare points randomly located or patterned\n\nLocation and value\n\nmarked point pattern\nis combination of location and value random or patterned\n\nWhat is the underlying process?\n\n\nIt is important note that SPPA is exploratory and confirmatory in nature. They are specially developed for describing the spatial point pattern and for confirming the observed patterns statistically. However, they are explanatory nor for prediction."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#points-on-a-plane",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#points-on-a-plane",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Points on a Plane",
+    "text": "Points on a Plane\n\nClassic point pattern analysis\n\npoints on an isotropic plane\nno effect of translation and rotation\nclassic examples: tree seedlings, rocks, etc\n\nDistance\n\nstraight line only\n\n\n\n\nReal world spatial point patterns\n\nIs this a random distribution?\n\n\n\n\n\nReal world spatial point patterns\n\nIs this a random distribution?"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#spatial-point-patterns-analysis",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#spatial-point-patterns-analysis",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Spatial Point Patterns Analysis",
+    "text": "Spatial Point Patterns Analysis\n\nPoint pattern analysis (PPA) is the study of the spatial arrangements of points in (usually 2-dimensional) space.\nThe simplest formulation is a set X = {x ∈ D} where D, which can be called the study region, is a subset of Rn, a n-dimensional Euclidean space.\nA fundamental problem of PPA is inferring whether a given arrangement is merely random or the result of some process."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#spatial-point-patterns-analysis-techniques",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#spatial-point-patterns-analysis-techniques",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Spatial Point Patterns Analysis Techniques",
+    "text": "Spatial Point Patterns Analysis Techniques\n\nFirst-order vs Second-order Analysis of spatial point patterns.\n\n\nReference: 11.4 First and second order effects of Intro to GIS and Spatial Analysis\n\nThe first-order properties describe the way in which the expected value (mean or average) of the spatial point pattern varies across space (i.e., the intensity of the spatial point pattern). Such properties are usually measured with the so-called quadrat analysis, nearest neighbour index and kernel estimation. Second-order properties describe the covariance (or correlation) between values of the spatial point pattern at different regions in space and are usually measured with the G function, K function and L function. Applied to point event data, both properties could be used to explore the spatial variation in the risk of being victimized by a crime, spatial and space-time clustering of criminal activities, and the raised incidence of criminal activities around point sources, such as robberies around ATM machines, subway entrances and exits, etc.\n\n\n\nFirst-order Spatial Point Patterns Analysis Techniques\n\nDensity-based\n\nKernel density estimation\nQuadrat analysis,\n\nDistance-based\n\nNearest Neighbour Index\n\n\n\n\n\nBasic concept of density-based measures"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#kernel-density-estimation-silverman-1986",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#kernel-density-estimation-silverman-1986",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Kernel density estimation (Silverman 1986)",
+    "text": "Kernel density estimation (Silverman 1986)\n\nA method to compute the intensity of a point distribution.\n\n\n\nThe general formula:\n\n\nGraphically\n\n\n\n\n\nKDE Step 1: Computing point intensity\n\n\n\n\nKDE Step 2: Spatial interpolation using kernel function\n\n\n\n\nKDE Map of Childcare Services, Singapore\n\n\n\n\nAdaptive Bandwidth\n\n\nAdaptive schemes adjust itself according to the density of data: - Shorter bandwidths where data are dense and longer where sparse.\n\nFinding nearest neighbors are one of the often used approaches.\n\n\n\n\n\n\n\n\nFixed bandwidth\n\n\n\nMight produce large estimate variances where data are sparse, while mask subtle local variations where data are dense.\nIn extreme condition, fixed schemes might not be able to calibrate in local areas where data are too sparse to satisfy the calibration requirements (observations must be more than parameters).\n\n\n\n\n\n\n\n\nQuadrat Analysis – Step 1\n\n\n\nDivide the study area into subregion of equal size,\n\noften squares, but don’t have to be.\n\n\n\n\n\n\n\n\nQuadrat Analysis – Step 2\n\n\n\nCount the frequency of events in each region.\n\n\n\n\n\n\n\nQuadrat Analysis – Step 3\n\n\n\nCalculate the intensity of events in each region.\n\n\n\n\n\n\n\nQuadrat Analysis – Step 4\n\nCalculate the quadrat statistics and perform CSR test.\n\n\n\n\n\nQuadrat Analysis – Variance-Mean Ratio (VMR)\n\nFor an uniform distribution, the variance is zero, - therefore, we expect a variance-mean ratio close to 0.\nFor a random distribution, the variance and mean are the same,\n\ntherefore, we expect a variance-mean ratio close to 1.\n\nFor a cluster distribution, the variance is relatively large,\n\ntherefore, we expect a variance-mean ratio greater than 1.]\n\n\n\n\n\nComplete Spatial Randomness (CSR)\n\n\n\nCSR/IRP satisfy two conditions: - Any event has equal probability of being in any location, a 1st order effect.\n\nThe location of one event is independent of the location of another event, a 2nd order effect.\n\n\nReference: Chapter 12 Hypothesis testing of Intro to GIS and Spatial Analysis\n\n\n\n\n\n\n\nQuadrat Analysis: The interpretation\n\n\n\n\n\n\n\n\nWeaknesses of quadrat analysis\n\n\n\nIt is sensitive to the quadrat size.\n\nIf the quadrat size is too small, they may contain only a couple of points, and\nIf the quadrat size is too large, they may contain too many points.\n\nIt is a measure of dispersion rather than a measure of pattern.\nIt results in a single measure for the entire distribution, so variation within the region are not recognised."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#distance-based-nearest-neighbour-index",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#distance-based-nearest-neighbour-index",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Distance-based: Nearest Neighbour Index",
+    "text": "Distance-based: Nearest Neighbour Index\n\nWhat is Nearest Neighbour?\nDirect distance from a point to its nearest neighbour."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#nearest-neighbour-index",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#nearest-neighbour-index",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Nearest Neighbour Index",
+    "text": "Nearest Neighbour Index\nThe Nearest Neighbour Index is expressed as the ratio of the Observed Mean Distance to the Expected Mean Distance.\n\n\n\nCalculating Nearest Neighbour Index\n\n\n\n\nInterpreting Nearest Neighbour Index\nThe expected distance is the average distance between neighbours in a hypothetical random distribution.\n\nIf the index is less than 1, the pattern exhibits clustering,\nIf the index is equal to 1, the patterns exhibits random, and\nIf the index is greater than 1, the trend is toward dispersion or competition.\n\n\n\n\n\n\n\n\n\nThe test statistics\n\n\n\nNull Hypothesis: Points are randomly distributed\nTest statistics:\n\n\n\nReject the null hypothesis if the z-score is large and p-value is smaller than the alpha value.\n\n\n\n\n\n\nInterpreting Nearest Neighbour Index\n\n\n\nThe p-value is smaller than 0.05 =&gt; Reject the null hypothesis that the point patterns are randomly distributed."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#g-function",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#g-function",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "G function",
+    "text": "G function\n\n\nThe formula\n\n\n\n\n\n\n\nInterpretation of G-function\n\n\nThe shape of G-function tells us the way the events are spaced in a point pattern.\n\nClustered: G increases rapidly at short distance.\nEvenness: G increases slowly up to distance where most events spaced, then increases rapidly.\n\n\n\n\n\n\n\n\nHow do we tell if G is significant?\n\n\n\nThe significant of any departure from CSR (either cluster or regularity) can be evaluated using simulated “confidence envelopes”\n\n\n\n\n\n\n\n\nMonte Carlo simulation test of CSR\n\nPerform m independent simulation of n events (i.e. 999) in the study region.\nFor each simulated point pattern, estimate G(r) and use the maximum (95th) and minimum (5th) of these functions for the simulated patterns to define an upper and lower simulation envelope.\nIf the estimated G(r) lies above the upper envelope or below the lower envelope, the estimated G(r) is statistically significant.\n\n\n\n\nThe significant test of G-function"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#f-function",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#f-function",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "F function",
+    "text": "F function\n\nSelect a sample of point locations anywhere in the study region at random\n\nDetermine minimum distance from each point to any event in the study area.\n\nThree steps:\n\nRandomly select m points (p1, p2, ….., pn),\nCalculate dmin(pi,s) as the minimum distance from location pi to any event in the point patterns, and\nCalculate F(d).\n\n\n\n\nThe F function formula\n\n\n\n\n\n\n\n\nInterpretation of F-function\n\nClustered = F(r) rises slowly at first, but more rapidly at longer distances.\nEvenness = F(r) rises rapidly at first, then slowly at longer distances.\n\n\n\n\nThe significant test of F-function\n\n\n\n\nComparison between G and F"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#ripleys-k-function-ripley-1981",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#ripleys-k-function-ripley-1981",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "Ripley’s K function (Ripley, 1981)",
+    "text": "Ripley’s K function (Ripley, 1981)\n\nLimitation of nearest neighbor distance method is that it uses only nearest distance\nConsiders only the shortest scales of variation.\nK function uses more points.\n\nProvides an estimate of spatial dependence over a wider range of scales.\nBased on all the distances between events in the study area.\nAssumes isotropy over the region.\n\n\n\n\nCalculating the K function\n\n\n\nConstruct a circle of radius h around each point event(i).\nCount the number of other events (j) that fall inside this circle.\nRepeat these two steps for all points (i) and sum results.\nIncrement h by a small amount and repeat the calculation.\n\n\n\n\n\n\n\n\nK function\n\n\nThe formula:\n\n\n\n\n\n\nThe K function complete spatial randomness test\n\nK(h) can be plotted against different values of h.\nBut what should K look like for no spatial dependence?\nConsider what K(h) should look like for a random point process (CSR)\n\nThe probability of an event at any point in R is independent of what other events have occurred and equally likely anywhere in R\n\n\n\n\n\nInterpreting the K function complete spatial randomness test\n\n\nUnder the assumption of CSR, the expected number of events within distance h of an event is:\n\nCompare K(h) to 𝜋ℎ^2\n\nK(h) &lt; 𝜋ℎ^2 if point pattern is regular\nK(h) &gt; 𝜋ℎ^2 if point pattern is clustered\n\n\n\n\nAbove the envelop: significant cluster pattern - Below the envelop: significant regular\nInside the envelop: CSR"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#the-l-function-besag-1977",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#the-l-function-besag-1977",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "The L function (Besag 1977)",
+    "text": "The L function (Besag 1977)\n\n\nIn practice, K function will be normalised to obtained a benchmark of zero.\nThe formula:\n\n\n\n\n\nInterpreting the L function complete spatial randomness test\n\n\n\n\nWhen an observed L value is greater than its corresponding L(theo)(i.e. red break line) value for a particular distance and above the upper confidence envelop, spatial clustering for that distance is statistically significant (e.g. distance beyond C).\nWhen an observed L value is greater than its corresponding L(theo) value for a particular distance and lower than the upper confidence envelop, spatial clustering for that distance is statistically NOT significant (e.g. distance between B and C).\nWhen an observed L value is smaller than its corresponding L(theo) value for a particular distance and beyond the lower confidence envelop, spatial dispersion for that distance is statistically significant. - When an observed L value is smaller than its corresponding L(theo) value for a particular distance and within the lower confidence envelop, spatial dispersion for that distance is statistically NOT significant (e.g. distance between A and B).\n\n\n\n\n\nThe grey zone indicates the confident envelop (i.e. 95%).\n\n\n\n\n\n\n\n\nThe L function (Besag 1977)\n\n\nThe modified L function\n\n\nL(r)&gt;0 indicates that the observed distribution is geographically concentrated.\nL(r)&lt;0 implies dispersion.\nL(r)=0 indicates complete spatial randomness (CRS)."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-SPPA-1.html#references",
+    "href": "lesson/Lesson03/Lesson03-SPPA-1.html#references",
+    "title": "Lesson 3: Spatial Point Patterns Analysis",
+    "section": "References",
+    "text": "References\n\nChapter 11 Point Pattern Analysis of Intro to GIS and Spatial Analysis. Section 11.2, 11.3, 11.3.1 and 11.4\nGIS&T Body of Knowledge AM-07-Point Pattern Analysis\nGIS&T Body of Knowledge AM-08-Kernels and Density Estimation\nAnalyzing Patterns in Business Point Data, Directions Magazine March 17, 2005.\nO’Sullivan, D., and Unwin, D. (2010) Geographic Information Analysis, Second Edition. John Wiley & Sons Inc., New Jersey, Canada. Chapter 5-6.\nBaddeley A., Rubak E. and Turner R. (2015) Spatial Point Patterns: Methodology and Applications with R, Chapman and Hall/CRC."
+  },
+  {
+    "objectID": "outline/Lesson04_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson04_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 4: Spatial Weights and Applications",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 4 slides.\nHands-on Exercise 4\n\n\nSelf-reading Before Meet-up\nTo read before class:\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\n\nAlternatively\n\nChapter 9: Modelling Areal Data of Applied Spatial Data Analysis with R (2nd Edition). This book is available in smu digital library. Until section 9.3.1."
+  },
+  {
+    "objectID": "outline/Lesson05_outline.html#self-reading-before-meet-up",
+    "href": "outline/Lesson05_outline.html#self-reading-before-meet-up",
+    "title": "Lesson 5: Global and Local Measures of Spatial Autocorrelation",
+    "section": "Self-reading Before Meet-up",
+    "text": "Self-reading Before Meet-up\nTo read before class:\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127.\nGetis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306.\n\nThese six papers are classics of Global and Local Spatial Autocorrelation. Be warned: All classic papers assume that the readers are academic researchers."
+  },
+  {
+    "objectID": "outline/Lesson03a_outline.html",
+    "href": "outline/Lesson03a_outline.html",
+    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "section": "",
+    "text": "In this lesson, you will learn the basic concepts of Network Constrained KDE and Temporal Network Kernel Density Estimate. Using real-world use cases, you will also gain hands-on experience on using spNetwork to analyse spatial point patterns and temporal spatial along networks"
+  },
+  {
+    "objectID": "outline/Lesson03a_outline.html#content",
+    "href": "outline/Lesson03a_outline.html#content",
+    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "section": "Content",
+    "text": "Content\n\nNetwork Constrained Kernel Density Estimation (NCKDE)\n\nBasic concepts of network constrained spatial point patterns\nNetwork Constrained KDE methods\nThe Three versions of Network Constrained KDE\n\nTemporal Network Kernel Density Estimation (TNKED)\n\nTempotal dimension\nSpatial dimension\nSpatio-temporal poit patterns\nThe Temporal Network Kernel Density Estimation method\n\n\n\nLesson Slides and Hands-on Notes\n\nLesson 4 slides\nHands-on Exercise 4: Network Constrained Spatial Point Patterns Analysis."
+  },
+  {
+    "objectID": "outline/Lesson03a_outline.html#references",
+    "href": "outline/Lesson03a_outline.html#references",
+    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "section": "References",
+    "text": "References\n\nATSUYUKI OKABE, TOSHIAKI SATOH & KOKICHI SUGIHARA (2009) “A kernel density estimation method for networks, its computational method and a GIS-based tool”, International Journal of Geographical Information Science, Vol. 23, No. 1, January 2009, pp. 7–32.\nIkuho Yamada & Jean-Claude Thill (2007) “Local Indicators of Network-Constrained Clusters in Spatial Point Patterns”, Geographical Analysis, Vol. 39, pp 268–292.\nJérémy Gelb & Philippe Apparicio (2023) “Temporal Network Kernel Density Estimation”, Geographical Analysis. (Online open access version)"
+  },
+  {
+    "objectID": "outline/Lesson03a_outline.html#all-about-r",
+    "href": "outline/Lesson03a_outline.html#all-about-r",
+    "title": "Lesson 4: Advanced Spatial Point Patterns Analysis",
+    "section": "All About R",
+    "text": "All About R\n\nspNetwork: An R package to perform spatial analysis on networks.\n\nDetails about NKDE\nNetwork k Functions\nNetwork Kernel Density Estimate\nTemporal Network Kernel Density Estimate"
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Spatial_Weights.html#what-is-geographically-referenced-attribute",
+    "href": "lesson/Lesson04/Lesson04-Spatial_Weights.html#what-is-geographically-referenced-attribute",
+    "title": "Lesson 4: Spatial Weights and Applications",
+    "section": "What is geographically referenced attribute?",
+    "text": "What is geographically referenced attribute?\n\n\nRows: 323\nColumns: 12\n$ SUBZONE_N        &lt;chr&gt; \"MARINA SOUTH\", \"PEARL'S HILL\", \"BOAT QUAY\", \"HENDERS…\n$ SUBZONE_C        &lt;fct&gt; MSSZ01, OTSZ01, SRSZ03, BMSZ08, BMSZ03, BMSZ07, BMSZ0…\n$ PLN_AREA_N       &lt;fct&gt; MARINA SOUTH, OUTRAM, SINGAPORE RIVER, BUKIT MERAH, B…\n$ PLN_AREA_C       &lt;fct&gt; MS, OT, SR, BM, BM, BM, BM, SR, QT, QT, QT, BM, ME, R…\n$ REGION_N         &lt;fct&gt; CENTRAL REGION, CENTRAL REGION, CENTRAL REGION, CENTR…\n$ REGION_C         &lt;fct&gt; CR, CR, CR, CR, CR, CR, CR, CR, CR, CR, CR, CR, CR, C…\n$ YOUNG            &lt;dbl&gt; NA, 1100, 0, 2620, 2840, 2910, 2850, 0, 1120, 30, NA,…\n$ `ECONOMY ACTIVE` &lt;dbl&gt; NA, 3420, 50, 7500, 6260, 7560, 8340, 50, 2750, 210, …\n$ AGED             &lt;dbl&gt; NA, 2110, 20, 3260, 1630, 3310, 3590, 10, 560, 50, NA…\n$ TOTAL            &lt;dbl&gt; NA, 6630, 70, 13380, 10730, 13780, 14780, 60, 4430, 2…\n$ DEPENDENCY       &lt;dbl&gt; NA, 0.9385965, 0.4000000, 0.7840000, 0.7140575, 0.822…\n$ geometry         &lt;MULTIPOLYGON [m]&gt; MULTIPOLYGON (((31495.56 30..., MULTIPOL…\n\n\n\nA kind of data that is very similar to an ordinary data. The only difference is that each observation is associated with some form of geography such as numbers of aged population by planning subzone."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Spatial_Weights.html#what-are-spatial-weights-wij",
+    "href": "lesson/Lesson04/Lesson04-Spatial_Weights.html#what-are-spatial-weights-wij",
+    "title": "Lesson 4: Spatial Weights and Applications",
+    "section": "What are Spatial Weights (wij)",
+    "text": "What are Spatial Weights (wij)\n\nA way to define spatial neighbourhood.\n\n\n\nBefore we can perform statistics test of spatial randomness, we need to understand how spatial relationship among geographical areas can be defined mathematically."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Spatial_Weights.html#applications-of-spatial-weights",
+    "href": "lesson/Lesson04/Lesson04-Spatial_Weights.html#applications-of-spatial-weights",
+    "title": "Lesson 4: Spatial Weights and Applications",
+    "section": "Applications of Spatial Weights",
+    "text": "Applications of Spatial Weights\nFormally, for observation i, the spatial lag of yi, referred to as [Wy]i (the variable Wy observed for location i) is:\n\nwhere the weights wij consist of the elements of the i-th row of the matrix W, matched up with the corresponding elements of the vector y.\n\nWith a neighbor structure defined by the non-zero elements of the spatial weights matrix W, a spatially lagged variable is a weighted sum or a weighted average of the neighboring values for that variable. In most commonly used notation, the spatial lag of y is then expressed as Wy."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Spatial_Weights.html#references",
+    "href": "lesson/Lesson04/Lesson04-Spatial_Weights.html#references",
+    "title": "Lesson 4: Spatial Weights and Applications",
+    "section": "References",
+    "text": "References\n\nChapter 2. Codifying the neighbourhood structure of Handbook of Spatial Analysis: Theory and Application with R.\nFrançois Bavaud (2010) “Models for Spatial Weights: A Systematic Look” Geographical Analysis, Vol. 30, No.2, pp 153-171.\nTony H. Grubesic and Andrea L. Rosso (2014) “The Use of Spatially Lagged Explanatory Variables for Modeling Neighborhood Amenities and Mobility in Older Adults”, Cityscape, Vol. 16, No. 2, pp. 205-214."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#content",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#content",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Content",
+    "text": "Content\n\n\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\n\n\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nEmerging Hot Spot Analysis (EHSA)\n\nSpacetime and spacetime cubes\nMann-Kendall Test\nEHSA map"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#what-is-spatial-autocorrelation",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#what-is-spatial-autocorrelation",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "What is Spatial Autocorrelation",
+    "text": "What is Spatial Autocorrelation\n\nToble’s First Law of Geography\nSpatial Dependency\nSpatial Autocorrelation\n\nPositive autocorrelation\nNegative autocorrelation"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#measures-of-global-spatial-autocorrelation",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#measures-of-global-spatial-autocorrelation",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Measures of Global Spatial Autocorrelation",
+    "text": "Measures of Global Spatial Autocorrelation\n\nMoran’s I\nGeary’s c"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#measures-of-global-highlow-clustering-getis-ord-global-g",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#measures-of-global-highlow-clustering-getis-ord-global-g",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Measures of Global High/Low Clustering: Getis-Ord Global G",
+    "text": "Measures of Global High/Low Clustering: Getis-Ord Global G\n\n\n\nGetis-Ord Global G statistic is concerned with the overall concentration or lack of concentration in all pairs that are neighbours given the definition of neighbouring areas.\nThe variable must contain only positive values to be used.\n\n\n\nSource: Getis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#local-spatial-autocorrelation-statistics",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#local-spatial-autocorrelation-statistics",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Local Spatial Autocorrelation Statistics",
+    "text": "Local Spatial Autocorrelation Statistics\n\nA collection of geospatial statistical analysis methods for analysing the location related tendency (clusters or outliers) in the attributes of geographically referenced data (points or areas).\nCan be indecies decomposited from their global measures such as local Moran’s I, local Geary’s c, and Getis-Ord Gi*.\nThese spatial statistics are well suited for:\n\ndetecting clusters or outliers;\nidentifying hot spot or cold spot areas;\nassessing the assumptions of stationarity; and\nidentifying distances beyond which no discernible association obtains."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#local-indicator-of-spatial-association-lisa",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#local-indicator-of-spatial-association-lisa",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Local Indicator of Spatial Association (LISA)",
+    "text": "Local Indicator of Spatial Association (LISA)\n\nA subset of localised geospatial statistics methods.\nAny spatial statistics that satisfies the following two requirements (Anselin, L. 1995):\n\nthe LISA for each observation gives an indication of the extent of significant spatial clustering of similar values around that observation;\nthe sum of LISAs for all observations is proportional to a global indicator of spatial association."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#local-morans-i",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#local-morans-i",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Local Moran’s I",
+    "text": "Local Moran’s I\nGiven a geographically referenced attribute field, X the formula of local Moran’s I is:"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#detecting-hot-and-cold-spot-areas",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#detecting-hot-and-cold-spot-areas",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Detecting hot and cold spot areas",
+    "text": "Detecting hot and cold spot areas\n\n\n\nGiven a set of geospatial features (i.e. points or polygons) and an analysis field, the spatial statistics tell you where features with either high (i.e. hot spots) or low values (cold spots) cluster spatially.\nThe spatial statistic used is called Getis-Ord Gi* statistic (pronounced G-i-star).\nGetis and Ord (1992) define the local G and G∗ statistics for region i (i=1,···,n) as:"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#fixed-weighting-scheme",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#fixed-weighting-scheme",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Fixed weighting scheme",
+    "text": "Fixed weighting scheme\n\n\n\nThings to consider if fixed distance is used: - All features should have at least one neighbour.\n\nNo feature should have all other features as neighbours.\nEspecially if the values for the input field are skewed, you want features to have about eight neighbors each.\nMight produce large estimate variances where data are sparse, while mask subtle local variations where data are dense.\nIn extreme condition, fixed schemes might not be able to calibrate in local areas where data are too sparse to satisfy the calibration requirements (observations must be more than parameters)."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#adaptive-weighting-schemes",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#adaptive-weighting-schemes",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Adaptive weighting schemes",
+    "text": "Adaptive weighting schemes\n\n\n\nAdaptive schemes adjust itself according to the density of data\n\nShorter bandwidths where data are dense and longer where sparse.\nFinding nearest neighbors are one of the often used approaches.\n\n\n\n]"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#best-practice-guidelines",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#best-practice-guidelines",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Best practice guidelines",
+    "text": "Best practice guidelines\n\nResults are only reliable if the input feature class contains at least 30 features.\nThe input field mst be in continuous data type such as a count, rate, or other numeric measurement, no categorical attribute field is allowed."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#emerging-hot-spot-analysis-ehsa",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#emerging-hot-spot-analysis-ehsa",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "Emerging Hot Spot Analysis (EHSA)",
+    "text": "Emerging Hot Spot Analysis (EHSA)\n\nA technique that falls under exploratory spatial data analysis (ESDA).\nIt combines the traditional ESDA technique of hot spot analysis using the Getis-Ord Gi* statistic with the traditional time-series Mann-Kendall test for monotonic trends.\nThe goal of EHSA is to evaluate how hot and cold spots are changing over time. It helps us answer the questions: are they becoming increasingly hotter, are they cooling down, or are they staying the same?"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#in-colclusion",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#in-colclusion",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "In colclusion",
+    "text": "In colclusion\nSpatial statistics methods are not a blackbox. Before performing the analysis, a geospatial analyst should consider the followings:\n\nWhat is the geographical question?\nWhat is the geospatial feature?\nWhat is the analysis field?\nWhich conceptualization of spatial relationships is appropriate?"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-GLSA.html#references",
+    "href": "lesson/Lesson05/Lesson05-GLSA.html#references",
+    "title": "Lesson 5: Global and Local Measures of Spatial Association",
+    "section": "References",
+    "text": "References\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127. - Moran’s I\nGeary’s c - Getis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306."
   }
 ]
