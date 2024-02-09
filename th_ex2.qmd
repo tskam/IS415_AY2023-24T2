@@ -1,5 +1,5 @@
 ---
-title: "Take-home Exercise 2: Application of Spatial Point Patterns Analysis to discover the geographical distribution of Grab hailing services in Singapore"
+title: "Take-home Exercise 2: Application of Spatial Point Patterns Analysis to discover spatial and spatio-temporal pattern of dengue fever in Tainan City, Taiwan"
 date: "January 8, 2023"
 date-modified: "last-modified"
 format: html
