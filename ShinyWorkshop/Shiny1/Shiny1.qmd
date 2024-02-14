@@ -11,7 +11,12 @@ format:
     show-notes: false
     slide-number: true
     show-slide-number: 'all'
-date-format: "DD MMM YYYY"    
+date-format: "DD MMM YYYY"
+execute: 
+  eval: true
+  echo: true
+  message: false
+  warning: false
 editor: visual
 ---
 
@@ -280,22 +285,29 @@ runExample("01_hello")
 ### Loading the dataset
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="65%"}
+::: {style="font-size: 1.35em"}
 ```{r}
 #| echo: true
 #| eval: false
-library(shiny)
-library(tidyverse)
+pacman::p_load(shiny, sf, tmap,
+               bslib, tidyverse)
 
-exam <- read_csv("data/Exam_data.csv")
+hunan <- st_read(dsn = "data/geospatial",
+                 layer = "Hunan")
+data <- read_csv("data/aspatial/Hunan_2012.csv")
+hunan_data <- left_join(hunan, data,
+                        by = c("County" = "COUNTY"))
 
 ui <- fluidPage()
-server <- function(input, output) {}
-shinyApp (ui=ui, server=server)
+server <- function(input, output){}
+
+shinyApp(ui = ui, server = server)
 ```
 :::
+:::
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 -   Make sure that the data file path and file name are correct.
 
 -   To check if the dataset has been added correctly, you can add a `print()` argument after reading the data.
@@ -326,20 +338,26 @@ shinyApp (ui=ui, server=server)
 ::: {.column width="60%"}
 -   [`titlePanel()`](https://shiny.rstudio.com/reference/shiny/1.7.4/titlepanel) is used to add the application title.
 
-```{r, echo=TRUE, eval=FALSE}
-library(shiny)
-library(tidyverse)
+::: {style="font-size: 1.20em"}
+```{r}
+#| eval: false
+pacman::p_load(shiny, sf, tmap,
+               bslib, tidyverse)
 
-exam <- read_csv("data/Exam_data.csv")
+hunan <- st_read(dsn = "data/geospatial",
+                 layer = "Hunan")
+data <- read_csv("data/aspatial/Hunan_2012.csv")
+hunan_data <- left_join(hunan, data,
+                        by = c("County" = "COUNTY"))
 
-ui <- fluidPage( #<<
-  titlePanel("Pupils Examination Results Dashboard") #<<
-) #<<
+ui <- fluidPage(
+  titlePanel("Choropleth Mapping")
+)
+server <- function(input, output){}
 
-server <- function(input, output) {}
-
-shinyApp (ui=ui, server=server)
+shinyApp(ui = ui, server = server)
 ```
+:::
 :::
 
 ::: {.column width="40%"}
@@ -375,26 +393,7 @@ shinyApp (ui=ui, server=server)
 ::: {.column width="50%"}
 Lets add the highlighted codes into the original code chunk.
 
-```{r, echo=TRUE,eval=FALSE}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "8,9,10,11"
-library(shiny)
-library(tidyverse)
-
-exam <- read_csv("data/Exam_data.csv")
-
-ui <- fluidPage(
-  titlePanel("Pupils Examination Results Dashboard"),
-  sidebarLayout(
-    sidebarPanel("Side bar panel"),
-    mainPanel("View display")
-  )
-)
-
-server <- function(input, output) {}
-shinyApp (ui=ui, server=server)
-```
+![](img/image31.jpg)
 :::
 
 ::: {.column width="50%"}
@@ -448,34 +447,10 @@ Reference: Refer to [2 Basic UI](https://mastering-shiny.org/basic-ui.html) of M
 
 ### Hands-on Exercise: Adding inputs
 
-::: columns
-::: {.column width="50%"}
 Adding inputs to the UI by using [`selectInput()`](https://shiny.rstudio.com/reference/shiny/1.7.4/selectinput) and [`sliderInput()`](https://shiny.rstudio.com/reference/shiny/1.7.4/sliderinput).
 
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "4-16"
-ui <- fluidPage(
-  titlePanel("Pupils Examination Results Dashboard"),
-  sidebarLayout(
-    sidebarPanel(
-      selectInput(inputId = "variable",
-                  label = "Subject:",
-                  choices = c("English" = "ENGLISH",
-                              "Maths" = "MATHS",
-                              "Science" = "SCIENCE"),
-                  selected = "ENGLISH"),
-      sliderInput(inputId = "bins",
-                  label = "Number of Bins",
-                  min = 5,
-                  max = 20,
-                  value= 10)
-                ),
-    mainPanel()
-```
-:::
-:::
+![](img/image32.jpg)
+
 
 ## Shiny `Output()`
 
@@ -513,20 +488,8 @@ ui <- fluidPage(
 ::: {.column width="50%"}
 Adding [`plotOutput()`](https://shiny.rstudio.com/reference/shiny/1.7.4/plotoutput)
 
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "6"
-ui <- fluidPage(
-    titlePanel("Pupils Examination Results Dashboard"),
-    sidebarLayout(
-        sidebarPanel("Side bar panel"),
-        mainPanel(
-            plotOutput("distPlot") 
-        )    
-    )
-)
-```
+![](img/image33.jpg)
+
 :::
 :::
 
@@ -564,21 +527,9 @@ The third rule is only required if you want your output to depend on some input.
 
 ::: columns
 ::: {.column width="50%"}
-Let's first see how to build a very basic output using [`renderPlot()`](https://shiny.rstudio.com/reference/shiny/1.7.4/renderplot). We'll create a plot and send it to the ***distPlot*** output.
+Let's first see how to build a very basic output using [`renderPlot()`](https://shiny.rstudio.com/reference/shiny/1.7.4/renderplot). We'll create a plot and send it to the ***mapPlot*** output.
 
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "2-7"
-server <- function(input, output){
-    output$distPlot <- renderPlot({
-        ggplot(exam, aes(ENGLISH)) + 
-            geom_histogram(bins = 20, 
-                           color="black",  
-                           fill="light blue") 
-    }) 
-} 
-```
+![](img/image34.jpg)
 :::
 
 ::: {.column width="50%"}
@@ -586,60 +537,6 @@ server <- function(input, output){
 -   This simple code shows the first two rules: we're creating a plot inside the `renderPlot()` function, and assigning it to ***distPlot*** in the output list.
 -   Remember that every output created in the UI must have a unique ID, now we see why. In order to attach an R object to an output with ID x, we assign the R object to ***output\$distPlot***.
 -   Since ***distPlot*** was defined as a ***plotOutput***, we must use the `renderPlot()` function, and we must create a plot inside the `renderPlot()` function.
-:::
-:::
-:::
-
-------------------------------------------------------------------------
-
-### Hands-on Exercise: Building a basic output
-
-::: columns
-::: {.column width="50%"}
-First revision.
-
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "3" 
-server <- function(input, output){
-    output$distPlot <- renderPlot({
-        x <- unlist(exam[,input$variable])
-        ggplot(exam, aes(x)) +
-            geom_histogram(bins = input$bin,
-                           color="black", 
-                           fill="light blue")
-    })
-}
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-### Hands-on Exercise: Building a basic output
-
-::: columns
-::: {.column width="50%"}
-Using `aes_string()`.
-
-```{r}
-#| echo: true
-#| eval: false
-#| code-line-numbers: "4"
-server <- function(input, output){
-    output$distPlot <- renderPlot({
-      ggplot(exam, 
-             aes_string(x = input$variable)) + 
-        geom_histogram(bins = input$bin,
-                       color="black", 
-                       fill="light blue")
-      })
-}
-```
-
-::: callout-note
--   Notice that [`aes_string()`](https://ggplot2.tidyverse.org/reference/aes_.html) instead of `aes()` of ggplot2 is used. To understand the differences between `aes_string()` and `aes()`, please refer to this [link](https://stackoverflow.com/questions/28897577/what-is-the-difference-between-aes-and-aes-string-ggplot2-in-r).\
 :::
 :::
 :::
