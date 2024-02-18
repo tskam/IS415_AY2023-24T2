@@ -110,28 +110,27 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [HAM YAN CHOON GLENN](https://is415-gaa-glenn.netlify.app/take_home_ex/take_home_ex_01/take_home_ex_01)
 -   [HO JIA JUN EBENEZER](https://is415-gaa-ebenezer.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [JAYMIE SEET EN TONG](https://is415-gaa-jset.netlify.app/take-home_ex/take-home_ex01/take-home_ex01_test)
--   [KABEER AZHAR]()	
+-   [KABEER AZHAR]()\
 -   [KHANT MIN NAING](https://is415-geospatial-with-khant.netlify.app/take-home_ex/take-home_ex01)
 -   [KRISTEN LEIGH BELACHO TAGRA](https://is415-gaa-krislbt.netlify.app/take_home_exercises/take_home_exercise_1/take_home_exercise_01)
--   [LEE SHEUNG YAN]()	
+-   [LEE SHEUNG YAN]()\
 -   [LEW ZHEN YUAN JORDAN](https://is415-gaa-j00b00.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
--   [LIM FANG QI]()	
+-   [LIM FANG QI]()
 -   [LIM JOO WEI GERALD](https://is415-gaa-glimjw.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LIM WAN SHEN](https://is415-gaa-wanshen.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [LOW JIN YUAN](https://is415-gaa-dljy-demo.netlify.app/take-home_assignment/take-home_assignment01)
 -   [MAARUNI PANDITHURAI](https://is415-gaa-maaruni.netlify.app/take-home_ex/take-home_ex01/take-home_ex01_3)
--   [MATTHEW HO YIWEN](https://is415-gaa-matthew-ho.netlify.app/takehomeex/takehomeex1/the1)
+-   [MATTHEW HO YIWEN](https://is415-gaa-matthew-ho.netlify.app/takehomeex/takehomeex1/the1)![](img/thumbup1.jpg) Did exceptionally well in geospatial data wrangling and reproducibility, excellence in geospatial analysis and moderate well in geovisualisation and geocommunication.  
 -   [ONG BIN HUI](https://is415-gaa-ongbinhui.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [PEH CHEN XUAN ODELIA](https://odeliapeh-is415.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [RUSSELL TIO JUNHAO](https://is415-gaa-russelltjh.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
--   [SHANELLE LAM XIN HUI]()	
+-   [SHANELLE LAM XIN HUI]()\
 -   [TAN JUN SHENG JACKSON](https://is415-jackson.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [TANG XIN YI](https://is415-gaa-tangxinyi.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [TEO YING SHI](https://geospatial-analytics-and-applications.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [VIDDYASRI SUBRAMANIAM](https://is415-gaa-main.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [YOZAFARD HAROLD SIAUHEMING](https://is415-gaa-yozafard.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [YUNG QI YANG](https://is415-course-website-by-qy.netlify.app/take-home_exercise/take-home_exercise_01/take-home_exercise_01)
-
 
 ## Reference
 

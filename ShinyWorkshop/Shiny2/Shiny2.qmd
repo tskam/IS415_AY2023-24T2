@@ -11,7 +11,9 @@ format:
     show-notes: false
     slide-number: true
     show-slide-number: 'all'
-date-format: "DD MMM YYYY"    
+date-format: "DD MMM YYYY"
+execute: 
+  freeze: true
 editor: visual
 ---
 
