@@ -101,7 +101,7 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [AKSHAYA NATARAJAN](https://is415-gaa-shaysnutss.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [ALEXANDER VINCENT LEWI](https://is415-vincentlewi.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [ALOYSIUS CEDRIC TAY HAO ZE](https://is415-gaa-aloysiuscedric.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
--   [ANN MEI YI VICTORIA GRACE](https://is415-gaa-vic.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+-   [ANN MEI YI VICTORIA GRACE](https://is415-gaa-vic.netlify.app/take-home_ex/take-home_ex01/take-home_ex01). ![](img/thumbup1.jpg) The discussion on [Network-Constrained Kernel Density Estimation (NKDE) & Analysis](https://is415-gaa-vic.netlify.app/take-home_ex/take-home_ex01/take-home_ex01a#network-constrained-kernel-density-estimation-nkde-analysis) section is very interesting. 
 -   [CHIA YIZHENG CHESTER](https://is415-gaa-chesterchia.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [CHUANG JIN LEI](https://is415-gaa-cjl.netlify.app/)
 -   [EMILY AURELIA](https://is415-gaa-emilyaurelia.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
@@ -111,7 +111,7 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [HO JIA JUN EBENEZER](https://is415-gaa-ebenezer.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
 -   [JAYMIE SEET EN TONG](https://is415-gaa-jset.netlify.app/take-home_ex/take-home_ex01/take-home_ex01_test)
 -   [KABEER AZHAR]()\
--   [KHANT MIN NAING](https://is415-geospatial-with-khant.netlify.app/take-home_ex/take-home_ex01)
+-   [KHANT MIN NAING](https://is415-geospatial-with-khant.netlify.app/take-home_ex/take-home_ex01) ![](img/thumbup1.jpg). A very well researched submission.  Did exceptionally well in performing geospatial analysis and geocommucating and did well in geospatial data wrangling and geovisualisation. 
 -   [KRISTEN LEIGH BELACHO TAGRA](https://is415-gaa-krislbt.netlify.app/take_home_exercises/take_home_exercise_1/take_home_exercise_01)
 -   [LEE SHEUNG YAN]()\
 -   [LEW ZHEN YUAN JORDAN](https://is415-gaa-j00b00.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
