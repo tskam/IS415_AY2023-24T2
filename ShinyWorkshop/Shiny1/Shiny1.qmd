@@ -451,7 +451,6 @@ Adding inputs to the UI by using [`selectInput()`](https://shiny.rstudio.com/ref
 
 ![](img/image32.jpg)
 
-
 ## Shiny `Output()`
 
 ### An overview of Shiny `Output()`
@@ -489,7 +488,6 @@ Adding inputs to the UI by using [`selectInput()`](https://shiny.rstudio.com/ref
 Adding [`plotOutput()`](https://shiny.rstudio.com/reference/shiny/1.7.4/plotoutput)
 
 ![](img/image33.jpg)
-
 :::
 :::
 
