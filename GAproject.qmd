@@ -4,7 +4,9 @@ subtitle: Democratising Geospatial Data and Analytics with Shiny App
 date: "31 Dec, 2023"
 date-modified: "last-modified"
 format: html
-toc: true 
+toc: true
+execute: 
+  freeze: true
 ---
 
 ## Overview
@@ -82,28 +84,10 @@ The poster will be considered as a final deliverable. So don't forget to apply g
 
 Note: The course instructor will be responsible for printing your poster. You are required to upload your poster onto the project Dropbox of eLearn according to the submission deadline provided on the project milesotne sub-section.
 
-### Geospatial Analytics Application Practice Research Paper
+### Peer Evaluation
 
-The research paper should be in the form of Geospatial Analytics Application practice and research. In particular it should contain the followings:
+This component is not a typical peer evaluation of project.  For Geospatial Analytics Project, students are required to evaluate at least three applications prepared by your coursemate during the townhall presentation session.  A peer evaluation form will be provided. Each team only need to submit one report. 
 
--   Motivation of the application
--   Review and critic on past works
--   Design framework - A detail description of the design principles used and data visualisation elements built (Refer to Section IV: Interface of this [paper](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=2760&context=sis_research).
--   Demonstration - Use case
--   Discussion - What has the audience learned from your work? What new insights or practices has your system enabled? A full blown user study is not expected, but informal observations of use that help evaluate your system are encouraged.
--   Future Work - A description of how your system could be extended or refined.
-
-The research paper should include an abstract of **not more than 300 words**. The actual research paper itself should **not more than 6 pages** excluding figures, tables, formula and references. The practice research paper must be edited by using **ACM: Association for Computing Machinery** template of [Quarto Journal/Article](https://quarto.org/docs/journals/formats.html) template should be used.
-
-#### Sample practice research papers
-
--   [DIVAD: A Dynamic and Interactive Visual Analytical Dashboard for Exploring and Analyzing Transport Data](https://ink.library.smu.edu.sg/sis_research/1761/)
--   [MEPHAS: an interactive graphical user interface for medical and pharmaceutical statistical analysis with R and Shiny](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3494-x)
--   [SpatialEpiApp: A Shiny Web Application for the Analysis of Spatial and Spatio-Temporal Disease Data](https://cran.rstudio.com/web/packages/SpatialEpiApp/vignettes/manual.pdf)
--   [Developing web-based data analysis tools for precision farming using R and Shiny](https://iopscience.iop.org/article/10.1088/1755-1315/20/1/012014)
--   [EHDViz: clinical dashboard development using open-source technologies](https://www.ncbi.nlm.nih.gov/pubmed/27013597)
--   [Health Equity Assessment Toolkit](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-016-0229-9)
--   [Interactive Pharmacometric Applications Using R and the Shiny Package](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4394611/)
 
 ### Final Deliverables
 
@@ -118,10 +102,10 @@ The final deliverable will include:
 
 The geospatial analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
 
--   Project website 20%
+-   Project website 25%
 -   Poster 10%
--   Practice Research Paper 25%
--   ShinyApp 45%
+-   Peer Evaluation 15%
+-   ShinyApp 50%
 
 The course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.
 
@@ -139,10 +123,15 @@ The poster will be graded based on the following criteria:
 ## Learning from past project
 
 -   AY2018-19 Term 2
+
     -   [Signal](https://wiki.smu.edu.sg/1819t2is415/Signal_Proposal) and the [Shiny application](https://is415-ay1819-signal.shinyapps.io/Signal/).
+
 -   AY2020-2021 Term 1
+
     -   [J-Town](https://is415-t14-project-proposal.netlify.app/) and the [Shiny Application](https://erika-aldisa-gunawan.shinyapps.io/IS415_T14_EastKalimantan_New_JTown/)
+
 -   AY2021-2022 Term 1
+
     -   Group 1: [Spatial Interaction Model](https://flosg-is415.netlify.app/)
     -   Group 3: [Regionalisation in Reach](https://is412-g3-proposal.netlify.app/posts/welcome/)
     -   Group 5: [Geographically Weighted Regression](https://g5-is415-proj.netlify.app/)
@@ -152,16 +141,27 @@ The poster will be graded based on the following criteria:
 -   AY2022-2023 Term 1
 
 -   Group 1: [This is FINE: Fire INcidents Explorer](https://is415-fire-incidents-explorer.netlify.app/)
+
 -   Group 2: [Spatial Bros](https://spatialbros.netlify.app/)
+
 -   Group 3: [Analysis of Resale HDB Prices](https://is415-geospatial-project-g1t3.netlify.app/)
+
 -   Group 4: [GeoNinjas](https://is415-gaa-valencia-derek-yashica.netlify.app/)
+
 -   Group 5: [Transit-Ability](https://is415-group-5.netlify.app/)
+
 -   Group 6: [CrimeIndia](https://is415gg-gally.netlify.app/)
+
 -   Group 7: [The Right Space](https://is415-g1t7-project.netlify.app/)
+
 -   Group 8: [CarSpot: Geospatial Parking Analysis!!](https://is415-group8.netlify.app/)
+
 -   Group 9: [Dr Go Where](https://is415-group9.netlify.app/)
+
 -   Group 10: [Spatial Point Pattern Analysis on Seoul's healthcare accessibility](https://is415-project-g10.netlify.app/project_outline)
+
 -   Group 11: [Regress Rangers](https://is415-team15-proj.netlify.app/)
+
 -   Group 12: [Spatial Point Pattern Analysis of Airbnb listings in Beijing](https://is415-grp12.netlify.app/)
 
 ## Project Links
