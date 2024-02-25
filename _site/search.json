@@ -81,7 +81,7 @@
     "href": "lesson.html",
     "title": "Weekly Lesson Plan",
     "section": "",
-    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: GeoVisualisation and Analytical Mapping\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Spatial Weights and Applications\n\n\n\n5\n5/2/2024\nLesson 5: Measures of Global and Local Spatial Association\n\n\n\n6\n14/2/2024\nWorkshop on Shiny for Building Web-enabled Geospatial Analytics Application\nReplacement lesson. Venue: SOE/SCIS2 Seminar Room 3-3, Time: 7:00-10:00pm\n\n\n7\n19/2/2024\nLesson 6: Emerging Emerging Hot Spot Analysis (EHSA)\n\n\n\n8\n26/2/2024\nLesson 7: Geographic Segmentation\nThis is the recess week, there won’t be any formal lesson. This lesson, however, will be conducted in blended learning form.\n\n\n9\n4/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n10\n11/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n11\n18/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n12\n25/3/2024\nLesson 11: Spatial Interaction Models\n\n\n\n13\n1/4/2024\nLesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
+    "text": "Week\nDate\nTopic\nRemark\n\n\n\n\n1\n8/1/2024\nLesson 1: Introduction to Geospatial Analytics\n\n\n\n2\n15/1/2024\nLesson 2: GeoVisualisation and Analytical Mapping\n\n\n\n3\n22/1/2024\nLesson 3: Spatial Point Patterns Analysis\n\n\n\n4\n29/1/2024\nLesson 4: Spatial Weights and Applications\n\n\n\n5\n5/2/2024\nLesson 5: Measures of Global and Local Spatial Association\n\n\n\n6\n14/2/2024\nWorkshop on Shiny for Building Web-enabled Geospatial Analytics Application\nReplacement lesson. Venue: SOE/SCIS2 Seminar Room 3-3, Time: 7:00-10:00pm\n\n\n7\n19/2/2024\nLesson 6: Emerging Emerging Hot Spot Analysis (EHSA)\n\n\n\n8\n26/2/2024\nRecess week\n\n\n\n9\n4/3/2024\nLesson 7: Geographic Segmentation\n\n\n\n10\n11/3/2024\nLesson 8: Geographically Weighted Regression\n\n\n\n11\n18/3/2024\nLesson 9: Geographically Weighted Random Forest\n\n\n\n12\n25/3/2024\nLesson 10: Modelling Geographic of Accessibility\n\n\n\n13\n1/4/2024\nLesson 11: Spatial Interaction Models & Lesson 12: The Epilogue\n\n\n\n14\n8/4/2024\nTownhall Presentation\n\n\n\n15"
   },
   {
     "objectID": "ShinyWorkshop/Shiny1/Shiny1.html#content",
@@ -674,28 +674,28 @@
   {
     "objectID": "outline/Lesson06_outline.html",
     "href": "outline/Lesson06_outline.html",
-    "title": "Lesson 6: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 6: Emerging Hot Spot Analysis",
     "section": "",
-    "text": "In this lesson, you will learn a collection of geospatial statistical methods specially designed for measuring global and local spatial association.\nThese spatial statistics are well suited for:"
+    "text": "Emerging Hot Spot Analysis (EHSA) is a spatio-temporal analysis method for revealing and describing how hot spot and cold spot areas evolve over time. The analysis consist of four main steps:\nIn this lesson, you will learn the basic concepts of time-space cube and EHSA. You will also gain hands-on experience of how to build a time-spce cube and to perform EHSA by using sfdep package."
   },
   {
     "objectID": "outline/Lesson06_outline.html#content",
     "href": "outline/Lesson06_outline.html#content",
-    "title": "Lesson 6: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 6: Emerging Hot Spot Analysis",
     "section": "Content",
     "text": "Content\n\nWhat is Spatial Autocorrelation\n\nMeasures of Global Spatial Autocorrelation\nMeasures of Global High/Low Clustering\n\nIntroducing Localised Geospatial Analysis\n\nLocal Indicators of Spatial Association (LISA)\n\nCluster and Outlier Analysis\n\nLocal Moran and Local Geary\nMoran scatterplot\nLISA Cluster Map\n\nHot Spot and Cold Spot Areas Analysis\n\nGetis and Ord’s G-statistics\n\nCase Studies"
   },
   {
     "objectID": "outline/Lesson06_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson06_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 6: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 6: Emerging Hot Spot Analysis",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 6 slides.\nHands-on Exercise 6: Chapter 9:Global Measures of Spatial Autocorrelation.\nHands-on Exercise 6: Local Measures of Spatial Autocorrelation"
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 5 slides.\nHands-on Exercise 5: Global Measures of Spatial Autocorrelation.\nHands-on Exercise 5: Local Measures of Spatial Autocorrelation"
   },
   {
     "objectID": "outline/Lesson06_outline.html#references",
     "href": "outline/Lesson06_outline.html#references",
-    "title": "Lesson 6: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 6: Emerging Hot Spot Analysis",
     "section": "References",
     "text": "References\n\nD. A. Griffith (2009) “Spatial autocorrelation”.\nGetis, A., 2010 “B.3 Spatial Autocorrelation” in Fischer, M.M., and Getis, A. 2010 Handbook of Applied Spatial Analysis: Software Tools, Methods and Applications, Springer.\nAnselin, L. (1996) “The Moran scatterplot as an ESDA tool to assess local instability in spatial association”\nGriffith, Daniel (2009) “Modeling spatial autocorrelation in spatial interaction data: empirical evidence from 2002 Germany journey-to-work flows”. Journal of Geographical Systems, Vol.11(2), pp.117-140.\nCelebioglu, F., and Dall’erba, S. (2010) “Spatial disparities across the regions of Turkey: An exploratory spatial data analysis”. The Annals of Regional Science, 45:379–400.\nMack, Z.W.V. and Kam T.S. (2018) “Is There Space for Violence?: A Data-driven Approach to the Exploration of Spatial-Temporal Dimensions of Conflict” Proceedings of 2nd ACM SIGSPATIAL Workshop on Geospatial Humanities (ACM SIGSPATIAL’18). Seattle, Washington, USA, 10 pages.\nTAN, Yong Ying and KAM, Tin Seong (2019). “Exploring and Visualizing Household Electricity Consumption Patterns in Singapore: A Geospatial Analytics Approach”, Information in Contemporary Society: 14th International Conference, iConference 2019, Washington, DC, USA, March 31–April 3, 2019, Proceedings. Pp 785-796.\nSingh A., Pathak P.K., Chauhan R.K., and Pan, W. (2011) “Infant and Child Mortality in India in the Last Two Decades: A Geospatial Analysis”. PLoS ONE 6(11), 1:19."
   },
@@ -968,7 +968,7 @@
   {
     "objectID": "outline/Lesson06_outline.html#self-reading-before-meet-up",
     "href": "outline/Lesson06_outline.html#self-reading-before-meet-up",
-    "title": "Lesson 6: Global and Local Measures of Spatial Autocorrelation",
+    "title": "Lesson 6: Emerging Hot Spot Analysis",
     "section": "Self-reading Before Meet-up",
     "text": "Self-reading Before Meet-up\nTo read before class:\n\nMoran, P. A. P. (1950). “Notes on Continuous Stochastic Phenomena”. Biometrika. 37 (1): 17–23.\nGeary, R.C. (1954) “The Contiguity Ratio and Statistical Mapping”. The Incorporated Statistician, Vol. 5, No. 3, pp. 115-127.\nGetis, A., & Ord, K. (1992). “The Analysis of Spatial Association by Use of Distance Statistics”. Geographical Analysis, 24, 189–206.\nAnselin, L. (1995). “Local indicators of spatial association – LISA”. Geographical Analysis, 27(4): 93-115.\nGetis, A. and Ord, J.K. (1992) “The analysis of spatial association by use of distance statistics”. Geographical Analysis, 24(3): 189-206.\nOrd, J.K. and Getis, A. (2010) “Local spatial autocorrelation statistics: Distributional issues and an application”. Geographical Analysis, 27(4): 286-306.\n\nThese six papers are classics of Global and Local Spatial Autocorrelation. Be warned: All classic papers assume that the readers are academic researchers."
   },
