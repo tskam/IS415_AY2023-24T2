@@ -32,6 +32,18 @@ Students are required to choose one of the following theme to develop the GeoSpa
 
 Please feel free to approach me for more details.
 
+## Potentially Useful Data Source
+
+-   [National Statistical Office](http://statbbi.nso.go.th/staticreport/page/sector/en/01.aspx) Thailand.
+-   [Philippine Statistics Authority](https://psa.gov.ph/)
+-   [Vietnam Provincial Competitiveness Index](https://pcivietnam.vn/en)
+-   [GENERAL STATISTICS OFFICE](https://www.gso.gov.vn/en/homepage/), Vietnam.
+-   [Myanmar Information Management Unit](https://themimu.info/)
+-   [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/).
+-   [Indonesia Geospatial](https://www.indonesia-geospasial.com/)
+
+
+
 ## Project Milestone
 
 -   Brainstorming project ideas and consulting with course instructor between **Week 2 to Week 7**.
@@ -86,8 +98,7 @@ Note: The course instructor will be responsible for printing your poster. You ar
 
 ### Peer Evaluation
 
-This component is not a typical peer evaluation of project.  For Geospatial Analytics Project, students are required to evaluate at least three applications prepared by your coursemate during the townhall presentation session.  A peer evaluation form will be provided. Each team only need to submit one report. 
-
+This component is not a typical peer evaluation of project. For Geospatial Analytics Project, students are required to evaluate at least three applications prepared by your coursemate during the townhall presentation session. A peer evaluation form will be provided. Each team only need to submit one report.
 
 ### Final Deliverables
 

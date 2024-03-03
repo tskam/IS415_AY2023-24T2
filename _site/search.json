@@ -718,7 +718,7 @@
     "href": "outline/Lesson07_outline.html#content",
     "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
     "section": "Content",
-    "text": "Content\n\nBasic concepts of geographic segmentation\nConventional cluster analysis techniques\nApproaches for clustering geographically referenced data\n\nHierarchical clustering with spatial constraints\nMinimum spanning trees"
+    "text": "Content\n\nBasic concepts of geographic segmentation\nConventional cluster analysis techniques\nApproaches for clustering geographically referenced data\n\nHierarchical clustering with spatial constraints\nMinimum spanning trees\nClustGeo method"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
@@ -2707,5 +2707,12 @@
     "title": "Take-home Exercise 3: Prototyping Modules for Geospatial Analytics Shiny Application",
     "section": "Peer Learning",
     "text": "Peer Learning"
+  },
+  {
+    "objectID": "GAproject.html#potentially-useful-data-source",
+    "href": "GAproject.html#potentially-useful-data-source",
+    "title": "Geospatial Analytics Project",
+    "section": "Potentially Useful Data Source",
+    "text": "Potentially Useful Data Source\n\nNational Statistical Office Thailand.\nPhilippine Statistics Authority\nVietnam Provincial Competitiveness Index\nGENERAL STATISTICS OFFICE, Vietnam.\nMyanmar Information Management Unit\nArmed Conflict Location & Event Data Project (ACLED).\nIndonesia Geospatial"
   }
 ]

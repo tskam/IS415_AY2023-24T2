@@ -15,6 +15,7 @@ toc: true
 -   Approaches for clustering geographically referenced data
     -   Hierarchical clustering with spatial constraints
     -   Minimum spanning trees
+    -   ClustGeo method
 
 ## Lesson slides
 
