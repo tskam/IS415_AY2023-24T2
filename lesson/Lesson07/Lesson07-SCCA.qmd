@@ -330,6 +330,20 @@ Reference: AssunÇão, R. M ; Neves, M. C ; Câmara, G ; Da Costa Freitas, C (20
 :::
 :::
 
+## Spatially Constrained Clustering: ClustGeo Method
+
+::: columns
+::: {.column width="50%"}
+-   When clustering values in locations one may have dilemma what to concentrate on.
+-   This dilemma can be addressed by using methods that mix both tranditional hierachical clustering and spatial clustering methods.
+-   ClustGeo (Chavent et al., 2018) runs separate clusterings and combines them by using weighted dissimilarity (distance) matrices.
+:::
+
+::: {.column width="50%"}
+![](img/image8-29.jpg){width="475"}
+:::
+:::
+
 ```{r}
 #| eval: false
 #| echo: false

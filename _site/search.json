@@ -2714,5 +2714,12 @@
     "title": "Geospatial Analytics Project",
     "section": "Potentially Useful Data Source",
     "text": "Potentially Useful Data Source\n\nNational Statistical Office Thailand.\nPhilippine Statistics Authority\nVietnam Provincial Competitiveness Index\nGENERAL STATISTICS OFFICE, Vietnam.\nMyanmar Information Management Unit\nArmed Conflict Location & Event Data Project (ACLED).\nIndonesia Geospatial"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-clustgeo-method",
+    "href": "lesson/Lesson07/Lesson07-SCCA.html#spatially-constrained-clustering-clustgeo-method",
+    "title": "Lesson 7: Geographic Segmentation with Spatially Constrained Cluster Analysis",
+    "section": "Spatially Constrained Clustering: ClustGeo Method",
+    "text": "Spatially Constrained Clustering: ClustGeo Method\n\n\n\nWhen clustering values in locations one may have dilemma what to concentrate on.\nThis dilemma can be addressed by using methods that mix both tranditional hierachical clustering and spatial clustering methods.\nClustGeo (Chavent et al., 2018) runs separate clusterings and combines them by using weighted dissimilarity (distance) matrices."
   }
 ]
