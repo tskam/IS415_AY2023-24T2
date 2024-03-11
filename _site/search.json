@@ -744,42 +744,42 @@
   {
     "objectID": "outline/Lesson08_outline.html",
     "href": "outline/Lesson08_outline.html",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "",
     "text": "In this lesson, you will learn the basic concepts and methods of geographically weighted regression."
   },
   {
     "objectID": "outline/Lesson08_outline.html#content",
     "href": "outline/Lesson08_outline.html#content",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "Content",
     "text": "Content\n\nBasic concepts and principles of linear regression\n\nSimple linear regression\nMultiple linear regression\n\nThe spatial stationarity assumption of multiple linear regression.\nIntroducing Geographically Weighted Regression\n\nWeighting functions (kernel)\nWeighting schemes\nBandwidth\nInterpreting and Visualising"
   },
   {
     "objectID": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "Lesson Slides and Hands-on Notes",
     "text": "Lesson Slides and Hands-on Notes\n\nLesson 8 slides.\nHands-on Exercise 8."
   },
   {
     "objectID": "outline/Lesson08_outline.html#self-reading-before-meet-up",
     "href": "outline/Lesson08_outline.html#self-reading-before-meet-up",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "Self-reading Before Meet-up",
     "text": "Self-reading Before Meet-up\nTo read before class:\n\nBrunsdon, C., Fotheringham, A.S., and Charlton, M. (2002) “Geographically weighted regression: A method for exploring spatial nonstationarity”. Geographical Analysis, 28: 281-289.\nBrunsdon, C., Fotheringham, A.S. and Charlton, M., (1999) “Some Notes on Parametric Significance Tests for Geographically Weighted Regression”. Journal of Regional Science, 39(3), 497-524."
   },
   {
     "objectID": "outline/Lesson08_outline.html#references",
     "href": "outline/Lesson08_outline.html#references",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "References",
     "text": "References\n\nMennis, Jeremy (2006) “Mapping the Results of Geographically Weighted Regression”, The Cartographic Journal, Vol.43 (2), p.171-179.\nStephen A. Matthews ; Tse-Chuan Yang (2012) “Mapping the results of local statistics: Using geographically weighted regression”, Demographic Research, Vol.26, p.151-166."
   },
   {
     "objectID": "outline/Lesson08_outline.html#all-about-r",
     "href": "outline/Lesson08_outline.html#all-about-r",
-    "title": "Lesson 8: Geograpgically Weighted Regression",
+    "title": "Lesson 8: Geographically Weighted Regression",
     "section": "All About R",
     "text": "All About R\n\nGWmodel package, especially\n\nGollini, I et. al. (2015) “GWmodel: An R Package for Exploring Spatial Heterogeneity Using Geographically Weighted Models”, Journal of Statistical Software, Volume 63, Issue 17 and\nBinbin Lu, Paul Harris, Martin Charlton & Chris Brunsdon (2014) “The GWmodel R package: further topics for exploring spatial heterogeneity using geographically weighted models”, Geo-spatial Information Science, 17:2, 85-101, DOI: 10.1080/10095020.2014.917453.\n\nlctools package especially gw() and gwr() related functions.\nspgwr implements of geographically weighted regression methods for exploring possible non-stationarity.\ngwrr: its geographically weighted regression (GWR) models and has tools to diagnose and remediate collinearity in the GWR models. Also fits geographically weighted ridge regression (GWRR) and geographically weighted lasso (GWL) models."
   },

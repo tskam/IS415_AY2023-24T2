@@ -1,5 +1,5 @@
 ---
-title: "Lesson 8: Geograpgically Weighted Regression"
+title: "Lesson 8: Geographically Weighted Regression"
 date: "January 29, 2023"  
 date-modified: "last-modified"
 format: html
