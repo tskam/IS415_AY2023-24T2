@@ -21,7 +21,7 @@ editor: visual
 
 -   [Lesson 10](../lesson/lesson10/lesson10-GeoAcc.html) slides.
 
--   [Hands-on Exercise 10](https://r4gdsa.netlify.app/chap16.html) handout.
+-   [Hands-on Exercise 10](https://r4gdsa.netlify.app/chap17.html) handout.
 
 ## Self-reading Before Meet-up
 
