@@ -42,8 +42,6 @@ Please feel free to approach me for more details.
 -   [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/).
 -   [Indonesia Geospatial](https://www.indonesia-geospasial.com/)
 
-
-
 ## Project Milestone
 
 -   Brainstorming project ideas and consulting with course instructor between **Week 2 to Week 7**.
@@ -176,3 +174,19 @@ The poster will be graded based on the following criteria:
 -   Group 12: [Spatial Point Pattern Analysis of Airbnb listings in Beijing](https://is415-grp12.netlify.app/)
 
 ## Project Links
+
+-   [Group 2](https://is415-g2-worshipplaces.netlify.app/)
+-   [Group 3](https://is415-gaa-project-group3.netlify.app/)
+-   [Group 4](https://project-gaa-t4.netlify.app/)
+-   [Group 5](https://culinarycrossroads.netlify.app/)
+-   [Group 6](https://is415-gaa-jkw.netlify.app/)
+-   [Group 7](https://is415-gaa-g1t7-23-24.netlify.app/)
+-   [Group 8](https://is415-gaa-g1g8.netlify.app/)
+-   [Group 9](https://happy-hideouts.netlify.app/)
+-   [Gourp 10](https://gga-thairoad.netlify.app/)
+-   [Group 11](https://is415-healthgeo-india.netlify.app/)
+-   [Group 12](https://is415-gaa-russelltjh.netlify.app/project/)
+-   [Group 13](https://is415-project-daylight.netlify.app/)
+-   [Group 14](https://satelilit.netlify.app/)
+
+
