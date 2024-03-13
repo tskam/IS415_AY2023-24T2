@@ -185,7 +185,7 @@ The poster will be graded based on the following criteria:
 -   [Group 9](https://happy-hideouts.netlify.app/)
 -   [Gourp 10](https://gga-thairoad.netlify.app/)
 -   [Group 11](https://is415-healthgeo-india.netlify.app/)
--   [Group 12](https://is415-gaa-russelltjh.netlify.app/project/)
+-   [Group 12](https://is415-gaa-russelltjh.netlify.app/project/project_proposal)
 -   [Group 13](https://is415-project-daylight.netlify.app/)
 -   [Group 14](https://satelilit.netlify.app/)
 
