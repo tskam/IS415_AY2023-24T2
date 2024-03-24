@@ -47,7 +47,7 @@ Please feel free to approach me for more details.
 -   Brainstorming project ideas and consulting with course instructor between **Week 2 to Week 7**.
 -   Editing and publishing project proposal by the end of **Week 8**.
 -   Submission of project poster: **4th April 2024 by 11:59pm (mid-night)**
--   Townhall presentation: **8th April 2024 (Tuesday)**, at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
+-   Townhall presentation: **8th April 2024 (Monday)**, at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
 -   Submission of final application, user guide, project poster, practice research paper and artifacts: **14th April 2024 by 11:59pm (mid-night)**
 
 ## Project Deliverables
@@ -131,6 +131,12 @@ The poster will be graded based on the following criteria:
 
 ## Learning from past project
 
+### Must review project
+
+-   [SGSAS: Simple Geo-Spatial Analysis using R-Shiny](https://wiki.smu.edu.sg/1920t2isss608/Group11_proposal) especially gwr sub-module of the [application](https://isss608.shinyapps.io/shiny/).
+
+### Others
+
 -   AY2018-19 Term 2
 
     -   [Signal](https://wiki.smu.edu.sg/1819t2is415/Signal_Proposal) and the [Shiny application](https://is415-ay1819-signal.shinyapps.io/Signal/).
@@ -150,27 +156,16 @@ The poster will be graded based on the following criteria:
 -   AY2022-2023 Term 1
 
 -   Group 1: [This is FINE: Fire INcidents Explorer](https://is415-fire-incidents-explorer.netlify.app/)
-
 -   Group 2: [Spatial Bros](https://spatialbros.netlify.app/)
-
 -   Group 3: [Analysis of Resale HDB Prices](https://is415-geospatial-project-g1t3.netlify.app/)
-
 -   Group 4: [GeoNinjas](https://is415-gaa-valencia-derek-yashica.netlify.app/)
-
 -   Group 5: [Transit-Ability](https://is415-group-5.netlify.app/)
-
 -   Group 6: [CrimeIndia](https://is415gg-gally.netlify.app/)
-
 -   Group 7: [The Right Space](https://is415-g1t7-project.netlify.app/)
-
 -   Group 8: [CarSpot: Geospatial Parking Analysis!!](https://is415-group8.netlify.app/)
-
 -   Group 9: [Dr Go Where](https://is415-group9.netlify.app/)
-
 -   Group 10: [Spatial Point Pattern Analysis on Seoul's healthcare accessibility](https://is415-project-g10.netlify.app/project_outline)
-
 -   Group 11: [Regress Rangers](https://is415-team15-proj.netlify.app/)
-
 -   Group 12: [Spatial Point Pattern Analysis of Airbnb listings in Beijing](https://is415-grp12.netlify.app/)
 
 ## Project Links
