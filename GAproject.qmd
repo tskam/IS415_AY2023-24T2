@@ -190,7 +190,7 @@ Weighted Models"](https://www.sciencedirect.com/science/article/pii/S23527110220
 -   [Group 8](https://is415-gaa-g1g8.netlify.app/)
 -   [Group 9: Happy Hideouts](https://happy-hideouts.netlify.app/)
 -   [Gourp 10](https://gga-thairoad.netlify.app/)
--   [Group 11: HealthGeo Cambodia](ttps://is415-healthgeo-cambodia.netlify.app/)
+-   [Group 11: HealthGeo Cambodia](https://is415-healthgeo-cambodia.netlify.app/)
 -   [Group 12: Enhancing Urban Living](https://is415-gaa-russelltjh.netlify.app/project/project_proposal)
 -   [Group 13: Project Daylight](https://is415-project-daylight.netlify.app/)
 -   [Group 14](https://satelilit.netlify.app/)
