@@ -2728,5 +2728,12 @@
     "title": "Lesson 9: Geographically Weighted Predictive Modelling",
     "section": "",
     "text": "What is Predictive Modelling?\nWhat is Geospatial Predictive Modelling\nIntroducing Recursive Partitioning\nAdvanced Recursive Partitioning: Random Forest\nIntroducing Geographically Weighted Random Forest"
+  },
+  {
+    "objectID": "GAproject.html#reference",
+    "href": "GAproject.html#reference",
+    "title": "Geospatial Analytics Project",
+    "section": "Reference",
+    "text": "Reference\n\nPaula Moraga (2017) “SpatialEpiApp : A Shiny web application for the analysis of spatial and spatio-temporal disease data”, Spatial and Spatio-temporal Epidemiology, 23, pp. 47-57. Access using SMU e-journal.\nJavier De La Hoz-M, Susana Mendes & María José Fernandez-Gómez (2022) “GeoWeightedModel : An R-Shiny package for Geographically Weighted Models”, SoftwareX, 20.\nMario Figueira, David Conesa & Antonio L´opez-Quílez (2024) “A shiny R app for spatial analysis of species distribution models”, Ecological Informatics, 80."
   }
 ]

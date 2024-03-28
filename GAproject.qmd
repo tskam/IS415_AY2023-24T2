@@ -129,6 +129,17 @@ The poster will be graded based on the following criteria:
 -   Clear communication of arguments for proposed solution
 -   Craft quality of the solution
 
+## Reference
+
+-   Paula Moraga (2017) "SpatialEpiApp : A Shiny web application for the analysis of spatial and spatio-temporal disease data", *Spatial and Spatio-temporal Epidemiology*, 23, pp. 47-57. Access using SMU e-journal.
+
+-   Javier De La Hoz-M, Susana Mendes & María José Fernandez-Gómez (2022) ["GeoWeightedModel : An R-Shiny package for Geographically
+Weighted Models"](https://www.sciencedirect.com/science/article/pii/S2352711022001686), *SoftwareX*, 20. 
+
+-   Mario Figueira, David Conesa & Antonio L´opez-Quílez (2024) ["A shiny R app for spatial analysis of species distribution models"](https://www.sciencedirect.com/science/article/pii/S1574954124000840), *Ecological Informatics*, 80.
+
+
+
 ## Learning from past project
 
 ### Must review project
