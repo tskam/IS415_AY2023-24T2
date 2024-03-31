@@ -53,5 +53,6 @@ Read before lesson:
 ## All About R:
 
 -   Paul Roback and Julie Legler (2020) **Beyond Multiple Linear Regression: Applied Generalized Linear Models and Multilevel Models in R**, CRC Press. On line version (January 26, 2021). [Chapter 4](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
-
 -   [Negative Binomial Regression](https://stats.idre.ucla.edu/r/dae/negative-binomial-regression/) and [Poisson Regression](https://stats.idre.ucla.edu/r/dae/poisson-regression/) from UCLA Institute for Digital Research & Education.
+-   [spflow](https://lukece.github.io/spflow/index.html)
+  -   [Home-to-work commuting flows within the municipalities around Paris](https://lukece.github.io/spflow/articles/paris_commute_flows.html)

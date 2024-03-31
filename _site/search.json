@@ -879,14 +879,14 @@
     "href": "outline/Lesson11_outline.html#reference",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Reference",
-    "text": "Reference\n\nPavel KLAPKA, et. al. (2013) “The Footfall of Shopping Centre in Olomouc (CZECH REPUBLIC): An Application of The Gravity Model”, Moravian Geographical Reports, Vol 21, pp. 12-26.\n\nYang Yue et. al. (2012) “Exploratory calibration of a spatial interaction model using taxi GPS trajectories”, Computers, Environment and Urban Systems, 36 (2012) 140–153.\nMOrito Tsutsumi and Kazuki Tamesue (2012) “Intraregional flow problem in spatial econometric model for origin-destination flows”, Environment and Planning B: Planning and Design, Vol. 39, pp. 1006-1015. Access via SMU e-journal."
+    "text": "Reference\n\nPavel KLAPKA, et. al. (2013) “The Footfall of Shopping Centre in Olomouc (CZECH REPUBLIC): An Application of The Gravity Model”, Moravian Geographical Reports, Vol 21, pp. 12-26.\n\nYang Yue et. al. (2012) “Exploratory calibration of a spatial interaction model using taxi GPS trajectories”, Computers, Environment and Urban Systems, 36 (2012) 140–153.\nMorito Tsutsumi and Kazuki Tamesue (2012) “Intraregional flow problem in spatial econometric model for origin-destination flows”, Environment and Planning B: Planning and Design, Vol. 39, pp. 1006-1015. Access via SMU e-journal."
   },
   {
     "objectID": "outline/Lesson11_outline.html#all-about-r",
     "href": "outline/Lesson11_outline.html#all-about-r",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "All About R:",
-    "text": "All About R:\n\nPaul Roback and Julie Legler (2020) Beyond Multiple Linear Regression: Applied Generalized Linear Models and Multilevel Models in R, CRC Press. On line version (January 26, 2021). Chapter 4\nNegative Binomial Regression and Poisson Regression from UCLA Institute for Digital Research & Education."
+    "text": "All About R:\n\nPaul Roback and Julie Legler (2020) Beyond Multiple Linear Regression: Applied Generalized Linear Models and Multilevel Models in R, CRC Press. On line version (January 26, 2021). Chapter 4\nNegative Binomial Regression and Poisson Regression from UCLA Institute for Digital Research & Education.\nspflow\nHome-to-work commuting flows within the municipalities around Paris"
   },
   {
     "objectID": "outline/workshop.html",
