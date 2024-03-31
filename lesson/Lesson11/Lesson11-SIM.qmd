@@ -22,6 +22,10 @@ editor: visual
     -   Origin constrined
     -   Destination constrained
     -   Doubly constrained
+-   What is Spatial Econometrics?
+-   What is Spatial Econometric Interaction Models?
+-   Introducing spflow package
+  -   Spatial Econometric Modelling of O-D Flows: spflow application
 
 ## What Spatial Interaction Models are?
 
@@ -281,13 +285,34 @@ Notice that A1 and B1 are computed by using computer.
 
 ## Spatial Econometric Interaction Models
 
--   What is Spatial Econometrics?
+### Limitation of Spatial Interaction Models
 
--   What is Spatial Econometric Interaction Models?
+-   The gravity model assumes independence among observations, and this assumption seems heroic for many fundamentally spatial problems.
 
--   Introducing spflow package
+![](img/image5-1.jpg)
 
--   Spatial Econometric Modelling of O-D Flows: spflow application
+---
+
+### Limitation of Spatial Interaction Models
+
+There are two technical limitations of SIM:
+
+-   Maximum-likelihood estimates require that the dependent variable vector follow a normal distribution or that it can be suitably transformed to achieve normality.
+
+-   Maximum-likelihood method is not appropriate when there are a large number of zero flows exist.
+
+## Spatial Econometric Model for Origin-Destination Flows
+
+![](img/image5-6.jpg)
+
+## Spatial Econometric Interaction Model
+
+The general formula of Spatial Econometric Interaction Model is defined as follow:
+
+![](img/image5-2.jpg)
+
+where by 𝐖~𝓭~, 𝐖~𝒐~ and 𝐖~𝓌~ are spatial weights of destination, origin and origin-destination.
+
 
 ## What is Econometrics
 
@@ -324,28 +349,6 @@ There are many applications for spatial econometrics . Here are a few examples :
 -   Modeling the relationship between land values and location-specific services.
 -   Analyzing the relationship between proximity to facilities and job opportunities .
 
-## Limitation of Spatial Interaction Models
-
--   The gravity model assumes independence among observations, and this assumption seems heroic for many fundamentally spatial problems.
-
-![](img/image5-1.jpg)
-
-## Limitation of Spatial Interaction Models
-
-There are two technical limitations of SIM:
-
--   Maximum-likelihood estimates require that the dependent variable vector follow a normal distribution or that it can be suitably transformed to achieve normality.
-
--   Maximum-likelihood method is not appropriate when there are a large number of zero flows exist.
-
-## Spatial Econometric Interaction Model
-
-The general formula of Spatial Econometric Interaction Model is defined as follow:
-
-![](img/image5-2.jpg)
-
-where by 𝐖~𝓭~, 𝐖~𝒐~ and 𝐖~𝓌~ are spatial weights of destination, origin and origin-destination.
-
 ## Spatial Model Specification for Origin-Destination Flows
 
 ![](img/image5-3.jpg)
@@ -357,7 +360,6 @@ where by 𝐖~𝓭~, 𝐖~𝒐~ and 𝐖~𝓌~ are spatial weights of destinatio
 ## Spatial Model Specification for Origin-Destination Flows
 
 ![](img/image5-5.jpg)
-
 
 ```{r}
 #| echo: false

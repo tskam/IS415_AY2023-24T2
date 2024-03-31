@@ -1929,7 +1929,7 @@
     "href": "lesson/Lesson11/Lesson11-SIM.html#content",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Content",
-    "text": "Content\n\nCharacteristics of Spatial Interaction Data\nSpatial Interaction Models\n\nUnconstrained\nOrigin constrined\nDestination constrained\nDoubly constrained"
+    "text": "Content\n\nCharacteristics of Spatial Interaction Data\nSpatial Interaction Models\n\nUnconstrained\nOrigin constrined\nDestination constrained\nDoubly constrained\n\nWhat is Spatial Econometrics?\nWhat is Spatial Econometric Interaction Models?\nIntroducing spflow package\nSpatial Econometric Modelling of O-D Flows: spflow application"
   },
   {
     "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-spatial-interaction-models-are",
@@ -1964,7 +1964,7 @@
     "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-models",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Spatial Econometric Interaction Models",
-    "text": "Spatial Econometric Interaction Models\n\nWhat is Spatial Econometrics?\nWhat is Spatial Econometric Interaction Models?\nIntroducing spflow package\nSpatial Econometric Modelling of O-D Flows: spflow application"
+    "text": "Spatial Econometric Interaction Models\nLimitation of Spatial Interaction Models\n\nThe gravity model assumes independence among observations, and this assumption seems heroic for many fundamentally spatial problems."
   },
   {
     "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-econometrics",
@@ -2735,5 +2735,82 @@
     "title": "Geospatial Analytics Project",
     "section": "Reference",
     "text": "Reference\n\nPaula Moraga (2017) “SpatialEpiApp : A Shiny web application for the analysis of spatial and spatio-temporal disease data”, Spatial and Spatio-temporal Epidemiology, 23, pp. 47-57. Access using SMU e-journal.\nJavier De La Hoz-M, Susana Mendes & María José Fernandez-Gómez (2022) “GeoWeightedModel : An R-Shiny package for Geographically Weighted Models”, SoftwareX, 20.\nMario Figueira, David Conesa & Antonio L´opez-Quílez (2024) “A shiny R app for spatial analysis of species distribution models”, Ecological Informatics, 80."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-econometrics-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-econometrics-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Econometrics",
+    "text": "What is Econometrics\n\nEconometrics is an application of statistical methods to economic data in order to give empirical content to economic relationships. More precisely, it is “the quantitative analysis of actual economic phenomena based on the concurrent development of theory and observation, related by appropriate methods of inference.\nA basic tool for econometrics is the multiple linear regression model.\nEconometric theory uses statistical theory and mathematical statistics to evaluate and develop econometric methods.\nEconometricians try to find estimators that have desirable statistical properties including unbiasedness, efficiency, and consistency.\nApplied econometrics uses theoretical econometrics and real-world data for assessing economic theories, developing econometric models, analysing economic history, and forecasting."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-2",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-2",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Spatial Econometrics?",
+    "text": "What is Spatial Econometrics?\n\nA branch of economics that deals with the study of economic phenomena that exhibit spatial dependence.\nThis branch of economics has its roots in classical economics, which focused on the study of how economic activity was related to the location of factors of production.\nClassical economists developed theories of how businesses locate themselves in relation to their markets and to each other. These theories formed the basis for the development of modern spatial economics."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-3",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-is-spatial-econometrics-3",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What is Spatial Econometrics?",
+    "text": "What is Spatial Econometrics?\n\nIn a broader sense it is inclusive of the models and theoretical instruments of spatial statistics and spatial data analysis to analyze various economic effects such as externalities, interactions, spatial concentration and many others.\nDiscrete spatial data can take the form of points, lines and polygons. Point data refer to the position of the single economic agent observed at an individual level. Lines in space take the form of interactions between two spatial locations such as flows of goods, individuals and information. Finally data observed within polygons can take the form of predefined irregular portions of space, usually administrative partitions such as countries, regions or counties within one country."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#what-are-the-examples-of-applications-using-spatial-econometrics-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#what-are-the-examples-of-applications-using-spatial-econometrics-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "What Are The Examples of Applications Using Spatial Econometrics ?",
+    "text": "What Are The Examples of Applications Using Spatial Econometrics ?\nThere are many applications for spatial econometrics . Here are a few examples :\n\nEvaluating the impact of a new road or railway on property values.\nEstimating the effect of environmental regulations on firm location decisions.\nAnalyzing the determinants of crime rates across neighborhoods\nStudying the relationship between house prices and income levels in different regions.\nInvestigating the spread of infectious diseases through a population.\nModeling the relationship between land values and location-specific services.\nAnalyzing the relationship between proximity to facilities and job opportunities ."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-2",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-2",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Limitation of Spatial Interaction Models",
+    "text": "Limitation of Spatial Interaction Models\n\nThe gravity model assumes independence among observations, and this assumption seems heroic for many fundamentally spatial problems."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-3",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#limitation-of-spatial-interaction-models-3",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Limitation of Spatial Interaction Models",
+    "text": "Limitation of Spatial Interaction Models\nThere are two technical limitations of SIM:\n\nMaximum-likelihood estimates require that the dependent variable vector follow a normal distribution or that it can be suitably transformed to achieve normality.\nMaximum-likelihood method is not appropriate when there are a large number of zero flows exist."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-model-1",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-interaction-model-1",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Econometric Interaction Model",
+    "text": "Spatial Econometric Interaction Model\nThe general formula of Spatial Econometric Interaction Model is defined as follow:\n\nwhere by 𝐖𝓭, 𝐖𝒐 and 𝐖𝓌 are spatial weights of destination, origin and origin-destination."
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-3",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-3",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-4",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-4",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-5",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-model-specification-for-origin-destination-flows-5",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Model Specification for Origin-Destination Flows",
+    "text": "Spatial Model Specification for Origin-Destination Flows"
+  },
+  {
+    "objectID": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-model-for-origin-destination-flows",
+    "href": "lesson/Lesson11/Lesson11-SIM.html#spatial-econometric-model-for-origin-destination-flows",
+    "title": "Lesson 11: Spatial Interaction Models",
+    "section": "Spatial Econometric Model for Origin-Destination Flows",
+    "text": "Spatial Econometric Model for Origin-Destination Flows"
   }
 ]
