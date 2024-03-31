@@ -858,7 +858,7 @@
     "href": "outline/Lesson11_outline.html#content",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Content",
-    "text": "Content\n\nBasic Concepts of Spatial Interaction Models\nA Family of Gravity Models\n\nUnconstrained\nOrigin constrained\nDestination constrained\nDoubly constrained\n\nStatistical Approach\nInterpreting and Visualising Modelling Results"
+    "text": "Content\n\nBasic Concepts of Spatial Interaction Models\n\nA Family of Gravity Models\n\nUnconstrained\nOrigin constrained\nDestination constrained\nDoubly constrained\n\nStatistical Approach\nInterpreting and Visualising Modelling Results\n\nSpatial Econometric Interaction Models\n\nThe general formula\n\nWhat is Econometrics?\nWhat is Spatial Econometrics?\n\nSpatial Econometric Interaction Model Specifications"
   },
   {
     "objectID": "outline/Lesson11_outline.html#lesson-slides-and-hands-on-notes",
@@ -872,14 +872,14 @@
     "href": "outline/Lesson11_outline.html#self-reading-before-meet-up",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Self-reading Before Meet-up",
-    "text": "Self-reading Before Meet-up\nRead before lesson:\n\nKingsley E. Haynes and A. Stewart Fotheringham (2020) Gravity and Spatial Interaction Models, Web Book of Regional Science. Chapter 1 and Sub-section 2.2.\nFarmer, C. and Oshan, T. (2017). “Spatial interaction”. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2017 Edition), John P. Wilson (ed.). DOI: 10.22224/gistbok/2017.4.5 (link is external)\nFlowerdew R, Aitkin M (1982) “A method of fitting the gravity model based on the Poisson distribution”. Journal of Regional Science, 22: 191–202."
+    "text": "Self-reading Before Meet-up\nRead before lesson:\n\nKingsley E. Haynes and A. Stewart Fotheringham (2020) Gravity and Spatial Interaction Models, Web Book of Regional Science. Chapter 1 and Sub-section 2.2.\nFarmer, C. and Oshan, T. (2017). “Spatial interaction”. The Geographic Information Science & Technology Body of Knowledge (4th Quarter 2017 Edition), John P. Wilson (ed.). DOI: 10.22224/gistbok/2017.4.5 (link is external)\nFlowerdew R, Aitkin M (1982) “A method of fitting the gravity model based on the Poisson distribution”. Journal of Regional Science, 22: 191–202.\n” Chapter 6. Spatial econometrics - common models”, Handbook of Spatial Analysis.\nJames P. LeSage and R. Kelley Pace (2008) “Spatial Econometric Modeling of Origin-Destination Flows”. Journal of Regional Science, Vol. 48, No. 5, pp. 941-967."
   },
   {
     "objectID": "outline/Lesson11_outline.html#reference",
     "href": "outline/Lesson11_outline.html#reference",
     "title": "Lesson 11: Spatial Interaction Models",
     "section": "Reference",
-    "text": "Reference\n\nPavel KLAPKA, et. al. (2013) “The Footfall of Shopping Centre in Olomouc (CZECH REPUBLIC): An Application of The Gravity Model”, Moravian Geographical Reports, Vol 21, pp. 12-26.\n\nYang Yue et. al. (2012) “Exploratory calibration of a spatial interaction model using taxi GPS trajectories”, Computers, Environment and Urban Systems, 36 (2012) 140–153."
+    "text": "Reference\n\nPavel KLAPKA, et. al. (2013) “The Footfall of Shopping Centre in Olomouc (CZECH REPUBLIC): An Application of The Gravity Model”, Moravian Geographical Reports, Vol 21, pp. 12-26.\n\nYang Yue et. al. (2012) “Exploratory calibration of a spatial interaction model using taxi GPS trajectories”, Computers, Environment and Urban Systems, 36 (2012) 140–153.\nMOrito Tsutsumi and Kazuki Tamesue (2012) “Intraregional flow problem in spatial econometric model for origin-destination flows”, Environment and Planning B: Planning and Design, Vol. 39, pp. 1006-1015. Access via SMU e-journal."
   },
   {
     "objectID": "outline/Lesson11_outline.html#all-about-r",
