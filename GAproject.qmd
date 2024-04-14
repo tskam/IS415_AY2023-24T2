@@ -48,7 +48,7 @@ Please feel free to approach me for more details.
 -   Editing and publishing project proposal by the end of **Week 8**.
 -   Submission of project poster: **4th April 2024 by 11:59pm (mid-night)**
 -   Townhall presentation: **8th April 2024 (Monday)**, at 12:00-2:00pm. Venue: LKSLIB Basement concourse. Students are required to be at the venue latest by 11:30am to setup your project poster.
--   Submission of final application, user guide, project poster, practice research paper and artifacts: **14th April 2024 by 11:59pm (mid-night)**
+-   Submission of updated project webpage, final application, user guide, project poster and artifacts: **14th April 2024 by 11:59pm (mid-night)**
 
 ## Project Deliverables
 
@@ -102,10 +102,10 @@ This component is not a typical peer evaluation of project. For Geospatial Analy
 
 The final deliverable will include:
 
+-   updated project webpage with link to Take-home Exercise 4.
 -   artifact including the ShinyApp, data and all r modules.
--   User Guide - Step-by-step guide on how to use the data visualisation functions designed.
+-   User Guide - Step-by-step guide on how to use the Shiny Applications.
 -   project poster
--   a practice research paper
 
 ## Grading
 
@@ -133,12 +133,9 @@ The poster will be graded based on the following criteria:
 
 -   Paula Moraga (2017) "SpatialEpiApp : A Shiny web application for the analysis of spatial and spatio-temporal disease data", *Spatial and Spatio-temporal Epidemiology*, 23, pp. 47-57. Access using SMU e-journal.
 
--   Javier De La Hoz-M, Susana Mendes & María José Fernandez-Gómez (2022) ["GeoWeightedModel : An R-Shiny package for Geographically
-Weighted Models"](https://www.sciencedirect.com/science/article/pii/S2352711022001686), *SoftwareX*, 20. 
+-   Javier De La Hoz-M, Susana Mendes & María José Fernandez-Gómez (2022) ["GeoWeightedModel : An R-Shiny package for Geographically Weighted Models"](https://www.sciencedirect.com/science/article/pii/S2352711022001686), *SoftwareX*, 20.
 
 -   Mario Figueira, David Conesa & Antonio L´opez-Quílez (2024) ["A shiny R app for spatial analysis of species distribution models"](https://www.sciencedirect.com/science/article/pii/S1574954124000840), *Ecological Informatics*, 80.
-
-
 
 ## Learning from past project
 
@@ -167,16 +164,27 @@ Weighted Models"](https://www.sciencedirect.com/science/article/pii/S23527110220
 -   AY2022-2023 Term 1
 
 -   Group 1: [This is FINE: Fire INcidents Explorer](https://is415-fire-incidents-explorer.netlify.app/)
+
 -   Group 2: [Spatial Bros](https://spatialbros.netlify.app/)
+
 -   Group 3: [Analysis of Resale HDB Prices](https://is415-geospatial-project-g1t3.netlify.app/)
+
 -   Group 4: [GeoNinjas](https://is415-gaa-valencia-derek-yashica.netlify.app/)
+
 -   Group 5: [Transit-Ability](https://is415-group-5.netlify.app/)
+
 -   Group 6: [CrimeIndia](https://is415gg-gally.netlify.app/)
+
 -   Group 7: [The Right Space](https://is415-g1t7-project.netlify.app/)
+
 -   Group 8: [CarSpot: Geospatial Parking Analysis!!](https://is415-group8.netlify.app/)
+
 -   Group 9: [Dr Go Where](https://is415-group9.netlify.app/)
+
 -   Group 10: [Spatial Point Pattern Analysis on Seoul's healthcare accessibility](https://is415-project-g10.netlify.app/project_outline)
+
 -   Group 11: [Regress Rangers](https://is415-team15-proj.netlify.app/)
+
 -   Group 12: [Spatial Point Pattern Analysis of Airbnb listings in Beijing](https://is415-grp12.netlify.app/)
 
 ## Project Links
