@@ -102,7 +102,7 @@ This component is not a typical peer evaluation of project. For Geospatial Analy
 
 The final deliverable will include:
 
--   updated project webpage with link to Take-home Exercise 4.
+-   updated project webpage.
 -   artifact including the ShinyApp, data and all r modules.
 -   User Guide - Step-by-step guide on how to use the Shiny Applications.
 -   project poster
