@@ -121,7 +121,7 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [HO JIA JUN EBENEZER](https://is415-gaa-ebenezer.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [JAYMIE SEET EN TONG](https://is415-gaa-jset.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [KABEER AZHAR](https://iridescent-zuccutto-8758f9.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
--   [KHANT MIN NAING](https://is415-geospatial-with-khant.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
+-   [KHANT MIN NAING](https://is415-geospatial-with-khant.netlify.app/take-home_ex/take-home_ex02/take-home_ex02). Very well done in all the five grading criteria especially the ability to provide a comprehensive overview of the analysis methods used and discussion on the analysis results.  
 -   [KRISTEN LEIGH BELACHO TAGRA](https://is415-gaa-krislbt.netlify.app/take_home_exercises/take_home_exercise_2/take_home_exercise_2)
 -   [LEE SHEUNG YAN](https://is415-gaa-ka33rina.netlify.app/take-home_ex/take-home_ex2/data_prep_take-home_ex2)
 -   [LEW ZHEN YUAN JORDAN](https://is415-gaa-j00b00.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
@@ -130,7 +130,7 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [LIM WAN SHEN](https://is415-gaa-wanshen.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [LOW JIN YUAN](https://is415-gaa-dljy-demo.netlify.app/take-home_assignment/take-home_assignment02)
 -   [MAARUNI PANDITHURAI](https://is415-gaa-maaruni.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
--   [MATTHEW HO YIWEN](https://is415-gaa-matthew-ho.netlify.app/takehomeex/takehomeex2/the2)
+-   [MATTHEW HO YIWEN](https://is415-gaa-matthew-ho.netlify.app/takehomeex/takehomeex2/the2) Able to provide a clear and comprehensive discussion on the geospatial data wrangling process and to communicate the analysis results by using appropriate geovisualisation and data visualisation methods.  
 -   [ONG BIN HUI](https://is415-gaa-ongbinhui.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [PEH CHEN XUAN ODELIA](https://odeliapeh-is415.netlify.app/take-home_ex/take-home_ex02/take-home_ex02a)
 -   [RUSSELL TIO JUNHAO](https://is415-gaa-russelltjh.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
@@ -141,7 +141,6 @@ Please submit your questions or queries related to this take-home exercise on Pi
 -   [VIDDYASRI SUBRAMANIAM](https://is415-gaa-main.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [YOZAFARD HAROLD SIAUHEMING](https://is415-gaa-yozafard.netlify.app/take-home_ex/take-home_ex02/take-home_ex02)
 -   [YUNG QI YANG](https://is415-course-website-by-qy.netlify.app/take-home_exercise/take-home_exercise_02/take-home_exercise_02)
-
 
 ## Reference
 
