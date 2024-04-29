@@ -189,15 +189,15 @@ The poster will be graded based on the following criteria:
 
 ## Project Links
 
--   [Group 2](https://is415-g2-crimewatch.netlify.app/)
--   [Group 3: Analysing Push-Pull Factors for Public Bus Demand in Singapore Using Spatial Econometric Interaction Modelling](https://is415-gaa-project-group3.netlify.app/)
--   [Group 4](https://project-gaa-t4.netlify.app/)
+-   [Group 2: CrimeWatch - Vietnam Law and Order](https://is415-g2-crimewatch.netlify.app/)
+-   [Group 3: SimplyGEO-Analysing Push-Pull Factors for Public Bus Demand in Singapore Using Spatial Econometric Interaction Modelling](https://is415-gaa-project-group3.netlify.app/)
+-   [Group 4: ELDANALYZE: Simple Geospatial Analysis Using Shiny](https://project-gaa-t4.netlify.app/)
 -   [Group 5: Culinary Crossroads](https://culinarycrossroads.netlify.app/)
 -   [Group 6: RecycleSG](https://is415-gaa-jkw.netlify.app/)
 -   [Group 7: WhatTown](https://is415-gaa-g1t7-23-24.netlify.app/)
--   [Group 8](https://is415-gaa-g1g8.netlify.app/)
+-   [Group 8: Quake Quest!](https://is415-gaa-g1g8.netlify.app/)
 -   [Group 9: Happy Hideouts](https://happy-hideouts.netlify.app/)
--   [Gourp 10](https://gga-thairoad.netlify.app/)
+-   [Gourp 10: ThaiRoad - Spatial Points Pattern Analysis on Road Accidents in Thailand](https://gga-thairoad.netlify.app/)
 -   [Group 11: HealthGeo Cambodia](https://is415-healthgeo-cambodia.netlify.app/)
 -   [Group 12: Enhancing Urban Living](https://is415-gaa-russelltjh.netlify.app/project/project_proposal)
 -   [Group 13: Project Daylight](https://is415-project-daylight.netlify.app/)
