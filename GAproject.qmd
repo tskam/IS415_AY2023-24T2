@@ -201,4 +201,4 @@ The poster will be graded based on the following criteria:
 -   [Group 11: HealthGeo Cambodia](https://is415-healthgeo-cambodia.netlify.app/)
 -   [Group 12: Enhancing Urban Living](https://is415-gaa-russelltjh.netlify.app/project/project_proposal)
 -   [Group 13: Project Daylight](https://is415-project-daylight.netlify.app/)
--   [Group 14](https://satelilit.netlify.app/)
+-   [Group 14: GeoMommy](https://geomommy.netlify.app/)
