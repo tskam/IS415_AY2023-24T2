@@ -190,7 +190,7 @@ The poster will be graded based on the following criteria:
 ## Project Links
 
 -   [Group 2: CrimeWatch - Vietnam Law and Order](https://is415-g2-crimewatch.netlify.app/)
--   [Group 3: SimplyGEO-Analysing Push-Pull Factors for Public Bus Demand in Singapore Using Spatial Econometric Interaction Modelling](https://is415-gaa-project-group3.netlify.app/). the project website is very well designed, providing a clear and comprehensive description of the project, UI design, and User Guide.  The project minutes were well documented.
+-   [Group 3: SimplyGEO-Analysing Push-Pull Factors for Public Bus Demand in Singapore Using Spatial Econometric Interaction Modelling](https://is415-gaa-project-group3.netlify.app/). The project website is well designed, providing a clear and comprehensive description of the project, UI design, and User Guide.  The project minutes were well documented.
 -   [Group 4: ELDANALYZE: Simple Geospatial Analysis Using Shiny](https://project-gaa-t4.netlify.app/)
 -   [Group 5: Culinary Crossroads](https://culinarycrossroads.netlify.app/)
 -   [Group 6: RecycleSG](https://is415-gaa-jkw.netlify.app/)
